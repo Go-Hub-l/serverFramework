@@ -70,11 +70,11 @@ namespace sylar {
         //解锁
         lock.unlock();
 
-        //if(m_rootFiber) {
-        //    //m_rootFiber->swapIn();
-        //    m_rootFiber->call();
-        //    SYLAR_LOG_INFO(g_logger) << "call out " << m_rootFiber->getState();
-        //}
+        // if (m_rootFiber) {
+        //     //m_rootFiber->swapIn();
+        //     m_rootFiber->call();
+        //     SYLAR_LOG_INFO(g_logger) << "call out " << m_rootFiber->getState();
+        // }
     }
 
     void Scheduler::stop() {
@@ -225,7 +225,7 @@ namespace sylar {
                 //协程处理完重置
                 ft.reset();
                 //调度当前协程
-                SYLAR_LOG_DEBUG(g_logger) << "[ft.cb] testLog m_fibers size=" << m_fibers.size();
+                //SYLAR_LOG_DEBUG(g_logger) << "[ft.cb] testLog m_fibers size=" << m_fibers.size();
                 cb_fiber->swapIn();
                 //当前协程成功调度后将可调度的协程减一
                 --m_activeThreadCount;

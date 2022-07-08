@@ -1,6 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/root/CPP/sylar/workspace/sylar'
-make: Leaving directory '/root/CPP/sylar/workspace/sylar'
+make: Entering directory '/root/CPP/sylar/workspace/serverFramework'
+make: Leaving directory '/root/CPP/sylar/workspace/serverFramework'
  
 make: *** No targets specified and no makefile found.  Stop.
 

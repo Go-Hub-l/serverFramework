@@ -1,6 +1,7 @@
 CMakeFiles/sylar.dir/sylar/mutex.cc.o: \
- /root/CPP/sylar/workspace/sylar/sylar/mutex.cc \
- /usr/include/stdc-predef.h /root/CPP/sylar/workspace/sylar/sylar/mutex.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/mutex.cc \
+ /usr/include/stdc-predef.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/mutex.h \
  /usr/include/pthread.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \

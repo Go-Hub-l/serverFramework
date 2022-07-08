@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/CPP/sylar/workspace/sylar/sylar
+CXX_INCLUDES = -I/root/CPP/sylar/workspace/serverFramework/sylar
 
 CXX_FLAGS =  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g
 

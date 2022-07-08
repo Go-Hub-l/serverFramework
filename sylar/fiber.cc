@@ -67,11 +67,11 @@ namespace sylar {
 
         makecontext(&m_ctx, &Fiber::MainFunc, 0);
 
-        // if (!use_caller) {
-        //     makecontext(&m_ctx, &Fiber::MainFunc, 0);
-        // } else {
-        //     makecontext(&m_ctx, &Fiber::CallerMainFunc, 0);
-        // }
+        if (!use_caller) {
+            makecontext(&m_ctx, &Fiber::MainFunc, 0);
+        } else {
+            makecontext(&m_ctx, &Fiber::CallerMainFunc, 0);
+        }
 
         SYLAR_LOG_DEBUG(g_logger) << "Fiber::Fiber id=" << m_id<< "  s_fiber_count=" << s_fiber_count;
     }
@@ -144,11 +144,13 @@ namespace sylar {
 
     //切换到后台执行
     void Fiber::swapOut() {
+        //切换有问题
         SetThis(Scheduler::GetMainFiber());
         //SetThis(t_threadFiber.get());
-        if (swapcontext(&m_ctx, &t_threadFiber->m_ctx)) {//运行的是当前线程主协程的函数
+        if (swapcontext(&m_ctx, &Scheduler::GetMainFiber()->m_ctx)) {//运行的是当前线程主协程的函数
             SYLAR_ASSERT2(false, "swapcontext");
         }
+
     }
 
     //设置当前协程
@@ -180,6 +182,7 @@ namespace sylar {
         Fiber::ptr cur = GetThis();
         SYLAR_ASSERT(cur->m_state == EXEC);
         cur->m_state = HOLD;
+        //此处上下文死循环了
         cur->swapOut();
     }
 

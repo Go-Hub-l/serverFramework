@@ -1,97 +1,97 @@
 [
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/config.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/config.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/config.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/config.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/config.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/config.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/fiber.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/fiber.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/fiber.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/fiber.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/fiber.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/fiber.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/fd_manager.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/fd_manager.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/fd_manager.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/fd_manager.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/fd_manager.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/fd_manager.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/iomanager.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/iomanager.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/iomanager.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/iomanager.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/iomanager.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/iomanager.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/log.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/log.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/log.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/log.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/log.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/log.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/mutex.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/mutex.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/mutex.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/mutex.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/mutex.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/mutex.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/scheduler.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/scheduler.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/scheduler.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/scheduler.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/scheduler.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/scheduler.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/timer.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/timer.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/timer.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/timer.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/timer.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/timer.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/thread.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/thread.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/thread.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/thread.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/thread.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/thread.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/util.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/util.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/util.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/util.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/util.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/util.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/hook.cc.o -c /root/CPP/sylar/workspace/sylar/sylar/hook.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/sylar/hook.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -fPIC -o CMakeFiles/sylar.dir/sylar/hook.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/hook.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/hook.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_hook.dir/tests/test_hook.cc.o -c /root/CPP/sylar/workspace/sylar/tests/test_hook.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/tests/test_hook.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_hook.dir/tests/test_hook.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_hook.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_hook.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -c /root/CPP/sylar/workspace/sylar/tests/test_iomanager.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/tests/test_iomanager.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_iomanager.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_iomanager.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test.dir/tests/test.cc.o -c /root/CPP/sylar/workspace/sylar/tests/test.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/tests/test.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test.dir/tests/test.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_config.dir/tests/test_config.cc.o -c /root/CPP/sylar/workspace/sylar/tests/test_config.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/tests/test_config.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_config.dir/tests/test_config.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_config.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_config.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_thread.dir/tests/test_thread.cc.o -c /root/CPP/sylar/workspace/sylar/tests/test_thread.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/tests/test_thread.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_thread.dir/tests/test_thread.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_thread.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_thread.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -c /root/CPP/sylar/workspace/sylar/tests/test_fiber.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/tests/test_fiber.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_fiber.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_fiber.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_scheduler2.dir/tests/test_scheduler2.cc.o -c /root/CPP/sylar/workspace/sylar/tests/test_scheduler2.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/tests/test_scheduler2.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_scheduler2.dir/tests/test_scheduler2.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_scheduler2.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_scheduler2.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/sylar/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/sylar/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -c /root/CPP/sylar/workspace/sylar/tests/test_scheduler.cc",
-  "file": "/root/CPP/sylar/workspace/sylar/tests/test_scheduler.cc"
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -g -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_scheduler.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_scheduler.cc"
 }
 ]

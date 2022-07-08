@@ -1,7 +1,7 @@
 CMakeFiles/sylar.dir/sylar/thread.cc.o: \
- /root/CPP/sylar/workspace/sylar/sylar/thread.cc \
+ /root/CPP/sylar/workspace/serverFramework/sylar/thread.cc \
  /usr/include/stdc-predef.h \
- /root/CPP/sylar/workspace/sylar/sylar/thread.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/thread.h \
  /usr/include/c++/8/functional \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -119,10 +119,10 @@ CMakeFiles/sylar.dir/sylar/thread.cc.o: \
  /usr/include/c++/8/bits/atomic_base.h \
  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
  /usr/include/c++/8/backward/auto_ptr.h \
- /root/CPP/sylar/workspace/sylar/sylar/mutex.h /usr/include/semaphore.h \
- /usr/include/bits/semaphore.h \
- /root/CPP/sylar/workspace/sylar/sylar/log.h /usr/include/c++/8/vector \
- /usr/include/c++/8/bits/stl_vector.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/mutex.h \
+ /usr/include/semaphore.h /usr/include/bits/semaphore.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/log.h \
+ /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_list.h \
  /usr/include/c++/8/bits/list.tcc /usr/include/c++/8/sstream \
@@ -149,10 +149,10 @@ CMakeFiles/sylar.dir/sylar/thread.cc.o: \
  /usr/include/c++/8/bits/fstream.tcc /usr/include/c++/8/map \
  /usr/include/c++/8/bits/stl_tree.h /usr/include/c++/8/bits/stl_map.h \
  /usr/include/c++/8/bits/stl_multimap.h \
- /root/CPP/sylar/workspace/sylar/sylar/singleton.h \
- /root/CPP/sylar/workspace/sylar/sylar/util.h /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
- /usr/include/bits/getopt_core.h /usr/include/sys/syscall.h \
- /usr/include/asm/unistd.h /usr/include/asm/unistd_64.h \
- /usr/include/bits/syscall.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/singleton.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/util.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
+ /usr/include/sys/syscall.h /usr/include/asm/unistd.h \
+ /usr/include/asm/unistd_64.h /usr/include/bits/syscall.h
