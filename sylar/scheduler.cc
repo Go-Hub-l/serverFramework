@@ -141,7 +141,7 @@ namespace sylar {
 
     void Scheduler::run() {
         SYLAR_LOG_DEBUG(g_logger) << m_name << " run";
-        //set_hook_enable(true);
+        set_hook_enable(true);
         //设置当前协程为调度线程
         setThis();
         //如果当前的线程ID不和根线程相等：任意线程都是调度线程

@@ -8,7 +8,7 @@
             "name": "g++ - 生成调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/test_scheduler",
+            "program": "${workspaceFolder}/bin/test_hook",
             "args": [],
             "stopAtConnect": false,
             "cwd": "${workspaceFolder}",

@@ -136,7 +136,7 @@ namespace sylar {
     //     /**
     //      * @brief 是否有空闲线程
     //      */
-    //     bool hasIdleThreads() { return m_idleThreadCount > 0; }
+        bool hasIdleThreads() { return m_idleThreadCount > 0; }
     private:
         /**
          * @brief 协程调度启动(无锁)

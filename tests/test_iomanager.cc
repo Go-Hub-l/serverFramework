@@ -28,6 +28,8 @@ void test_fiber() {
     memset(&addr, 0, sizeof(addr));
     addr.sin_family = AF_INET;
     addr.sin_port = htons(80);
+    //inet_pton(AF_INET, "115.239.230.27", &addr.sin_addr.s_addr);
+    //inet_pton(AF_INET, "172.26.85.62", &addr.sin_addr.s_addr);
     inet_pton(AF_INET, "39.101.205.58", &addr.sin_addr.s_addr);
 
     if (!connect(sock, (const sockaddr*) &addr, sizeof(addr))) {
@@ -51,13 +53,15 @@ void test_fiber() {
 void test1() {
     std::cout << "EPOLLIN=" << EPOLLIN
         << " EPOLLOUT=" << EPOLLOUT << std::endl;
-    sylar::IOManager iom(1, false);
+    //sylar::IOManager iom(2, false);
+    sylar::IOManager iom;
     iom.schedule(&test_fiber);
 }
 
 sylar::Timer::ptr s_timer;
 void test_timer() {
     sylar::IOManager iom(2);
+    //每个定时器到时时都会绑定一个事件，执行这个事件
     s_timer = iom.addTimer(1000, []() {
         static int i = 0;
         SYLAR_LOG_INFO(g_logger) << "hello timer i=" << i;
@@ -69,7 +73,7 @@ void test_timer() {
 }
 
 int main(int argc, char** argv) {
-    test1();
-    //test_timer();
+    //test1();
+    test_timer();
     return 0;
 }

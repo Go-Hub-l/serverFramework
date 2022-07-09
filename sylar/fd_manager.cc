@@ -28,6 +28,7 @@ namespace sylar {
         m_sendTimeout = -1;
 
         struct stat fd_stat;
+        //fstat打开一个文件描述符，并将与该描述符相关的信息存储在stat结构体中
         if (-1 == fstat(m_fd, &fd_stat)) {
             m_isInit = false;
             m_isSocket = false;
@@ -38,6 +39,7 @@ namespace sylar {
 
         if (m_isSocket) {
             int flags = fcntl_f(m_fd, F_GETFL, 0);
+            //套接字不是非阻塞就设置成非阻塞
             if (!(flags & O_NONBLOCK)) {
                 fcntl_f(m_fd, F_SETFL, flags | O_NONBLOCK);
             }

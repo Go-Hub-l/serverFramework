@@ -307,9 +307,9 @@ namespace sylar {
     }
 
     void IOManager::tickle() {
-        // if (!hasIdleThreads()) {
-        //     return;
-        // }
+        if (!hasIdleThreads()) {
+            return;
+        }
         int rt = write(m_tickleFds[1], "T", 1);
         SYLAR_ASSERT(rt == 1);
     }
@@ -345,7 +345,7 @@ namespace sylar {
             }
 
             int rt = 0;
-            do {
+            do {//无事件时挂起在该处等待事件到来
                 static const int MAX_TIMEOUT = 3000;
                 //~0ull表示最大值
                 if (next_timeout != ~0ull) {
@@ -373,7 +373,7 @@ namespace sylar {
             if(SYLAR_UNLIKELY(rt == MAX_EVNETS)) {
                SYLAR_LOG_INFO(g_logger) << "epoll wait events=" << rt;
             }
-
+            //rt表示监听到的就绪事件数
             for (int i = 0; i < rt; ++i) {
                 epoll_event& event = events[i];
                 if (event.data.fd == m_tickleFds[0]) {

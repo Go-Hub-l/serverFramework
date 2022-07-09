@@ -30,6 +30,7 @@ namespace sylar {
         , m_ms(ms)
         , m_cb(cb)
         , m_manager(manager) {
+        //记录定时时间为ms时，下一次事件发生的时间
         m_next = sylar::GetCurrentMS() + m_ms;
     }
 
@@ -40,7 +41,9 @@ namespace sylar {
         TimerManager::RWMutexType::WriteLock lock(m_manager->m_mutex);
         if (m_cb) {
             m_cb = nullptr;
+            //定时器管理类中查找当前定时器
             auto it = m_manager->m_timers.find(shared_from_this());
+            //定时器管理类中删除该定时器
             m_manager->m_timers.erase(it);
             return true;
         }
@@ -56,6 +59,7 @@ namespace sylar {
         if (it == m_manager->m_timers.end()) {
             return false;
         }
+        //更新定时器：从定时器管理集合中释放旧定时器，添加新定时器
         m_manager->m_timers.erase(it);
         m_next = sylar::GetCurrentMS() + m_ms;
         m_manager->m_timers.insert(shared_from_this());
@@ -63,6 +67,7 @@ namespace sylar {
     }
 
     bool Timer::reset(uint64_t ms, bool from_now) {
+        //新设置的定时器不是从现在开始且时间相同，直接返回
         if (ms == m_ms && !from_now) {
             return true;
         }
@@ -114,14 +119,15 @@ namespace sylar {
         , bool recurring) {
         return addTimer(ms, std::bind(&OnTimer, weak_cond, cb), recurring);
     }
-
+    //返回离触发任务还需多久
     uint64_t TimerManager::getNextTimer() {
         RWMutexType::ReadLock lock(m_mutex);
         m_tickled = false;
+        //无定时任务，返回一个极大值表示无定时任务
         if (m_timers.empty()) {
             return ~0ull;
         }
-
+        //取第一个元素:因为set是有序的，故第一个就是下一个到达的任务
         const Timer::ptr& next = *m_timers.begin();
         uint64_t now_ms = sylar::GetCurrentMS();
         if (now_ms >= next->m_next) {
@@ -148,18 +154,22 @@ namespace sylar {
         if (!rollover && ((*m_timers.begin())->m_next > now_ms)) {
             return;
         }
-
+        //找到大于等于当前时间的最小的迭代器
         Timer::ptr now_timer(new Timer(now_ms));
         auto it = rollover ? m_timers.end() : m_timers.lower_bound(now_timer);
         while (it != m_timers.end() && (*it)->m_next == now_ms) {
             ++it;
         }
+        //将过期的定时器拷贝到过期数组中
         expired.insert(expired.begin(), m_timers.begin(), it);
+        //释放原有的过期定时器
         m_timers.erase(m_timers.begin(), it);
+        //重设回调函数大小（这部分可能有问题，如果这里重设了，那么下面的push_back是从后面直接追加的啊？）
         cbs.reserve(expired.size());
 
         for (auto& timer : expired) {
             cbs.push_back(timer->m_cb);
+            //如果是循环定时器则继续将定时器添加到定时器管理任务中
             if (timer->m_recurring) {
                 timer->m_next = now_ms + timer->m_ms;
                 m_timers.insert(timer);
@@ -170,6 +180,7 @@ namespace sylar {
     }
 
     void TimerManager::addTimer(Timer::ptr val, RWMutexType::WriteLock& lock) {
+        //set::insert的其中一个方法：返回值为pair类型  first表示插入元素的位置
         auto it = m_timers.insert(val).first;
         bool at_front = (it == m_timers.begin()) && !m_tickled;
         if (at_front) {
