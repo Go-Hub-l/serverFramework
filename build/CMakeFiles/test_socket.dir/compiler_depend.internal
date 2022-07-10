@@ -1072,5 +1072,6 @@ CMakeFiles/test_socket.dir/tests/test_socket.cc.o
  /root/CPP/sylar/workspace/serverFramework/sylar/timer.h
  /root/CPP/sylar/workspace/serverFramework/sylar/macro.h
  /root/CPP/sylar/workspace/serverFramework/sylar/socket.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/http/http.h
  /root/CPP/sylar/workspace/serverFramework/sylar/iomanager.h
 

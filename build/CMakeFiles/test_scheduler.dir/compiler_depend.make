@@ -1069,8 +1069,11 @@ CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: ../tests/test_scheduler
   /usr/include/openssl/ssl3.h \
   /usr/include/openssl/tls1.h \
   /usr/include/openssl/dtls1.h \
-  /usr/include/openssl/srtp.h
+  /usr/include/openssl/srtp.h \
+  ../sylar/http/http.h
 
+
+../sylar/http/http.h:
 
 /usr/include/openssl/srtp.h:
 

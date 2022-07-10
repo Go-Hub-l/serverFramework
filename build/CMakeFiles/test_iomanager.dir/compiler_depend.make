@@ -1070,6 +1070,7 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
   /usr/include/openssl/tls1.h \
   /usr/include/openssl/dtls1.h \
   /usr/include/openssl/srtp.h \
+  ../sylar/http/http.h \
   ../sylar/iomanager.h \
   /usr/include/sys/epoll.h \
   /usr/include/bits/epoll.h
@@ -1078,6 +1079,8 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 /usr/include/bits/epoll.h:
 
 /usr/include/sys/epoll.h:
+
+../sylar/http/http.h:
 
 /usr/include/openssl/srtp.h:
 

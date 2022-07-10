@@ -1071,8 +1071,11 @@ CMakeFiles/test_socket.dir/tests/test_socket.cc.o: ../tests/test_socket.cc \
   ../sylar/timer.h \
   ../sylar/macro.h \
   ../sylar/socket.h \
+  ../sylar/http/http.h \
   ../sylar/iomanager.h
 
+
+../sylar/http/http.h:
 
 ../sylar/scheduler.h:
 

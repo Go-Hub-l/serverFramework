@@ -120,6 +120,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test_http_parser
+
+# Build rule for target.
+test_http_parser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_http_parser
+.PHONY : test_http_parser
+
+# fast build rule for target.
+test_http_parser/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_http_parser.dir/build.make CMakeFiles/test_http_parser.dir/build
+.PHONY : test_http_parser/fast
+
+#=============================================================================
 # Target rules for targets named test_http
 
 # Build rule for target.
@@ -455,6 +468,78 @@ sylar/http/http.s: sylar/http/http.cc.s
 sylar/http/http.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/http.cc.s
 .PHONY : sylar/http/http.cc.s
+
+sylar/http/http11_parser.rl.o: sylar/http/http11_parser.rl.cc.o
+.PHONY : sylar/http/http11_parser.rl.o
+
+# target to build an object file
+sylar/http/http11_parser.rl.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.o
+.PHONY : sylar/http/http11_parser.rl.cc.o
+
+sylar/http/http11_parser.rl.i: sylar/http/http11_parser.rl.cc.i
+.PHONY : sylar/http/http11_parser.rl.i
+
+# target to preprocess a source file
+sylar/http/http11_parser.rl.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.i
+.PHONY : sylar/http/http11_parser.rl.cc.i
+
+sylar/http/http11_parser.rl.s: sylar/http/http11_parser.rl.cc.s
+.PHONY : sylar/http/http11_parser.rl.s
+
+# target to generate assembly for a file
+sylar/http/http11_parser.rl.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.s
+.PHONY : sylar/http/http11_parser.rl.cc.s
+
+sylar/http/http_parser.o: sylar/http/http_parser.cc.o
+.PHONY : sylar/http/http_parser.o
+
+# target to build an object file
+sylar/http/http_parser.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o
+.PHONY : sylar/http/http_parser.cc.o
+
+sylar/http/http_parser.i: sylar/http/http_parser.cc.i
+.PHONY : sylar/http/http_parser.i
+
+# target to preprocess a source file
+sylar/http/http_parser.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/http_parser.cc.i
+.PHONY : sylar/http/http_parser.cc.i
+
+sylar/http/http_parser.s: sylar/http/http_parser.cc.s
+.PHONY : sylar/http/http_parser.s
+
+# target to generate assembly for a file
+sylar/http/http_parser.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/http_parser.cc.s
+.PHONY : sylar/http/http_parser.cc.s
+
+sylar/http/httpclient_parser.rl.o: sylar/http/httpclient_parser.rl.cc.o
+.PHONY : sylar/http/httpclient_parser.rl.o
+
+# target to build an object file
+sylar/http/httpclient_parser.rl.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/httpclient_parser.rl.cc.o
+.PHONY : sylar/http/httpclient_parser.rl.cc.o
+
+sylar/http/httpclient_parser.rl.i: sylar/http/httpclient_parser.rl.cc.i
+.PHONY : sylar/http/httpclient_parser.rl.i
+
+# target to preprocess a source file
+sylar/http/httpclient_parser.rl.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/httpclient_parser.rl.cc.i
+.PHONY : sylar/http/httpclient_parser.rl.cc.i
+
+sylar/http/httpclient_parser.rl.s: sylar/http/httpclient_parser.rl.cc.s
+.PHONY : sylar/http/httpclient_parser.rl.s
+
+# target to generate assembly for a file
+sylar/http/httpclient_parser.rl.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/httpclient_parser.rl.cc.s
+.PHONY : sylar/http/httpclient_parser.rl.cc.s
 
 sylar/iomanager.o: sylar/iomanager.cc.o
 .PHONY : sylar/iomanager.o
@@ -816,6 +901,30 @@ tests/test_http.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_http.dir/build.make CMakeFiles/test_http.dir/tests/test_http.cc.s
 .PHONY : tests/test_http.cc.s
 
+tests/test_http_parser.o: tests/test_http_parser.cc.o
+.PHONY : tests/test_http_parser.o
+
+# target to build an object file
+tests/test_http_parser.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_http_parser.dir/build.make CMakeFiles/test_http_parser.dir/tests/test_http_parser.cc.o
+.PHONY : tests/test_http_parser.cc.o
+
+tests/test_http_parser.i: tests/test_http_parser.cc.i
+.PHONY : tests/test_http_parser.i
+
+# target to preprocess a source file
+tests/test_http_parser.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_http_parser.dir/build.make CMakeFiles/test_http_parser.dir/tests/test_http_parser.cc.i
+.PHONY : tests/test_http_parser.cc.i
+
+tests/test_http_parser.s: tests/test_http_parser.cc.s
+.PHONY : tests/test_http_parser.s
+
+# target to generate assembly for a file
+tests/test_http_parser.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_http_parser.dir/build.make CMakeFiles/test_http_parser.dir/tests/test_http_parser.cc.s
+.PHONY : tests/test_http_parser.cc.s
+
 tests/test_iomanager.o: tests/test_iomanager.cc.o
 .PHONY : tests/test_iomanager.o
 
@@ -952,6 +1061,7 @@ help:
 	@echo "... test_fiber"
 	@echo "... test_hook"
 	@echo "... test_http"
+	@echo "... test_http_parser"
 	@echo "... test_iomanager"
 	@echo "... test_scheduler"
 	@echo "... test_scheduler2"
@@ -978,6 +1088,15 @@ help:
 	@echo "... sylar/http/http.o"
 	@echo "... sylar/http/http.i"
 	@echo "... sylar/http/http.s"
+	@echo "... sylar/http/http11_parser.rl.o"
+	@echo "... sylar/http/http11_parser.rl.i"
+	@echo "... sylar/http/http11_parser.rl.s"
+	@echo "... sylar/http/http_parser.o"
+	@echo "... sylar/http/http_parser.i"
+	@echo "... sylar/http/http_parser.s"
+	@echo "... sylar/http/httpclient_parser.rl.o"
+	@echo "... sylar/http/httpclient_parser.rl.i"
+	@echo "... sylar/http/httpclient_parser.rl.s"
 	@echo "... sylar/iomanager.o"
 	@echo "... sylar/iomanager.i"
 	@echo "... sylar/iomanager.s"
@@ -1023,6 +1142,9 @@ help:
 	@echo "... tests/test_http.o"
 	@echo "... tests/test_http.i"
 	@echo "... tests/test_http.s"
+	@echo "... tests/test_http_parser.o"
+	@echo "... tests/test_http_parser.i"
+	@echo "... tests/test_http_parser.s"
 	@echo "... tests/test_iomanager.o"
 	@echo "... tests/test_iomanager.i"
 	@echo "... tests/test_iomanager.s"

@@ -1071,5 +1071,6 @@ CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o
  /usr/include/openssl/tls1.h
  /usr/include/openssl/dtls1.h
  /usr/include/openssl/srtp.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/http/http.h
  /root/CPP/sylar/workspace/serverFramework/sylar/fiber.h
 
