@@ -143,36 +143,68 @@ CMakeFiles/sylar.dir/sylar/log.cc.o: \
  /usr/include/c++/8/bits/stl_multimap.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/singleton.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/util.h \
+ /usr/include/c++/8/cxxabi.h \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/cxxabi_tweaks.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/sys/syscall.h /usr/include/asm/unistd.h \
  /usr/include/asm/unistd_64.h /usr/include/bits/syscall.h \
- /usr/include/sys/stat.h /usr/include/bits/stat.h \
- /usr/include/bits/statx.h /usr/include/linux/stat.h \
- /usr/include/linux/types.h /usr/include/asm/types.h \
- /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
- /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
- /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
- /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h /usr/include/bits/statx-generic.h \
- /usr/include/bits/types/struct_statx_timestamp.h \
- /usr/include/bits/types/struct_statx.h /usr/include/fcntl.h \
- /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
- /usr/include/bits/types/struct_iovec.h /usr/include/linux/falloc.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/thread.h \
- /usr/include/c++/8/functional /usr/include/c++/8/bits/std_function.h \
- /usr/include/c++/8/thread /usr/include/c++/8/chrono \
- /usr/include/c++/8/ratio /usr/include/c++/8/limits \
- /usr/include/c++/8/ctime /usr/include/c++/8/bits/parse_numbers.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/mutex.h \
- /usr/include/semaphore.h /usr/include/bits/semaphore.h \
- /usr/include/c++/8/iostream /usr/include/string.h /usr/include/strings.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/config.h \
+ /usr/include/c++/8/iomanip /usr/include/c++/8/locale \
+ /usr/include/c++/8/bits/locale_facets_nonio.h /usr/include/c++/8/ctime \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/time_members.h \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/8/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/8/bits/locale_conv.h /usr/local/include/yaml-cpp/yaml.h \
+ /usr/local/include/yaml-cpp/parser.h /usr/local/include/yaml-cpp/dll.h \
+ /usr/local/include/yaml-cpp/emitter.h /usr/include/c++/8/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/8/cstddef \
+ /usr/include/c++/8/limits /usr/local/include/yaml-cpp/binary.h \
+ /usr/local/include/yaml-cpp/emitterdef.h \
+ /usr/local/include/yaml-cpp/emittermanip.h \
+ /usr/local/include/yaml-cpp/null.h \
+ /usr/local/include/yaml-cpp/ostream_wrapper.h \
+ /usr/local/include/yaml-cpp/emitterstyle.h \
+ /usr/local/include/yaml-cpp/stlemitter.h /usr/include/c++/8/set \
+ /usr/include/c++/8/bits/stl_set.h /usr/include/c++/8/bits/stl_multiset.h \
+ /usr/local/include/yaml-cpp/exceptions.h \
+ /usr/local/include/yaml-cpp/mark.h \
+ /usr/local/include/yaml-cpp/noexcept.h \
+ /usr/local/include/yaml-cpp/traits.h \
+ /usr/local/include/yaml-cpp/node/node.h \
+ /usr/local/include/yaml-cpp/node/detail/iterator_fwd.h \
+ /usr/local/include/yaml-cpp/node/ptr.h \
+ /usr/local/include/yaml-cpp/node/type.h \
+ /usr/local/include/yaml-cpp/node/impl.h \
+ /usr/local/include/yaml-cpp/node/detail/memory.h \
+ /usr/local/include/yaml-cpp/node/detail/node.h \
+ /usr/local/include/yaml-cpp/node/detail/node_ref.h \
+ /usr/local/include/yaml-cpp/node/detail/node_data.h \
+ /usr/local/include/yaml-cpp/node/detail/node_iterator.h \
+ /usr/include/c++/8/iterator /usr/include/c++/8/bits/stream_iterator.h \
+ /usr/local/include/yaml-cpp/node/iterator.h \
+ /usr/local/include/yaml-cpp/node/detail/iterator.h \
+ /usr/include/c++/8/atomic /usr/local/include/yaml-cpp/node/convert.h \
+ /usr/include/c++/8/unordered_map /usr/include/c++/8/bits/hashtable.h \
+ /usr/include/c++/8/bits/hashtable_policy.h \
+ /usr/include/c++/8/bits/unordered_map.h \
+ /usr/local/include/yaml-cpp/node/detail/impl.h \
+ /usr/include/c++/8/algorithm /usr/include/c++/8/bits/stl_algo.h \
+ /usr/include/c++/8/bits/algorithmfwd.h \
+ /usr/include/c++/8/bits/stl_heap.h \
+ /usr/include/c++/8/bits/uniform_int_dist.h \
+ /usr/local/include/yaml-cpp/node/parse.h \
+ /usr/local/include/yaml-cpp/node/emit.h /usr/include/c++/8/iostream \
  /usr/include/boost/lexical_cast.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/detail/select_compiler_config.hpp \
- /usr/include/boost/config/compiler/gcc.hpp /usr/include/c++/8/cstddef \
+ /usr/include/boost/config/compiler/gcc.hpp \
  /usr/include/boost/config/detail/select_stdlib_config.hpp \
  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
  /usr/include/boost/config/detail/select_platform_config.hpp \
@@ -183,7 +215,6 @@ CMakeFiles/sylar.dir/sylar/log.cc.o: \
  /usr/include/boost/detail/workaround.hpp \
  /usr/include/boost/config/workaround.hpp /usr/include/boost/assert.hpp \
  /usr/include/assert.h /usr/include/boost/iterator/iterator_traits.hpp \
- /usr/include/c++/8/iterator /usr/include/c++/8/bits/stream_iterator.h \
  /usr/include/boost/iterator/iterator_facade.hpp \
  /usr/include/boost/iterator/interoperable.hpp \
  /usr/include/boost/mpl/bool.hpp /usr/include/boost/mpl/bool_fwd.hpp \
@@ -381,8 +412,9 @@ CMakeFiles/sylar.dir/sylar/log.cc.o: \
  /usr/include/boost/range/end.hpp \
  /usr/include/boost/range/detail/implementation_help.hpp \
  /usr/include/boost/range/detail/common.hpp \
- /usr/include/boost/range/detail/sfinae.hpp \
- /usr/include/boost/range/size.hpp /usr/include/boost/range/size_type.hpp \
+ /usr/include/boost/range/detail/sfinae.hpp /usr/include/string.h \
+ /usr/include/strings.h /usr/include/boost/range/size.hpp \
+ /usr/include/boost/range/size_type.hpp \
  /usr/include/boost/range/difference_type.hpp \
  /usr/include/boost/range/has_range_iterator.hpp \
  /usr/include/boost/utility/enable_if.hpp \
@@ -406,12 +438,7 @@ CMakeFiles/sylar.dir/sylar/log.cc.o: \
  /usr/include/boost/preprocessor/seq/enum.hpp \
  /usr/include/boost/concept/detail/concept_undef.hpp \
  /usr/include/boost/iterator/iterator_concepts.hpp \
- /usr/include/boost/limits.hpp /usr/include/c++/8/algorithm \
- /usr/include/c++/8/bits/stl_algo.h \
- /usr/include/c++/8/bits/algorithmfwd.h \
- /usr/include/c++/8/bits/stl_heap.h \
- /usr/include/c++/8/bits/uniform_int_dist.h \
- /usr/include/boost/range/value_type.hpp \
+ /usr/include/boost/limits.hpp /usr/include/boost/range/value_type.hpp \
  /usr/include/boost/range/detail/misc_concept.hpp \
  /usr/include/boost/type_traits/make_unsigned.hpp \
  /usr/include/boost/type_traits/conditional.hpp \
@@ -499,14 +526,8 @@ CMakeFiles/sylar.dir/sylar/log.cc.o: \
  /usr/include/boost/mpl/less.hpp \
  /usr/include/boost/mpl/aux_/preprocessed/gcc/less.hpp \
  /usr/include/boost/numeric/conversion/converter_policies.hpp \
- /usr/include/boost/config/no_tr1/cmath.hpp /usr/include/c++/8/cmath \
- /usr/include/math.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h \
+ /usr/include/boost/config/no_tr1/cmath.hpp /usr/include/c++/8/functional \
+ /usr/include/c++/8/bits/std_function.h \
  /usr/include/boost/numeric/conversion/detail/converter.hpp \
  /usr/include/boost/numeric/conversion/bounds.hpp \
  /usr/include/boost/numeric/conversion/detail/bounds.hpp \
@@ -527,12 +548,7 @@ CMakeFiles/sylar.dir/sylar/log.cc.o: \
  /usr/include/boost/move/detail/std_ns_begin.hpp \
  /usr/include/boost/move/detail/std_ns_end.hpp \
  /usr/include/boost/lexical_cast/detail/converter_lexical_streams.hpp \
- /usr/include/c++/8/cstring /usr/include/c++/8/locale \
- /usr/include/c++/8/bits/locale_facets_nonio.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/time_members.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/8/bits/locale_facets_nonio.tcc \
- /usr/include/c++/8/bits/locale_conv.h \
+ /usr/include/c++/8/cstring \
  /usr/include/boost/lexical_cast/detail/lcast_char_constants.hpp \
  /usr/include/boost/lexical_cast/detail/lcast_unsigned_converters.hpp \
  /usr/include/boost/noncopyable.hpp \
@@ -802,37 +818,10 @@ CMakeFiles/sylar.dir/sylar/log.cc.o: \
  /usr/include/boost/math/tools/real_cast.hpp \
  /usr/include/boost/integer.hpp /usr/include/boost/integer_fwd.hpp \
  /usr/include/boost/detail/basic_pointerbuf.hpp \
- /usr/local/include/yaml-cpp/yaml.h /usr/local/include/yaml-cpp/parser.h \
- /usr/local/include/yaml-cpp/dll.h /usr/local/include/yaml-cpp/emitter.h \
- /usr/local/include/yaml-cpp/binary.h \
- /usr/local/include/yaml-cpp/emitterdef.h \
- /usr/local/include/yaml-cpp/emittermanip.h \
- /usr/local/include/yaml-cpp/null.h \
- /usr/local/include/yaml-cpp/ostream_wrapper.h \
- /usr/local/include/yaml-cpp/emitterstyle.h \
- /usr/local/include/yaml-cpp/stlemitter.h /usr/include/c++/8/set \
- /usr/include/c++/8/bits/stl_set.h /usr/include/c++/8/bits/stl_multiset.h \
- /usr/local/include/yaml-cpp/exceptions.h \
- /usr/local/include/yaml-cpp/mark.h \
- /usr/local/include/yaml-cpp/noexcept.h \
- /usr/local/include/yaml-cpp/traits.h \
- /usr/local/include/yaml-cpp/node/node.h \
- /usr/local/include/yaml-cpp/node/detail/iterator_fwd.h \
- /usr/local/include/yaml-cpp/node/ptr.h \
- /usr/local/include/yaml-cpp/node/type.h \
- /usr/local/include/yaml-cpp/node/impl.h \
- /usr/local/include/yaml-cpp/node/detail/memory.h \
- /usr/local/include/yaml-cpp/node/detail/node.h \
- /usr/local/include/yaml-cpp/node/detail/node_ref.h \
- /usr/local/include/yaml-cpp/node/detail/node_data.h \
- /usr/local/include/yaml-cpp/node/detail/node_iterator.h \
- /usr/local/include/yaml-cpp/node/iterator.h \
- /usr/local/include/yaml-cpp/node/detail/iterator.h \
- /usr/include/c++/8/atomic /usr/local/include/yaml-cpp/node/convert.h \
- /usr/include/c++/8/unordered_map /usr/include/c++/8/bits/hashtable.h \
- /usr/include/c++/8/bits/hashtable_policy.h \
- /usr/include/c++/8/bits/unordered_map.h \
- /usr/local/include/yaml-cpp/node/detail/impl.h \
- /usr/local/include/yaml-cpp/node/parse.h \
- /usr/local/include/yaml-cpp/node/emit.h /usr/include/c++/8/unordered_set \
- /usr/include/c++/8/bits/unordered_set.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/thread.h \
+ /usr/include/c++/8/thread /usr/include/c++/8/chrono \
+ /usr/include/c++/8/ratio /usr/include/c++/8/bits/parse_numbers.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/mutex.h \
+ /usr/include/semaphore.h /usr/include/bits/semaphore.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/config.h \
+ /usr/include/c++/8/unordered_set /usr/include/c++/8/bits/unordered_set.h

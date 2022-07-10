@@ -17,6 +17,7 @@ set(LIB_SRC
     sylar/config.cc
     sylar/fiber.cc
     sylar/fd_manager.cc
+    sylar/http/http.cc
     sylar/iomanager.cc
     sylar/log.cc
     sylar/mutex.cc
@@ -78,6 +79,10 @@ target_link_libraries(test_socket sylar ${PTHREAD} ${YAMLCPP})
 add_executable(test_bytearray tests/test_bytearray.cc)
 add_dependencies(test_bytearray sylar)
 target_link_libraries(test_bytearray sylar ${PTHREAD} ${YAMLCPP})
+
+add_executable(test_http tests/test_http.cc)
+add_dependencies(test_http sylar)
+target_link_libraries(test_http sylar ${PTHREAD} ${YAMLCPP})
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

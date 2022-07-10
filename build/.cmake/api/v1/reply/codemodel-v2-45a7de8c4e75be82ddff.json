@@ -25,7 +25,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -51,7 +52,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -60,84 +62,91 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "sylar::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-sylar-Debug-e2a2677fbeb4f93515d0.json",
+					"jsonFile" : "target-sylar-Debug-7f8bd196c853f50c78e5.json",
 					"name" : "sylar",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-323e713bfe234728f2f6.json",
+					"jsonFile" : "target-test-Debug-59bac1f2e0d57104053b.json",
 					"name" : "test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_address::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_address-Debug-250a215a098effcc6f31.json",
+					"jsonFile" : "target-test_address-Debug-9150dc1307c4ad153ad3.json",
 					"name" : "test_address",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_bytearray::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_bytearray-Debug-309a41da9a11b39083a6.json",
+					"jsonFile" : "target-test_bytearray-Debug-dce3493c944f02559316.json",
 					"name" : "test_bytearray",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_config::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_config-Debug-1ecfdebdd59e37533db5.json",
+					"jsonFile" : "target-test_config-Debug-2abe0c12aeab08a08706.json",
 					"name" : "test_config",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_fiber::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_fiber-Debug-51fd2a487a70eaa1586b.json",
+					"jsonFile" : "target-test_fiber-Debug-7ef209918d8325621ba1.json",
 					"name" : "test_fiber",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_hook::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_hook-Debug-32e310cd1d65e9886f0d.json",
+					"jsonFile" : "target-test_hook-Debug-cd9bcb03ae6484029189.json",
 					"name" : "test_hook",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "test_http::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_http-Debug-b2217de967c653cbacbf.json",
+					"name" : "test_http",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "test_iomanager::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_iomanager-Debug-f86bbb583568f125e6bd.json",
+					"jsonFile" : "target-test_iomanager-Debug-81a39e90a6dca0391f97.json",
 					"name" : "test_iomanager",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_scheduler::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_scheduler-Debug-c719ad8663bf1aa8bac3.json",
+					"jsonFile" : "target-test_scheduler-Debug-8f491919ec4374a44b70.json",
 					"name" : "test_scheduler",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_scheduler2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_scheduler2-Debug-e0bde6f10f0ee4859815.json",
+					"jsonFile" : "target-test_scheduler2-Debug-a21a0c4fefd5f5143e9b.json",
 					"name" : "test_scheduler2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_socket::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_socket-Debug-a815b86a7d638ce57fe9.json",
+					"jsonFile" : "target-test_socket-Debug-8a68366c3bf2eb7ce67c.json",
 					"name" : "test_socket",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_thread::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_thread-Debug-a88b882e7a639d43b513.json",
+					"jsonFile" : "target-test_thread-Debug-6bf91bd1f63e717d603e.json",
 					"name" : "test_thread",
 					"projectIndex" : 0
 				}

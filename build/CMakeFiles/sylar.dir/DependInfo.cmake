@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/CPP/sylar/workspace/serverFramework/sylar/fd_manager.cc" "CMakeFiles/sylar.dir/sylar/fd_manager.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/fd_manager.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/fiber.cc" "CMakeFiles/sylar.dir/sylar/fiber.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/fiber.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/hook.cc" "CMakeFiles/sylar.dir/sylar/hook.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/hook.cc.o.d"
+  "/root/CPP/sylar/workspace/serverFramework/sylar/http/http.cc" "CMakeFiles/sylar.dir/sylar/http/http.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/iomanager.cc" "CMakeFiles/sylar.dir/sylar/iomanager.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/iomanager.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/log.cc" "CMakeFiles/sylar.dir/sylar/log.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/log.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/mutex.cc" "CMakeFiles/sylar.dir/sylar/mutex.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/mutex.cc.o.d"
