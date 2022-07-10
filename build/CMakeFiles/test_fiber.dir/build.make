@@ -76,15 +76,15 @@ CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o: CMakeFiles/test_fiber.dir/flags
 CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o: ../tests/test_fiber.cc
 CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o: CMakeFiles/test_fiber.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CPP/sylar/workspace/serverFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -MF CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o.d -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_fiber.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -MF CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o.d -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_fiber.cc
 
 CMakeFiles/test_fiber.dir/tests/test_fiber.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_fiber.dir/tests/test_fiber.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CPP/sylar/workspace/serverFramework/tests/test_fiber.cc > CMakeFiles/test_fiber.dir/tests/test_fiber.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CPP/sylar/workspace/serverFramework/tests/test_fiber.cc > CMakeFiles/test_fiber.dir/tests/test_fiber.cc.i
 
 CMakeFiles/test_fiber.dir/tests/test_fiber.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_fiber.dir/tests/test_fiber.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CPP/sylar/workspace/serverFramework/tests/test_fiber.cc -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CPP/sylar/workspace/serverFramework/tests/test_fiber.cc -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.s
 
 # Object files for target test_fiber
 test_fiber_OBJECTS = \

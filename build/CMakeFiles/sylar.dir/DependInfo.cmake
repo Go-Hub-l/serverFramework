@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/CPP/sylar/workspace/serverFramework/sylar/log.cc" "CMakeFiles/sylar.dir/sylar/log.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/log.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/mutex.cc" "CMakeFiles/sylar.dir/sylar/mutex.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/mutex.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/scheduler.cc" "CMakeFiles/sylar.dir/sylar/scheduler.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/scheduler.cc.o.d"
+  "/root/CPP/sylar/workspace/serverFramework/sylar/socket.cc" "CMakeFiles/sylar.dir/sylar/socket.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/socket.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/thread.cc" "CMakeFiles/sylar.dir/sylar/thread.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/thread.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/timer.cc" "CMakeFiles/sylar.dir/sylar/timer.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/timer.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/util.cc" "CMakeFiles/sylar.dir/sylar/util.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/util.cc.o.d"

@@ -243,6 +243,23 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
   /usr/include/asm/unistd.h \
   /usr/include/asm/unistd_64.h \
   /usr/include/bits/syscall.h \
+  /usr/include/sys/stat.h \
+  /usr/include/bits/statx.h \
+  /usr/include/linux/stat.h \
+  /usr/include/linux/types.h \
+  /usr/include/asm/types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/asm/posix_types.h \
+  /usr/include/asm/posix_types_64.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/bits/statx-generic.h \
+  /usr/include/bits/types/struct_statx_timestamp.h \
+  /usr/include/bits/types/struct_statx.h \
   ../sylar/thread.h \
   /usr/include/c++/8/functional \
   /usr/include/c++/8/bits/std_function.h \
@@ -296,11 +313,25 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/c++/8/limits:
 
-/usr/include/c++/8/bits/std_function.h:
-
 /usr/include/c++/8/functional:
 
 ../sylar/thread.h:
+
+/usr/include/bits/types/struct_statx.h:
+
+/usr/include/bits/types/struct_statx_timestamp.h:
+
+/usr/include/bits/statx-generic.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/asm/posix_types_64.h:
+
+/usr/include/c++/8/bits/std_function.h:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/asm-generic/types.h:
 
 /usr/include/bits/syscall.h:
 
@@ -368,6 +399,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/c++/8/stdexcept:
 
+/usr/include/bits/statx.h:
+
 /usr/include/c++/8/array:
 
 /usr/include/c++/8/tuple:
@@ -403,6 +436,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 /usr/include/c++/8/ext/type_traits.h:
 
 /usr/include/c++/8/clocale:
+
+/usr/include/linux/types.h:
 
 /usr/include/c++/8/bits/vector.tcc:
 
@@ -448,6 +483,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/bits/pthreadtypes.h:
 
+/usr/include/linux/stddef.h:
+
 /usr/include/pthread.h:
 
 /usr/include/bits/types/struct_timeval.h:
@@ -468,11 +505,15 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h:
 
+/usr/include/asm-generic/int-ll64.h:
+
 /usr/include/bits/wchar.h:
 
 /usr/include/stdint.h:
 
 ../sylar/log.h:
+
+/usr/include/asm/types.h:
 
 /usr/include/bits/fcntl.h:
 
@@ -640,6 +681,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/bits/stdint-intn.h:
 
+/usr/include/linux/stat.h:
+
 /usr/include/c++/8/bits/stl_vector.h:
 
 /usr/include/c++/8/cstdio:
@@ -651,6 +694,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 /usr/include/c++/8/bits/stringfwd.h:
 
 /usr/include/c++/8/chrono:
+
+/usr/include/linux/posix_types.h:
 
 /usr/include/c++/8/bits/stl_algobase.h:
 
@@ -675,6 +720,10 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 /usr/include/c++/8/bits/basic_ios.h:
 
 /usr/include/bits/errno.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/asm/bitsperlong.h:
 
 /usr/include/sys/syscall.h:
 
@@ -751,6 +800,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 /usr/include/c++/8/bits/exception.h:
 
 /usr/include/c++/8/bits/localefwd.h:
+
+/usr/include/sys/stat.h:
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h:
 

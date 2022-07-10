@@ -3,7 +3,7 @@ project(sylar)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -rdynamic -g -std=c++11 -Wall")
-set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl")
+set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto")
 
 link_directories(/usr/local/lib64)
 
@@ -20,6 +20,7 @@ set(LIB_SRC
     sylar/log.cc
     sylar/mutex.cc
     sylar/scheduler.cc
+    sylar/socket.cc
     sylar/timer.cc
     sylar/thread.cc
     sylar/util.cc
@@ -68,6 +69,10 @@ target_link_libraries(test_scheduler2 sylar ${PTHREAD} ${YAMLCPP})
 add_executable(test_address tests/test_address.cc)
 add_dependencies(test_address sylar)
 target_link_libraries(test_address sylar ${PTHREAD} ${YAMLCPP})
+
+add_executable(test_socket tests/test_socket.cc)
+add_dependencies(test_socket sylar)
+target_link_libraries(test_socket sylar ${PTHREAD} ${YAMLCPP})
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

@@ -125,6 +125,8 @@ CMakeFiles/sylar.dir/sylar/util.cc.o: \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/util.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/log.h \
  /usr/include/c++/8/memory /usr/include/c++/8/bits/stl_tempbuf.h \
  /usr/include/c++/8/bits/stl_raw_storage_iter.h \

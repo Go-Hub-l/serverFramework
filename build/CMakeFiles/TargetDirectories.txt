@@ -7,6 +7,7 @@
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/sylar.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_config.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_thread.dir
+/root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_socket.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_fiber.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_scheduler2.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_scheduler.dir

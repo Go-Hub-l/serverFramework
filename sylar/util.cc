@@ -43,6 +43,12 @@ uint64_t GetCurrentMS() {
     return tv.tv_sec * 1000ul + tv.tv_usec / 1000;
 }
 
+uint64_t GetCurrentUS() {
+    struct timeval tv;
+    gettimeofday(&tv, NULL);
+    return tv.tv_sec * 1000 * 1000ul + tv.tv_usec;
+}
+
 void Backtrace(std::vector<std::string>& bt, int size, int skip) {
     void** array = (void**) malloc((sizeof(void*) * size));
     size_t s = ::backtrace(array, size);
@@ -71,5 +77,12 @@ std::string BacktraceToString(int size, int skip, const std::string& prefix) {
     }
     return ss.str();
 }
+
+// bool FSUtil::Unlink(const std::string& filename, bool exist) {
+//     if (!exist && __fxstat(filename.c_str())) {
+//         return true;
+//     }
+//     return ::unlink(filename.c_str()) == 0;
+// }
 
 }
