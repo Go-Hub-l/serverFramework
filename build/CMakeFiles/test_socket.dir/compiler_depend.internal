@@ -289,58 +289,10 @@ CMakeFiles/test_socket.dir/tests/test_socket.cc.o
  /usr/include/c++/8/bits/stl_multimap.h
  /root/CPP/sylar/workspace/serverFramework/sylar/noncopyable.h
  /root/CPP/sylar/workspace/serverFramework/sylar/sylar.h
- /root/CPP/sylar/workspace/serverFramework/sylar/log.h
- /usr/include/c++/8/list
- /usr/include/c++/8/bits/stl_list.h
- /usr/include/c++/8/bits/list.tcc
+ /root/CPP/sylar/workspace/serverFramework/sylar/bytearray.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/config.h
  /usr/include/c++/8/sstream
  /usr/include/c++/8/bits/sstream.tcc
- /usr/include/c++/8/fstream
- /usr/include/c++/8/bits/codecvt.h
- /usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h
- /usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h
- /usr/include/c++/8/bits/fstream.tcc
- /root/CPP/sylar/workspace/serverFramework/sylar/singleton.h
- /root/CPP/sylar/workspace/serverFramework/sylar/util.h
- /usr/include/sys/syscall.h
- /usr/include/asm/unistd.h
- /usr/include/asm/unistd_64.h
- /usr/include/bits/syscall.h
- /usr/include/sys/stat.h
- /usr/include/bits/stat.h
- /usr/include/bits/statx.h
- /usr/include/linux/stat.h
- /usr/include/linux/types.h
- /usr/include/asm/types.h
- /usr/include/asm-generic/types.h
- /usr/include/asm-generic/int-ll64.h
- /usr/include/asm/bitsperlong.h
- /usr/include/asm-generic/bitsperlong.h
- /usr/include/linux/posix_types.h
- /usr/include/linux/stddef.h
- /usr/include/asm/posix_types.h
- /usr/include/asm/posix_types_64.h
- /usr/include/asm-generic/posix_types.h
- /usr/include/bits/statx-generic.h
- /usr/include/bits/types/struct_statx_timestamp.h
- /usr/include/bits/types/struct_statx.h
- /usr/include/fcntl.h
- /usr/include/bits/fcntl.h
- /usr/include/bits/fcntl-linux.h
- /usr/include/linux/falloc.h
- /root/CPP/sylar/workspace/serverFramework/sylar/thread.h
- /usr/include/c++/8/functional
- /usr/include/c++/8/bits/std_function.h
- /usr/include/c++/8/thread
- /usr/include/c++/8/chrono
- /usr/include/c++/8/ratio
- /usr/include/c++/8/limits
- /usr/include/c++/8/ctime
- /usr/include/c++/8/bits/parse_numbers.h
- /root/CPP/sylar/workspace/serverFramework/sylar/mutex.h
- /usr/include/semaphore.h
- /usr/include/bits/semaphore.h
- /root/CPP/sylar/workspace/serverFramework/sylar/config.h
  /usr/include/boost/lexical_cast.hpp
  /usr/include/boost/config.hpp
  /usr/include/boost/config/user.hpp
@@ -596,6 +548,7 @@ CMakeFiles/test_socket.dir/tests/test_socket.cc.o
  /usr/include/boost/concept/detail/concept_undef.hpp
  /usr/include/boost/iterator/iterator_concepts.hpp
  /usr/include/boost/limits.hpp
+ /usr/include/c++/8/limits
  /usr/include/c++/8/algorithm
  /usr/include/c++/8/bits/stl_algo.h
  /usr/include/c++/8/bits/algorithmfwd.h
@@ -700,6 +653,8 @@ CMakeFiles/test_socket.dir/tests/test_socket.cc.o
  /usr/include/bits/mathcalls.h
  /usr/include/bits/mathcalls-narrow.h
  /usr/include/bits/iscanonical.h
+ /usr/include/c++/8/functional
+ /usr/include/c++/8/bits/std_function.h
  /usr/include/boost/numeric/conversion/detail/converter.hpp
  /usr/include/boost/numeric/conversion/bounds.hpp
  /usr/include/boost/numeric/conversion/detail/bounds.hpp
@@ -725,9 +680,11 @@ CMakeFiles/test_socket.dir/tests/test_socket.cc.o
  /usr/include/c++/8/cstring
  /usr/include/c++/8/locale
  /usr/include/c++/8/bits/locale_facets_nonio.h
+ /usr/include/c++/8/ctime
  /usr/include/c++/8/x86_64-redhat-linux/bits/time_members.h
  /usr/include/c++/8/x86_64-redhat-linux/bits/messages_members.h
  /usr/include/libintl.h
+ /usr/include/c++/8/bits/codecvt.h
  /usr/include/c++/8/bits/locale_facets_nonio.tcc
  /usr/include/c++/8/bits/locale_conv.h
  /usr/include/boost/lexical_cast/detail/lcast_char_constants.hpp
@@ -1022,6 +979,50 @@ CMakeFiles/test_socket.dir/tests/test_socket.cc.o
  /usr/include/boost/integer.hpp
  /usr/include/boost/integer_fwd.hpp
  /usr/include/boost/detail/basic_pointerbuf.hpp
+ /root/CPP/sylar/workspace/serverFramework/sylar/log.h
+ /usr/include/c++/8/list
+ /usr/include/c++/8/bits/stl_list.h
+ /usr/include/c++/8/bits/list.tcc
+ /usr/include/c++/8/fstream
+ /usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h
+ /usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h
+ /usr/include/c++/8/bits/fstream.tcc
+ /root/CPP/sylar/workspace/serverFramework/sylar/singleton.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/util.h
+ /usr/include/sys/syscall.h
+ /usr/include/asm/unistd.h
+ /usr/include/asm/unistd_64.h
+ /usr/include/bits/syscall.h
+ /usr/include/sys/stat.h
+ /usr/include/bits/stat.h
+ /usr/include/bits/statx.h
+ /usr/include/linux/stat.h
+ /usr/include/linux/types.h
+ /usr/include/asm/types.h
+ /usr/include/asm-generic/types.h
+ /usr/include/asm-generic/int-ll64.h
+ /usr/include/asm/bitsperlong.h
+ /usr/include/asm-generic/bitsperlong.h
+ /usr/include/linux/posix_types.h
+ /usr/include/linux/stddef.h
+ /usr/include/asm/posix_types.h
+ /usr/include/asm/posix_types_64.h
+ /usr/include/asm-generic/posix_types.h
+ /usr/include/bits/statx-generic.h
+ /usr/include/bits/types/struct_statx_timestamp.h
+ /usr/include/bits/types/struct_statx.h
+ /usr/include/fcntl.h
+ /usr/include/bits/fcntl.h
+ /usr/include/bits/fcntl-linux.h
+ /usr/include/linux/falloc.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/thread.h
+ /usr/include/c++/8/thread
+ /usr/include/c++/8/chrono
+ /usr/include/c++/8/ratio
+ /usr/include/c++/8/bits/parse_numbers.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/mutex.h
+ /usr/include/semaphore.h
+ /usr/include/bits/semaphore.h
  /usr/local/include/yaml-cpp/yaml.h
  /usr/local/include/yaml-cpp/parser.h
  /usr/local/include/yaml-cpp/dll.h
@@ -1063,12 +1064,27 @@ CMakeFiles/test_socket.dir/tests/test_socket.cc.o
  /usr/local/include/yaml-cpp/node/emit.h
  /usr/include/c++/8/unordered_set
  /usr/include/c++/8/bits/unordered_set.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/endian.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/fd_manager.h
  /root/CPP/sylar/workspace/serverFramework/sylar/fiber.h
  /usr/include/ucontext.h
  /usr/include/bits/indirect-return.h
  /usr/include/sys/ucontext.h
  /usr/include/bits/types/stack_t.h
- /root/CPP/sylar/workspace/serverFramework/sylar/scheduler.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/hook.h
+ /usr/include/sys/ioctl.h
+ /usr/include/bits/ioctls.h
+ /usr/include/asm/ioctls.h
+ /usr/include/asm-generic/ioctls.h
+ /usr/include/linux/ioctl.h
+ /usr/include/asm/ioctl.h
+ /usr/include/asm-generic/ioctl.h
+ /usr/include/bits/ioctl-types.h
+ /usr/include/sys/ttydefaults.h
  /root/CPP/sylar/workspace/serverFramework/sylar/iomanager.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/scheduler.h
  /root/CPP/sylar/workspace/serverFramework/sylar/timer.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/macro.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/socket.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/iomanager.h
 
