@@ -49,7 +49,7 @@ namespace sylar {
                 return "<unknown>";
             }
         }
-
+        //大小写不敏感比较
         bool CaseInsensitiveLess::operator()(const std::string& lhs
             , const std::string& rhs) const {
             return strcasecmp(lhs.c_str(), rhs.c_str()) < 0;
@@ -63,12 +63,13 @@ namespace sylar {
             , m_parserParamFlag(0)
             , m_path("/") {}
 
+        //获取请求头
         std::string HttpRequest::getHeader(const std::string& key
             , const std::string& def) const {
             auto it = m_headers.find(key);
             return it == m_headers.end() ? def : it->second;
         }
-
+        //创建响应
         std::shared_ptr<HttpResponse> HttpRequest::createResponse() {
             HttpResponse::ptr rsp(new HttpResponse(getVersion()
                 , isClose()));
@@ -213,6 +214,7 @@ namespace sylar {
                 return;
             }
 
+//http请求实例：https://www.nowcoder.com/search?query = %E6%9C%80%E5%8F%B3%E5%86%85%E6%8E%A8&type=all
 #define PARSE_PARAM(str, m, flag, trim) \
     size_t pos = 0; \
     do { \
