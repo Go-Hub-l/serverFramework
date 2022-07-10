@@ -35,10 +35,18 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
   /usr/include/bits/types/time_t.h \
   /usr/include/bits/types/timer_t.h \
   /usr/include/bits/stdint-intn.h \
-  /usr/include/endian.h \
-  /usr/include/bits/endian.h \
+  ../sylar/endian.h \
+  /usr/include/byteswap.h \
   /usr/include/bits/byteswap.h \
-  /usr/include/bits/uintn-identity.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
   /usr/include/sys/select.h \
   /usr/include/bits/select.h \
   /usr/include/bits/types/sigset_t.h \
@@ -56,11 +64,6 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
   /usr/include/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/bits/types/struct_osockaddr.h \
-  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/stdint-uintn.h \
   /usr/include/time.h \
   /usr/include/bits/time.h \
   /usr/include/bits/timex.h \
@@ -76,9 +79,6 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
   /usr/include/bits/getopt_core.h \
   ../sylar/log.h \
   /usr/include/c++/8/string \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
   /usr/include/c++/8/bits/stringfwd.h \
   /usr/include/c++/8/bits/memoryfwd.h \
   /usr/include/c++/8/bits/char_traits.h \
@@ -91,7 +91,6 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
   /usr/include/c++/8/bits/stl_pair.h \
   /usr/include/c++/8/bits/move.h \
   /usr/include/c++/8/bits/concept_check.h \
-  /usr/include/c++/8/type_traits \
   /usr/include/c++/8/bits/stl_iterator_base_types.h \
   /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/8/debug/assertions.h \
@@ -272,9 +271,12 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
   /usr/include/arpa/inet.h \
   /usr/include/netinet/in.h \
   /usr/include/bits/in.h \
+  /usr/include/bits/uintn-identity.h \
   /usr/include/string.h \
   /usr/include/strings.h
 
+
+/usr/include/bits/uintn-identity.h:
 
 /usr/include/c++/8/set:
 
@@ -382,6 +384,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/c++/8/bits/stl_uninitialized.h:
 
+/usr/include/c++/8/bits/stl_construct.h:
+
 /usr/include/c++/8/memory:
 
 /usr/include/c++/8/bits/basic_string.tcc:
@@ -393,16 +397,6 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 /usr/include/asm-generic/errno.h:
 
 /usr/include/asm/errno.h:
-
-/usr/include/c++/8/bits/basic_ios.h:
-
-/usr/include/bits/errno.h:
-
-/usr/include/c++/8/bits/ios_base.h:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h:
-
-/usr/include/bits/stdio_lim.h:
 
 /usr/include/bits/confname.h:
 
@@ -418,17 +412,9 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/bits/types/struct_itimerspec.h:
 
-/usr/include/c++/8/bits/stl_construct.h:
-
-/usr/include/bits/endian.h:
-
 /usr/include/time.h:
 
 /usr/include/bits/types/struct_timespec.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/stdint.h:
 
 /usr/include/c++/8/string:
 
@@ -439,12 +425,6 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 /usr/include/stdlib.h:
 
 /usr/include/asm-generic/socket.h:
-
-/usr/include/strings.h:
-
-/usr/include/c++/8/bits/streambuf.tcc:
-
-/usr/include/c++/8/bits/hash_bytes.h:
 
 /usr/include/netinet/in.h:
 
@@ -474,21 +454,49 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/bits/types/__sigset_t.h:
 
+/usr/include/c++/8/bits/ios_base.h:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/c++/8/bits/locale_classes.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/c++/8/type_traits:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/stdint.h:
+
 ../sylar/log.h:
 
 /usr/include/bits/fcntl.h:
+
+/usr/include/bits/types.h:
 
 /usr/include/c++/8/bits/atomic_base.h:
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/c++/8/iostream:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h:
-
 /usr/include/bits/semaphore.h:
 
 /usr/include/bits/time.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/8/ext/atomicity.h:
+
+/usr/include/c++/8/bits/move.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/c++/8/iostream:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h:
 
 /usr/include/gnu/stubs-64.h:
 
@@ -524,7 +532,17 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/bits/types/struct_FILE.h:
 
+/usr/include/bits/types/time_t.h:
+
 /usr/include/bits/types/struct_osockaddr.h:
+
+/usr/include/strings.h:
+
+/usr/include/c++/8/bits/streambuf.tcc:
+
+/usr/include/c++/8/bits/hash_bytes.h:
+
+/usr/include/byteswap.h:
 
 /usr/include/bits/fcntl-linux.h:
 
@@ -546,8 +564,6 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/stdio.h:
 
-/usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h:
-
 /usr/include/bits/sys_errlist.h:
 
 /usr/include/errno.h:
@@ -559,6 +575,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 /usr/include/c++/8/bits/istream.tcc:
 
 /usr/include/c++/8/debug/assertions.h:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h:
 
 /usr/include/asm/socket.h:
 
@@ -612,13 +630,9 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/bits/getopt_core.h:
 
+../sylar/endian.h:
+
 /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/8/bits/ostream_insert.h:
-
-/usr/include/bits/types/time_t.h:
 
 /usr/include/c++/8/ctime:
 
@@ -631,18 +645,6 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 /usr/include/c++/8/cstdio:
 
 /usr/include/c++/8/bits/memoryfwd.h:
-
-/usr/include/bits/types.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/8/ext/atomicity.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/c++/8/bits/move.h:
-
-/usr/include/endian.h:
 
 /usr/include/c++/8/backward/auto_ptr.h:
 
@@ -670,6 +672,10 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 
 /usr/include/bits/types/__fpos_t.h:
 
+/usr/include/c++/8/bits/basic_ios.h:
+
+/usr/include/bits/errno.h:
+
 /usr/include/sys/syscall.h:
 
 /usr/include/c++/8/bits/stl_pair.h:
@@ -681,14 +687,6 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 /usr/include/c++/8/bits/stl_raw_storage_iter.h:
 
 /usr/include/bits/stdlib-float.h:
-
-/usr/include/c++/8/bits/locale_classes.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/c++/8/type_traits:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h:
 
 /usr/include/c++/8/bits/stl_iterator_base_types.h:
 
@@ -779,6 +777,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 /usr/include/locale.h:
 
 /usr/include/c++/8/cctype:
+
+/usr/include/c++/8/bits/ostream_insert.h:
 
 /usr/include/c++/8/bits/cxxabi_forced.h:
 

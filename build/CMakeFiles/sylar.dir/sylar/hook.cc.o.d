@@ -18,8 +18,15 @@ CMakeFiles/sylar.dir/sylar/hook.cc.o: \
  /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
  /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/endian.h \
+ /usr/include/byteswap.h /usr/include/bits/byteswap.h \
+ /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/wchar.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/c++/8/type_traits \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
  /usr/include/sys/select.h /usr/include/bits/select.h \
  /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
  /usr/include/bits/types/struct_timeval.h \
@@ -29,11 +36,8 @@ CMakeFiles/sylar.dir/sylar/hook.cc.o: \
  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
  /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
- /usr/include/bits/types/struct_osockaddr.h \
- /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
- /usr/include/bits/wchar.h /usr/include/bits/stdint-uintn.h \
- /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_osockaddr.h /usr/include/time.h \
+ /usr/include/bits/time.h /usr/include/bits/timex.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
@@ -43,16 +47,13 @@ CMakeFiles/sylar.dir/sylar/hook.cc.o: \
  /usr/include/dlfcn.h /usr/include/bits/dlfcn.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/config.h \
  /usr/include/c++/8/memory /usr/include/c++/8/bits/stl_algobase.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
  /usr/include/c++/8/bits/functexcept.h \
  /usr/include/c++/8/bits/exception_defines.h \
  /usr/include/c++/8/bits/cpp_type_traits.h \
  /usr/include/c++/8/ext/type_traits.h \
  /usr/include/c++/8/ext/numeric_traits.h \
  /usr/include/c++/8/bits/stl_pair.h /usr/include/c++/8/bits/move.h \
- /usr/include/c++/8/bits/concept_check.h /usr/include/c++/8/type_traits \
+ /usr/include/c++/8/bits/concept_check.h \
  /usr/include/c++/8/bits/stl_iterator_base_types.h \
  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/8/debug/assertions.h \

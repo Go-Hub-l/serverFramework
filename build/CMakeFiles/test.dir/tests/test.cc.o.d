@@ -48,8 +48,9 @@ CMakeFiles/test.dir/tests/test.cc.o: \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
  /usr/include/c++/8/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/8/cctype \
- /usr/include/ctype.h /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/ctype.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/endian.h \
+ /usr/include/byteswap.h /usr/include/bits/byteswap.h \
  /usr/include/c++/8/bits/ios_base.h /usr/include/c++/8/ext/atomicity.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \

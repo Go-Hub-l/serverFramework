@@ -76,15 +76,15 @@ CMakeFiles/test_thread.dir/tests/test_thread.cc.o: CMakeFiles/test_thread.dir/fl
 CMakeFiles/test_thread.dir/tests/test_thread.cc.o: ../tests/test_thread.cc
 CMakeFiles/test_thread.dir/tests/test_thread.cc.o: CMakeFiles/test_thread.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CPP/sylar/workspace/serverFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_thread.dir/tests/test_thread.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_thread.dir/tests/test_thread.cc.o -MF CMakeFiles/test_thread.dir/tests/test_thread.cc.o.d -o CMakeFiles/test_thread.dir/tests/test_thread.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_thread.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_thread.dir/tests/test_thread.cc.o -MF CMakeFiles/test_thread.dir/tests/test_thread.cc.o.d -o CMakeFiles/test_thread.dir/tests/test_thread.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_thread.cc
 
 CMakeFiles/test_thread.dir/tests/test_thread.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_thread.dir/tests/test_thread.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CPP/sylar/workspace/serverFramework/tests/test_thread.cc > CMakeFiles/test_thread.dir/tests/test_thread.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CPP/sylar/workspace/serverFramework/tests/test_thread.cc > CMakeFiles/test_thread.dir/tests/test_thread.cc.i
 
 CMakeFiles/test_thread.dir/tests/test_thread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_thread.dir/tests/test_thread.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CPP/sylar/workspace/serverFramework/tests/test_thread.cc -o CMakeFiles/test_thread.dir/tests/test_thread.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CPP/sylar/workspace/serverFramework/tests/test_thread.cc -o CMakeFiles/test_thread.dir/tests/test_thread.cc.s
 
 # Object files for target test_thread
 test_thread_OBJECTS = \

@@ -77,10 +77,9 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
   /usr/include/c++/8/iosfwd \
   /usr/include/c++/8/cctype \
   /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/bits/endian.h \
+  ../sylar/endian.h \
+  /usr/include/byteswap.h \
   /usr/include/bits/byteswap.h \
-  /usr/include/bits/uintn-identity.h \
   /usr/include/c++/8/bits/ostream_insert.h \
   /usr/include/c++/8/bits/cxxabi_forced.h \
   /usr/include/c++/8/bits/stl_function.h \
@@ -989,6 +988,7 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
   /usr/include/arpa/inet.h \
   /usr/include/netinet/in.h \
   /usr/include/bits/in.h \
+  /usr/include/bits/uintn-identity.h \
   /usr/include/fcntl.h \
   /usr/include/bits/fcntl.h \
   /usr/include/bits/fcntl-linux.h \
@@ -1171,8 +1171,6 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 /usr/include/boost/mpl/vector/aux_/at.hpp:
 
 /usr/include/boost/mpl/vector/vector0.hpp:
-
-/usr/include/boost/mpl/vector/vector20.hpp:
 
 /usr/include/boost/mpl/limits/vector.hpp:
 
@@ -1518,6 +1516,8 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/boost/mpl/aux_/config/msvc.hpp:
 
+/usr/include/boost/preprocessor/control/expr_iif.hpp:
+
 /usr/include/boost/mpl/at_fwd.hpp:
 
 /usr/include/boost/mpl/aux_/msvc_type.hpp:
@@ -1575,8 +1575,6 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 /usr/include/boost/iterator/detail/config_def.hpp:
 
 /usr/include/boost/range/detail/has_member_size.hpp:
-
-/usr/include/bits/endian.h:
 
 /usr/include/boost/config/user.hpp:
 
@@ -1714,10 +1712,6 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
 
-/usr/include/boost/mpl/aux_/advance_backward.hpp:
-
-/usr/include/bits/types/struct_itimerspec.h:
-
 /usr/include/c++/8/ext/string_conversions.h:
 
 /usr/include/c++/8/ext/type_traits.h:
@@ -1741,12 +1735,6 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 /usr/include/boost/mpl/aux_/config/compiler.hpp:
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/messages_members.h:
-
-/usr/include/boost/preprocessor/control/expr_iif.hpp:
-
-/usr/include/endian.h:
-
-/usr/include/boost/version.hpp:
 
 /usr/include/c++/8/sstream:
 
@@ -1856,6 +1844,8 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/sys/cdefs.h:
 
+/usr/include/boost/mpl/aux_/include_preprocessed.hpp:
+
 /usr/include/boost/iterator/iterator_categories.hpp:
 
 /usr/include/boost/predef/compiler/watcom.h:
@@ -1867,6 +1857,14 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 /usr/include/c++/8/debug/assertions.h:
 
 /usr/include/boost/predef/library/c/gnu.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/c++/8/bits/ptr_traits.h:
+
+/usr/include/c++/8/bits/stl_raw_storage_iter.h:
 
 /usr/include/boost/lexical_cast.hpp:
 
@@ -1952,7 +1950,17 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h:
 
+/usr/include/byteswap.h:
+
 /usr/include/boost/preprocessor/seq/size.hpp:
+
+/usr/include/boost/mpl/list/list0.hpp:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+/usr/include/boost/math/special_functions/sign.hpp:
 
 /usr/include/boost/type.hpp:
 
@@ -2006,31 +2014,11 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/c++/8/bits/cpp_type_traits.h:
 
-/usr/include/boost/iterator/detail/enable_if.hpp:
-
-/usr/include/boost/preprocessor/seq/transform.hpp:
-
-/usr/include/c++/8/bits/std_function.h:
-
-/usr/include/boost/next_prior.hpp:
-
-/usr/include/c++/8/backward/auto_ptr.h:
-
-/usr/include/boost/predef/os/bsd.h:
-
-/usr/include/c++/8/bits/stringfwd.h:
-
-/usr/include/boost/exception/exception.hpp:
-
 ../sylar/sylar.h:
 
 /usr/include/c++/8/bits/algorithmfwd.h:
 
 /usr/include/boost/detail/lcast_precision.hpp:
-
-/usr/include/boost/mpl/eval_if.hpp:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h:
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h:
 
@@ -2094,12 +2082,6 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/boost/preprocessor/arithmetic/sub.hpp:
 
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/c++/8/bits/ptr_traits.h:
-
-/usr/include/bits/stdlib-float.h:
-
 /usr/include/boost/math/policies/policy.hpp:
 
 /usr/include/boost/preprocessor/empty.hpp:
@@ -2121,6 +2103,10 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 /usr/include/boost/mpl/aux_/inserter_algorithm.hpp:
 
 /usr/include/boost/numeric/conversion/converter_policies.hpp:
+
+/usr/include/boost/mpl/vector/vector20.hpp:
+
+../sylar/endian.h:
 
 /usr/include/boost/mpl/vector/aux_/pop_front.hpp:
 
@@ -2163,14 +2149,6 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 /usr/include/pthread.h:
 
 /usr/include/bits/sys_errlist.h:
-
-/usr/include/boost/mpl/list/list0.hpp:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
-
-/usr/include/boost/math/special_functions/sign.hpp:
 
 /usr/include/boost/preprocessor/facilities/overload.hpp:
 
@@ -2226,6 +2204,10 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/c++/8/bits/std_abs.h:
 
+/usr/include/boost/mpl/aux_/advance_backward.hpp:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
 /usr/include/boost/preprocessor/cat.hpp:
 
 /usr/include/boost/preprocessor/seq/fold_left.hpp:
@@ -2260,10 +2242,6 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/c++/8/bits/move.h:
 
-/usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
-
-/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
-
 /usr/include/c++/8/cstddef:
 
 /usr/include/boost/type_traits/add_rvalue_reference.hpp:
@@ -2294,10 +2272,6 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/boost/preprocessor/seq/for_each_i.hpp:
 
-/usr/include/boost/predef/library/std/_prefix.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
 /usr/include/bits/types/struct_tm.h:
 
 /usr/include/boost/iterator/iterator_traits.hpp:
@@ -2325,8 +2299,6 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 /usr/include/boost/mpl/integral_c_tag.hpp:
 
 /usr/include/c++/8/bits/functional_hash.h:
-
-/usr/include/c++/8/bits/stl_raw_storage_iter.h:
 
 /usr/include/boost/preprocessor/facilities/identity.hpp:
 
@@ -2394,7 +2366,29 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
 
-/usr/include/boost/mpl/aux_/include_preprocessed.hpp:
+/usr/include/boost/iterator/detail/enable_if.hpp:
+
+/usr/include/boost/preprocessor/seq/transform.hpp:
+
+/usr/include/c++/8/bits/std_function.h:
+
+/usr/include/boost/next_prior.hpp:
+
+/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
+
+/usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
+/usr/include/boost/predef/os/bsd.h:
+
+/usr/include/c++/8/bits/stringfwd.h:
+
+/usr/include/boost/exception/exception.hpp:
+
+/usr/include/c++/8/backward/auto_ptr.h:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h:
+
+/usr/include/boost/mpl/eval_if.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
 
@@ -2405,6 +2399,8 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 /usr/include/boost/mpl/aux_/iter_fold_if_impl.hpp:
 
 /usr/include/boost/type_traits/intrinsics.hpp:
+
+/usr/include/boost/version.hpp:
 
 /usr/include/boost/type_traits/integral_constant.hpp:
 
@@ -2784,9 +2780,9 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 
 /usr/include/boost/mpl/aux_/config/forwarding.hpp:
 
-/usr/include/boost/preprocessor/logical/and.hpp:
-
 /usr/include/boost/predef/architecture/superh.h:
+
+/usr/include/boost/preprocessor/logical/and.hpp:
 
 /usr/include/boost/numeric/conversion/int_float_mixture_enum.hpp:
 
@@ -2987,3 +2983,7 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager
 /usr/include/boost/mpl/aux_/arity.hpp:
 
 /usr/include/boost/predef/library/std.h:
+
+/usr/include/bits/types/struct_FILE.h:
+
+/usr/include/boost/predef/library/std/_prefix.h:

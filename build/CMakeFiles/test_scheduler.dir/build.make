@@ -76,15 +76,15 @@ CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: CMakeFiles/test_schedul
 CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: ../tests/test_scheduler.cc
 CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: CMakeFiles/test_scheduler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CPP/sylar/workspace/serverFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -MF CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o.d -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_scheduler.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -MF CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o.d -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_scheduler.cc
 
 CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CPP/sylar/workspace/serverFramework/tests/test_scheduler.cc > CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CPP/sylar/workspace/serverFramework/tests/test_scheduler.cc > CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.i
 
 CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CPP/sylar/workspace/serverFramework/tests/test_scheduler.cc -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CPP/sylar/workspace/serverFramework/tests/test_scheduler.cc -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.s
 
 # Object files for target test_scheduler
 test_scheduler_OBJECTS = \

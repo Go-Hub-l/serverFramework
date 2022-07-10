@@ -52,9 +52,9 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
  /usr/include/c++/8/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/8/iosfwd \
- /usr/include/c++/8/cctype /usr/include/ctype.h /usr/include/endian.h \
- /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h \
+ /usr/include/c++/8/cctype /usr/include/ctype.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/endian.h \
+ /usr/include/byteswap.h /usr/include/bits/byteswap.h \
  /usr/include/c++/8/bits/ostream_insert.h \
  /usr/include/c++/8/bits/cxxabi_forced.h \
  /usr/include/c++/8/bits/stl_function.h \
@@ -838,7 +838,8 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: \
  /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/bits/types/struct_osockaddr.h /usr/include/arpa/inet.h \
- /usr/include/netinet/in.h /usr/include/bits/in.h /usr/include/fcntl.h \
+ /usr/include/netinet/in.h /usr/include/bits/in.h \
+ /usr/include/bits/uintn-identity.h /usr/include/fcntl.h \
  /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
  /usr/include/linux/falloc.h /usr/include/bits/stat.h \
  /usr/include/sys/epoll.h /usr/include/bits/epoll.h

@@ -18,8 +18,15 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: \
  /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
  /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/endian.h \
+ /usr/include/byteswap.h /usr/include/bits/byteswap.h \
+ /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/wchar.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/c++/8/type_traits \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
  /usr/include/sys/select.h /usr/include/bits/select.h \
  /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
  /usr/include/bits/types/struct_timeval.h \
@@ -29,11 +36,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: \
  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
  /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
- /usr/include/bits/types/struct_osockaddr.h \
- /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
- /usr/include/bits/wchar.h /usr/include/bits/stdint-uintn.h \
- /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_osockaddr.h /usr/include/time.h \
+ /usr/include/bits/time.h /usr/include/bits/timex.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
@@ -41,11 +45,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/log.h \
- /usr/include/c++/8/string \
- /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
- /usr/include/c++/8/bits/stringfwd.h /usr/include/c++/8/bits/memoryfwd.h \
+ /usr/include/c++/8/string /usr/include/c++/8/bits/stringfwd.h \
+ /usr/include/c++/8/bits/memoryfwd.h \
  /usr/include/c++/8/bits/char_traits.h \
  /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/bits/functexcept.h \
@@ -54,7 +55,7 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: \
  /usr/include/c++/8/ext/type_traits.h \
  /usr/include/c++/8/ext/numeric_traits.h \
  /usr/include/c++/8/bits/stl_pair.h /usr/include/c++/8/bits/move.h \
- /usr/include/c++/8/bits/concept_check.h /usr/include/c++/8/type_traits \
+ /usr/include/c++/8/bits/concept_check.h \
  /usr/include/c++/8/bits/stl_iterator_base_types.h \
  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/8/debug/assertions.h \
@@ -178,5 +179,6 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: \
  /root/CPP/sylar/workspace/serverFramework/sylar/timer.h \
  /usr/include/c++/8/set /usr/include/c++/8/bits/stl_set.h \
  /usr/include/c++/8/bits/stl_multiset.h /usr/include/arpa/inet.h \
- /usr/include/netinet/in.h /usr/include/bits/in.h /usr/include/string.h \
+ /usr/include/netinet/in.h /usr/include/bits/in.h \
+ /usr/include/bits/uintn-identity.h /usr/include/string.h \
  /usr/include/strings.h

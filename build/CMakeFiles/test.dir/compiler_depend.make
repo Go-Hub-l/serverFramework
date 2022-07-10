@@ -74,10 +74,9 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
   /usr/include/bits/locale.h \
   /usr/include/c++/8/cctype \
   /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/bits/endian.h \
+  ../sylar/endian.h \
+  /usr/include/byteswap.h \
   /usr/include/bits/byteswap.h \
-  /usr/include/bits/uintn-identity.h \
   /usr/include/c++/8/bits/ios_base.h \
   /usr/include/c++/8/ext/atomicity.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
@@ -311,19 +310,11 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 
 /usr/include/c++/8/bits/stl_uninitialized.h:
 
-/usr/include/c++/8/memory:
-
-../sylar/log.h:
-
 /usr/include/c++/8/bits/stl_construct.h:
 
-/usr/include/bits/endian.h:
-
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/c++/8/memory:
 
 /usr/include/stdlib.h:
-
-/usr/include/endian.h:
 
 /usr/include/bits/types.h:
 
@@ -393,15 +384,17 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h:
 
-/usr/include/c++/8/bits/streambuf.tcc:
-
-/usr/include/c++/8/bits/hash_bytes.h:
-
 /usr/include/c++/8/typeinfo:
 
 /usr/include/c++/8/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/8/ext/string_conversions.h:
+
+/usr/include/c++/8/bits/streambuf.tcc:
+
+/usr/include/c++/8/bits/hash_bytes.h:
+
+/usr/include/byteswap.h:
 
 /usr/include/c++/8/backward/auto_ptr.h:
 
@@ -412,6 +405,8 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h:
 
 /usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/types/time_t.h:
 
 /usr/include/c++/8/chrono:
 
@@ -487,6 +482,12 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 
 /usr/include/bits/sched.h:
 
+/usr/include/c++/8/bits/stl_bvector.h:
+
+/usr/include/bits/wctype-wchar.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
 /usr/include/c++/8/bits/functexcept.h:
 
 /usr/include/bits/timex.h:
@@ -498,12 +499,6 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 /usr/include/ctype.h:
 
 /usr/include/c++/8/cwchar:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/8/bits/ostream_insert.h:
-
-/usr/include/c++/8/stdexcept:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -531,6 +526,8 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 
 /usr/include/c++/8/bits/predefined_ops.h:
 
+../sylar/endian.h:
+
 /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h:
 
 /usr/include/bits/wchar.h:
@@ -540,12 +537,6 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 /usr/include/c++/8/iosfwd:
 
 /usr/include/bits/types/__FILE.h:
-
-/usr/include/c++/8/bits/stl_bvector.h:
-
-/usr/include/bits/wctype-wchar.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h:
 
@@ -560,8 +551,6 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 /usr/include/c++/8/ratio:
 
 /usr/include/sched.h:
-
-/usr/include/bits/types/time_t.h:
 
 /usr/include/bits/types/struct_timespec.h:
 
@@ -593,6 +582,8 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 
 /usr/include/sys/select.h:
 
+/usr/include/bits/types/struct_itimerspec.h:
+
 /usr/include/bits/thread-shared-types.h:
 
 /usr/include/bits/setjmp.h:
@@ -616,6 +607,10 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 /usr/include/c++/8/bits/alloc_traits.h:
 
 /usr/include/c++/8/bits/range_access.h:
+
+/usr/include/c++/8/bits/ostream_insert.h:
+
+/usr/include/c++/8/stdexcept:
 
 /usr/include/c++/8/bits/cxxabi_forced.h:
 
@@ -643,9 +638,9 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 
 /usr/include/c++/8/bits/move.h:
 
-/usr/include/linux/errno.h:
-
 /usr/include/c++/8/ext/atomicity.h:
+
+/usr/include/linux/errno.h:
 
 /usr/include/bits/select.h:
 
@@ -696,3 +691,5 @@ CMakeFiles/test.dir/tests/test.cc.o: ../tests/test.cc \
 /usr/include/c++/8/debug/assertions.h:
 
 /usr/include/c++/8/bits/istream.tcc:
+
+../sylar/log.h:

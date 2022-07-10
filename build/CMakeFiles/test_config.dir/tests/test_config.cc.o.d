@@ -51,9 +51,9 @@ CMakeFiles/test_config.dir/tests/test_config.cc.o: \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
  /usr/include/c++/8/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/8/iosfwd \
- /usr/include/c++/8/cctype /usr/include/ctype.h /usr/include/endian.h \
- /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h \
+ /usr/include/c++/8/cctype /usr/include/ctype.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/endian.h \
+ /usr/include/byteswap.h /usr/include/bits/byteswap.h \
  /usr/include/c++/8/bits/ostream_insert.h \
  /usr/include/c++/8/bits/cxxabi_forced.h \
  /usr/include/c++/8/bits/stl_function.h \

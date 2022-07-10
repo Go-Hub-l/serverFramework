@@ -76,15 +76,15 @@ CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: CMakeFiles/test_iomanag
 CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: ../tests/test_iomanager.cc
 CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o: CMakeFiles/test_iomanager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CPP/sylar/workspace/serverFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -MF CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o.d -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_iomanager.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -MF CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o.d -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_iomanager.cc
 
 CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CPP/sylar/workspace/serverFramework/tests/test_iomanager.cc > CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CPP/sylar/workspace/serverFramework/tests/test_iomanager.cc > CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.i
 
 CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CPP/sylar/workspace/serverFramework/tests/test_iomanager.cc -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CPP/sylar/workspace/serverFramework/tests/test_iomanager.cc -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.s
 
 # Object files for target test_iomanager
 test_iomanager_OBJECTS = \

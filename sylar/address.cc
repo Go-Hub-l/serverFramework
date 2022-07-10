@@ -309,12 +309,12 @@ namespace sylar {
     }
 
     std::ostream& IPv4Address::insert(std::ostream& os) const {
-        uint32_t addr = byteswapOnLittleEndian(m_addr.sin_addr.s_addr);
+        uint32_t addr = byteswapOnBigEndian(m_addr.sin_addr.s_addr);
         os << ((addr >> 24) & 0xff) << "."
             << ((addr >> 16) & 0xff) << "."
             << ((addr >> 8) & 0xff) << "."
             << (addr & 0xff);
-        os << ":" << byteswapOnLittleEndian(m_addr.sin_port);
+        os << ":" << byteswapOnBigEndian(m_addr.sin_port);
         return os;
     }
 
@@ -412,14 +412,14 @@ namespace sylar {
             if (i) {
                 os << ":";
             }
-            os << std::hex << (int) byteswapOnLittleEndian(addr[i]) << std::dec;
+            os << std::hex << (int) byteswapOnBigEndian(addr[i]) << std::dec;
         }
 
         if (!used_zeros && addr[7] == 0) {
             os << "::";
         }
 
-        os << "]:" << byteswapOnLittleEndian(m_addr.sin6_port);
+        os << "]:" << byteswapOnBigEndian(m_addr.sin6_port);
         return os;
     }
 

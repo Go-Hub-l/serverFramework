@@ -5,9 +5,16 @@ CMakeFiles/sylar.dir/sylar/mutex.cc.o: \
  /usr/include/pthread.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/byteswap.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/bits/uintn-identity.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/endian.h \
+ /usr/include/byteswap.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
+ /usr/include/bits/stdint-uintn.h /usr/include/c++/8/type_traits \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
  /usr/include/sched.h /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
  /usr/include/bits/types/time_t.h \
  /usr/include/bits/types/struct_timespec.h /usr/include/bits/sched.h \
@@ -20,26 +27,19 @@ CMakeFiles/sylar.dir/sylar/mutex.cc.o: \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
  /usr/include/bits/pthreadtypes-arch.h /usr/include/bits/setjmp.h \
- /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
- /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
- /usr/include/bits/stdint-uintn.h /usr/include/semaphore.h \
- /usr/include/sys/types.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
- /usr/include/bits/types/__sigset_t.h /usr/include/bits/semaphore.h \
- /usr/include/c++/8/stdexcept /usr/include/c++/8/exception \
- /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
- /usr/include/c++/8/bits/exception.h \
+ /usr/include/semaphore.h /usr/include/sys/types.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/semaphore.h /usr/include/c++/8/stdexcept \
+ /usr/include/c++/8/exception /usr/include/c++/8/bits/exception.h \
  /usr/include/c++/8/bits/exception_ptr.h \
  /usr/include/c++/8/bits/exception_defines.h \
  /usr/include/c++/8/bits/cxxabi_init_exception.h \
  /usr/include/c++/8/typeinfo /usr/include/c++/8/bits/hash_bytes.h \
  /usr/include/c++/8/new /usr/include/c++/8/bits/nested_exception.h \
  /usr/include/c++/8/bits/move.h /usr/include/c++/8/bits/concept_check.h \
- /usr/include/c++/8/type_traits /usr/include/c++/8/string \
- /usr/include/c++/8/bits/stringfwd.h /usr/include/c++/8/bits/memoryfwd.h \
+ /usr/include/c++/8/string /usr/include/c++/8/bits/stringfwd.h \
+ /usr/include/c++/8/bits/memoryfwd.h \
  /usr/include/c++/8/bits/char_traits.h \
  /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/bits/functexcept.h \

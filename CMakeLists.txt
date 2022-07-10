@@ -12,6 +12,7 @@ find_library(PTHREAD pthread)
 message("***", ${YAMLCPP})
 
 set(LIB_SRC
+    sylar/address.cc
     sylar/config.cc
     sylar/fiber.cc
     sylar/fd_manager.cc
@@ -63,6 +64,10 @@ target_link_libraries(test_hook sylar ${PTHREAD} ${YAMLCPP})
 add_executable(test_scheduler2 tests/test_scheduler2.cc)
 add_dependencies(test_scheduler2 sylar)
 target_link_libraries(test_scheduler2 sylar ${PTHREAD} ${YAMLCPP})
+
+add_executable(test_address tests/test_address.cc)
+add_dependencies(test_address sylar)
+target_link_libraries(test_address sylar ${PTHREAD} ${YAMLCPP})
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

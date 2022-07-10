@@ -51,10 +51,14 @@ CMakeFiles/sylar.dir/sylar/scheduler.cc.o: \
  /usr/include/bits/types/__locale_t.h /usr/include/c++/8/ext/atomicity.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/byteswap.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/bits/uintn-identity.h \
- /usr/include/sched.h /usr/include/bits/types/time_t.h \
+ /usr/include/pthread.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/endian.h \
+ /usr/include/byteswap.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-intn.h \
+ /usr/include/bits/stdint-uintn.h /usr/include/sched.h \
+ /usr/include/bits/types/time_t.h \
  /usr/include/bits/types/struct_timespec.h /usr/include/bits/sched.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
  /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
@@ -74,9 +78,7 @@ CMakeFiles/sylar.dir/sylar/scheduler.cc.o: \
  /usr/include/c++/8/tuple /usr/include/c++/8/array \
  /usr/include/c++/8/stdexcept /usr/include/c++/8/string \
  /usr/include/c++/8/bits/char_traits.h /usr/include/c++/8/cstdint \
- /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/stdint-intn.h \
- /usr/include/bits/stdint-uintn.h /usr/include/c++/8/bits/localefwd.h \
+ /usr/include/c++/8/bits/localefwd.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
  /usr/include/c++/8/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/8/cctype \
