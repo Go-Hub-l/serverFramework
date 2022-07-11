@@ -4,6 +4,7 @@
 #include "log.h"
 #include "macro.h"
 #include "hook.h"
+#include "endian.h"
 #include <limits.h>
 
 
@@ -117,10 +118,12 @@ namespace sylar {
 
     Socket::ptr Socket::accept() {
         Socket::ptr sock(new Socket(m_family, m_type, m_protocol));
+
         int newsock = ::accept(m_sock, nullptr, nullptr);
         if (newsock == -1) {
-            SYLAR_LOG_ERROR(g_logger) << "accept(" << m_sock << ") errno="
-                << errno << " errstr=" << strerror(errno);
+            //accept errno=11表示非阻塞socket的当前事件未到达
+            // SYLAR_LOG_ERROR(g_logger) << "accept(" << m_sock << ") errno="
+            //     << errno << " errstr=" << strerror(errno);
             return nullptr;
         }
         if (sock->init(newsock)) {
@@ -130,7 +133,7 @@ namespace sylar {
     }
 
     bool Socket::init(int sock) {
-        FdCtx::ptr ctx = FdMgr::GetInstance()->get(sock);
+        FdCtx::ptr ctx = FdMgr::GetInstance()->get(sock, true);
         if (ctx && ctx->isSocket() && !ctx->isClose()) {
             m_sock = sock;
             m_isConnected = true;
@@ -168,6 +171,9 @@ namespace sylar {
             //     sylar::FSUtil::Unlink(uaddr->getPath(), true);
             // }
         }
+
+        sockaddr_in* tmp_addr = (sockaddr_in*) addr->getAddr();
+        SYLAR_LOG_DEBUG(g_logger) << tmp_addr;
 
         if (::bind(m_sock, addr->getAddr(), addr->getAddrLen())) {
             SYLAR_LOG_ERROR(g_logger) << "bind error errrno=" << errno
@@ -391,6 +397,12 @@ namespace sylar {
             UnixAddress::ptr addr = std::dynamic_pointer_cast<UnixAddress>(result);
             addr->setAddrLen(addrlen);
         }
+        // sockaddr_in* tmp = (sockaddr_in*) result->getAddr();
+        // SYLAR_LOG_DEBUG(g_logger) << tmp;
+        //本地地址应该是小端地址，故需要一次转换
+        // sockaddr_in* tmp_addr = (sockaddr_in*) result->getAddr();
+        // tmp_addr->sin_port = byteswapOnLittleEndian(tmp_addr->sin_port);
+        // tmp_addr->sin_addr.s_addr = byteswapOnLittleEndian(tmp_addr->sin_addr.s_addr);
         m_localAddress = result;
         return m_localAddress;
     }

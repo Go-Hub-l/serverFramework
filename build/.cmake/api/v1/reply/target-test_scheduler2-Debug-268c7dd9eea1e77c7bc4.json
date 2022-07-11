@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/root/CPP/sylar/workspace/serverFramework/bin/test_scheduler"
+			"path" : "/root/CPP/sylar/workspace/serverFramework/bin/test_scheduler2"
 		}
 	],
 	"backtrace" : 1,
@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 58,
+				"line" : 71,
 				"parent" : 0
 			},
 			{
@@ -40,19 +40,19 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 60,
+				"line" : 73,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 59,
+				"line" : 72,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 35,
+				"line" : 36,
 				"parent" : 0
 			}
 		]
@@ -87,7 +87,7 @@
 			"id" : "sylar::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "test_scheduler::@6890427a1f51a3e7e1df",
+	"id" : "test_scheduler2::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -126,8 +126,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_scheduler",
-	"nameOnDisk" : "test_scheduler",
+	"name" : "test_scheduler2",
+	"nameOnDisk" : "test_scheduler2",
 	"paths" : 
 	{
 		"build" : ".",
@@ -148,7 +148,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "tests/test_scheduler.cc",
+			"path" : "tests/test_scheduler2.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

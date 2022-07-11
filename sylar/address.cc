@@ -93,7 +93,10 @@ namespace sylar {
         if (node.empty()) {
             node = host;
         }
+        //获取到的是网络大端地址
         int error = getaddrinfo(node.c_str(), service, &hints, &results);
+        const sockaddr_in* tmp_addr = (const sockaddr_in*) results->ai_addr;
+        SYLAR_LOG_DEBUG(g_logger) << tmp_addr;
         if (error) {
             SYLAR_LOG_DEBUG(g_logger) << "Address::Lookup getaddress(" << host << ", "
                 << family << ", " << type << ") err=" << error << " errstr="
@@ -274,7 +277,7 @@ namespace sylar {
 
     IPv4Address::ptr IPv4Address::Create(const char* address, uint16_t port) {
         IPv4Address::ptr rt(new IPv4Address);
-        rt->m_addr.sin_port = htons(port);
+        rt->m_addr.sin_port = byteswapOnLittleEndian(port);
         int result = inet_pton(AF_INET, address, &rt->m_addr.sin_addr);
         if (result <= 0) {
             SYLAR_LOG_DEBUG(g_logger) << "IPv4Address::Create(" << address << ", "
@@ -292,11 +295,12 @@ namespace sylar {
     IPv4Address::IPv4Address(uint32_t address, uint16_t port) {
         memset(&m_addr, 0, sizeof(m_addr));
         m_addr.sin_family = AF_INET;
-        m_addr.sin_port = htons(port);
-        m_addr.sin_addr.s_addr = htons(address);
+        m_addr.sin_port = byteswapOnLittleEndian(port);
+        m_addr.sin_addr.s_addr = byteswapOnLittleEndian(address);
     }
 
     sockaddr* IPv4Address::getAddr() {
+        //58 205 101 39
         return (sockaddr*) &m_addr;
     }
 
@@ -309,12 +313,12 @@ namespace sylar {
     }
 
     std::ostream& IPv4Address::insert(std::ostream& os) const {
-        uint32_t addr = htons(m_addr.sin_addr.s_addr);
+        uint32_t addr = byteswapOnLittleEndian(m_addr.sin_addr.s_addr);
         os << ((addr >> 24) & 0xff) << "."
             << ((addr >> 16) & 0xff) << "."
             << ((addr >> 8) & 0xff) << "."
             << (addr & 0xff);
-        os << ":" << htons(m_addr.sin_port);
+        os << ":" << byteswapOnLittleEndian(m_addr.sin_port);
         return os;
     }
 
@@ -324,7 +328,7 @@ namespace sylar {
         }
 
         sockaddr_in baddr(m_addr);
-        baddr.sin_addr.s_addr |= htons(
+        baddr.sin_addr.s_addr |= byteswapOnLittleEndian(
             CreateMask<uint32_t>(prefix_len));
         return IPv4Address::ptr(new IPv4Address(baddr));
     }
@@ -335,7 +339,7 @@ namespace sylar {
         }
 
         sockaddr_in baddr(m_addr);
-        baddr.sin_addr.s_addr &= htons(
+        baddr.sin_addr.s_addr &= byteswapOnLittleEndian(
             CreateMask<uint32_t>(prefix_len));
         return IPv4Address::ptr(new IPv4Address(baddr));
     }
@@ -344,21 +348,21 @@ namespace sylar {
         sockaddr_in subnet;
         memset(&subnet, 0, sizeof(subnet));
         subnet.sin_family = AF_INET;
-        subnet.sin_addr.s_addr = ~htons(CreateMask<uint32_t>(prefix_len));
+        subnet.sin_addr.s_addr = ~byteswapOnLittleEndian(CreateMask<uint32_t>(prefix_len));
         return IPv4Address::ptr(new IPv4Address(subnet));
     }
 
     uint32_t IPv4Address::getPort() const {
-        return htons(m_addr.sin_port);
+        return byteswapOnLittleEndian(m_addr.sin_port);
     }
 
     void IPv4Address::setPort(uint16_t v) {
-        m_addr.sin_port = htons(v);
+        m_addr.sin_port = byteswapOnLittleEndian(v);
     }
 
     IPv6Address::ptr IPv6Address::Create(const char* address, uint16_t port) {
         IPv6Address::ptr rt(new IPv6Address);
-        rt->m_addr.sin6_port = htons(port);
+        rt->m_addr.sin6_port = byteswapOnLittleEndian(port);
         int result = inet_pton(AF_INET6, address, &rt->m_addr.sin6_addr);
         if (result <= 0) {
             SYLAR_LOG_DEBUG(g_logger) << "IPv6Address::Create(" << address << ", "
@@ -381,7 +385,7 @@ namespace sylar {
     IPv6Address::IPv6Address(const uint8_t address[16], uint16_t port) {
         memset(&m_addr, 0, sizeof(m_addr));
         m_addr.sin6_family = AF_INET6;
-        m_addr.sin6_port = htons(port);
+        m_addr.sin6_port = byteswapOnLittleEndian(port);
         memcpy(&m_addr.sin6_addr.s6_addr, address, 16);
     }
 
@@ -412,14 +416,14 @@ namespace sylar {
             if (i) {
                 os << ":";
             }
-            os << std::hex << (int) htons(addr[i]) << std::dec;
+            os << std::hex << (int) byteswapOnLittleEndian(addr[i]) << std::dec;
         }
 
         if (!used_zeros && addr[7] == 0) {
             os << "::";
         }
 
-        os << "]:" << htons(m_addr.sin6_port);
+        os << "]:" << byteswapOnLittleEndian(m_addr.sin6_port);
         return os;
     }
 
@@ -457,11 +461,11 @@ namespace sylar {
     }
 
     uint32_t IPv6Address::getPort() const {
-        return htons(m_addr.sin6_port);
+        return byteswapOnLittleEndian(m_addr.sin6_port);
     }
 
     void IPv6Address::setPort(uint16_t v) {
-        m_addr.sin6_port = htons(v);
+        m_addr.sin6_port = byteswapOnLittleEndian(v);
     }
 
     static const size_t MAX_PATH_LEN = sizeof(((sockaddr_un*) 0)->sun_path) - 1;

@@ -8,8 +8,10 @@
             "name": "g++ - 生成调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/test_http_parser",
-            "args": [],
+            "program": "${workspaceFolder}/bin/echo_server",
+            "args": [
+                "t"
+            ],
             "stopAtConnect": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

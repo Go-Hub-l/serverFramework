@@ -879,4 +879,5 @@ CMakeFiles/sylar.dir/sylar/socket.cc.o: \
  /usr/include/bits/ioctls.h /usr/include/asm/ioctls.h \
  /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
  /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
- /usr/include/bits/ioctl-types.h /usr/include/sys/ttydefaults.h
+ /usr/include/bits/ioctl-types.h /usr/include/sys/ttydefaults.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/endian.h

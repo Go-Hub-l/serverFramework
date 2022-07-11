@@ -52,7 +52,8 @@ extern "C++" {
 #define SYLAR_BYTE_ORDER SYLAR_LITTLE_ENDIAN
 #endif
 
-#if SYLAR_BYTE_ORDER == SYLAR_BIG_ENDIAN
+#if SYLAR_BYTE_ORDER == SYLAR_LITTLE_ENDIAN 
+//#if SYLAR_BYTE_ORDER == SYLAR_BIG_ENDIAN 
 
     /**
      * @brief 只在小端机器上执行byteswap, 在大端机器上什么都不做
