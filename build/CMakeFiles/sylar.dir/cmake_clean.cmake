@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sylar.dir/sylar/http/http.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.o"
   "CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.o.d"
+  "CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o"
+  "CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o"
   "CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/http/http_server.cc.o"
@@ -47,6 +49,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sylar.dir/sylar/thread.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/timer.cc.o"
   "CMakeFiles/sylar.dir/sylar/timer.cc.o.d"
+  "CMakeFiles/sylar.dir/sylar/uri.cc.o"
+  "CMakeFiles/sylar.dir/sylar/uri.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/util.cc.o"
   "CMakeFiles/sylar.dir/sylar/util.cc.o.d"
 )

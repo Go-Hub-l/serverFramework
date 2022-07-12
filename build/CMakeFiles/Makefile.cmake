@@ -43,11 +43,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/test_uri.dir/DependInfo.cmake"
+  "CMakeFiles/test_http_connection.dir/DependInfo.cmake"
   "CMakeFiles/test_http_server.dir/DependInfo.cmake"
   "CMakeFiles/test_scheduler.dir/DependInfo.cmake"
   "CMakeFiles/test_socket.dir/DependInfo.cmake"
   "CMakeFiles/test_thread.dir/DependInfo.cmake"
   "CMakeFiles/test_bytearray.dir/DependInfo.cmake"
+  "CMakeFiles/my_http_server.dir/DependInfo.cmake"
   "CMakeFiles/test_config.dir/DependInfo.cmake"
   "CMakeFiles/test_fiber.dir/DependInfo.cmake"
   "CMakeFiles/sylar.dir/DependInfo.cmake"

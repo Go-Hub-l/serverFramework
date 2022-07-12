@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/CPP/sylar/workspace/serverFramework/sylar/hook.cc" "CMakeFiles/sylar.dir/sylar/hook.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/hook.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/http/http.cc" "CMakeFiles/sylar.dir/sylar/http/http.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/http/http11_parser.rl.cc" "CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.o.d"
+  "/root/CPP/sylar/workspace/serverFramework/sylar/http/http_connection.cc" "CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/http/http_parser.cc" "CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/http/http_server.cc" "CMakeFiles/sylar.dir/sylar/http/http_server.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_server.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/http/http_session.cc" "CMakeFiles/sylar.dir/sylar/http/http_session.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_session.cc.o.d"
@@ -31,6 +32,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/CPP/sylar/workspace/serverFramework/sylar/tcp_server.cc" "CMakeFiles/sylar.dir/sylar/tcp_server.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/tcp_server.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/thread.cc" "CMakeFiles/sylar.dir/sylar/thread.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/thread.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/timer.cc" "CMakeFiles/sylar.dir/sylar/timer.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/timer.cc.o.d"
+  "/root/CPP/sylar/workspace/serverFramework/sylar/uri.cc" "CMakeFiles/sylar.dir/sylar/uri.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/uri.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/util.cc" "CMakeFiles/sylar.dir/sylar/util.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/util.cc.o.d"
   )
 
