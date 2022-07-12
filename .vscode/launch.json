@@ -8,7 +8,7 @@
             "name": "g++ - 生成调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/echo_server",
+            "program": "${workspaceFolder}/bin/test_http_server",
             "args": [
                 "t"
             ],

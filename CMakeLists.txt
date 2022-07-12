@@ -21,11 +21,16 @@ set(LIB_SRC
     sylar/http/http11_parser.rl.cc
     sylar/http/httpclient_parser.rl.cc
     sylar/http/http_parser.cc
+    sylar/http/http_session.cc
+    sylar/http/http_server.cc
+    sylar/http/servlet.cc
     sylar/iomanager.cc
     sylar/log.cc
     sylar/mutex.cc
     sylar/scheduler.cc
     sylar/socket.cc
+    sylar/stream.cc
+    sylar/streams/socket_stream.cc
     sylar/tcp_server.cc
     sylar/timer.cc
     sylar/thread.cc
@@ -99,6 +104,10 @@ target_link_libraries(test_tcp_server sylar ${PTHREAD} ${YAMLCPP})
 add_executable(echo_server examples/echo_server.cc)
 add_dependencies(echo_server sylar)
 target_link_libraries(echo_server sylar ${PTHREAD} ${YAMLCPP})
+
+add_executable(test_http_server tests/test_http_server.cc)
+add_dependencies(test_http_server sylar)
+target_link_libraries(test_http_server sylar ${PTHREAD} ${YAMLCPP})
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

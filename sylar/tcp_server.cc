@@ -83,11 +83,13 @@ namespace sylar {
                 //处理连接成功的客户端任务
                 m_ioWorker->schedule(std::bind(&TcpServer::handleClient,
                     shared_from_this(), client));
+                SYLAR_LOG_DEBUG(g_logger) << "Accept success:" << *client;
             } else if (errno != 11) {//11 表示非阻塞套接字的事件未到达
                 SYLAR_LOG_ERROR(g_logger) << "accept errno=" << errno
                     << " errstr=" << strerror(errno);
             }
         }
+        SYLAR_LOG_DEBUG(g_logger) << "Accept finished!";
     }
 
     bool TcpServer::start() {
