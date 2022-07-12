@@ -1,6 +1,7 @@
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/rebuild_cache.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/edit_cache.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_uri.dir
+/root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_env.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_http_connection.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_http_server.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_scheduler.dir

@@ -21,6 +21,11 @@
 },
 {
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/env.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/env.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/env.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
   "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/fiber.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/fiber.cc",
   "file": "/root/CPP/sylar/workspace/serverFramework/sylar/fiber.cc"
 },
@@ -138,6 +143,11 @@
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",
   "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_uri.dir/tests/test_uri.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_uri.cc",
   "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_uri.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_env.dir/tests/test_env.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_env.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_env.cc"
 },
 {
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",

@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sylar.dir/sylar/config.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/daemon.cc.o"
   "CMakeFiles/sylar.dir/sylar/daemon.cc.o.d"
+  "CMakeFiles/sylar.dir/sylar/env.cc.o"
+  "CMakeFiles/sylar.dir/sylar/env.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/fd_manager.cc.o"
   "CMakeFiles/sylar.dir/sylar/fd_manager.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/fiber.cc.o"

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/CPP/sylar/workspace/serverFramework/sylar/bytearray.cc" "CMakeFiles/sylar.dir/sylar/bytearray.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/bytearray.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/config.cc" "CMakeFiles/sylar.dir/sylar/config.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/config.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/daemon.cc" "CMakeFiles/sylar.dir/sylar/daemon.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/daemon.cc.o.d"
+  "/root/CPP/sylar/workspace/serverFramework/sylar/env.cc" "CMakeFiles/sylar.dir/sylar/env.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/env.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/fd_manager.cc" "CMakeFiles/sylar.dir/sylar/fd_manager.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/fd_manager.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/fiber.cc" "CMakeFiles/sylar.dir/sylar/fiber.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/fiber.cc.o.d"
   "/root/CPP/sylar/workspace/serverFramework/sylar/hook.cc" "CMakeFiles/sylar.dir/sylar/hook.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/hook.cc.o.d"

@@ -16,6 +16,7 @@ set(LIB_SRC
     sylar/bytearray.cc
     sylar/config.cc
     sylar/daemon.cc
+    sylar/env.cc
     sylar/fiber.cc
     sylar/fd_manager.cc
     sylar/http/http.cc
@@ -127,6 +128,10 @@ target_link_libraries(my_http_server sylar ${PTHREAD} ${YAMLCPP})
 add_executable(test_daemon tests/test_daemon.cc)
 add_dependencies(test_daemon sylar)
 target_link_libraries(test_daemon sylar ${PTHREAD} ${YAMLCPP})
+
+add_executable(test_env tests/test_env.cc)
+add_dependencies(test_env sylar)
+target_link_libraries(test_env sylar ${PTHREAD} ${YAMLCPP})
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

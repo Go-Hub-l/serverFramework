@@ -8,9 +8,9 @@
             "name": "g++ - 生成调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/test_daemon",
+            "program": "${workspaceFolder}/bin/test_env",
             "args": [
-                "t"
+                "-s"
             ],
             "stopAtConnect": false,
             "cwd": "${workspaceFolder}",
