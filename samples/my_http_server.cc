@@ -11,8 +11,8 @@ void run() {
         return;
     }
 
-    sylar::http::HttpServer::ptr http_server(new sylar::http::HttpServer(true, worker.get()));
-    //sylar::http::HttpServer::ptr http_server(new sylar::http::HttpServer(true));
+    //sylar::http::HttpServer::ptr http_server(new sylar::http::HttpServer(true, worker.get()));
+    sylar::http::HttpServer::ptr http_server(new sylar::http::HttpServer(true));
     bool ssl = false;
     while (!http_server->bind(addr, ssl)) {
         SYLAR_LOG_ERROR(g_logger) << "bind " << *addr << " fail";
@@ -27,8 +27,12 @@ void run() {
 }
 
 int main(int argc, char** argv) {
-    sylar::IOManager iom(1);
-    worker.reset(new sylar::IOManager(4, false));
+    /*一个线程时无响应，因为一个线程一直在accept，
+    不会主动让出执行权，故需两个线程，
+    一个bug,sylar的里面可以一个线程，
+    我想应该是添加了定时器，之后调试*/
+    sylar::IOManager iom(2);
+    //worker.reset(new sylar::IOManager(4, false));
     iom.schedule(run);
     return 0;
 }

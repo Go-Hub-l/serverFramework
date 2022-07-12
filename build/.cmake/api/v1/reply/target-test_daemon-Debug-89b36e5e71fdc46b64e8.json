@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/root/CPP/sylar/workspace/serverFramework/bin/test_tcp_server"
+			"path" : "/root/CPP/sylar/workspace/serverFramework/bin/test_daemon"
 		}
 	],
 	"backtrace" : 1,
@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 102,
+				"line" : 127,
 				"parent" : 0
 			},
 			{
@@ -40,19 +40,19 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 104,
+				"line" : 129,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 103,
+				"line" : 128,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 43,
+				"line" : 44,
 				"parent" : 0
 			}
 		]
@@ -87,7 +87,7 @@
 			"id" : "sylar::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "test_tcp_server::@6890427a1f51a3e7e1df",
+	"id" : "test_daemon::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -126,8 +126,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_tcp_server",
-	"nameOnDisk" : "test_tcp_server",
+	"name" : "test_daemon",
+	"nameOnDisk" : "test_daemon",
 	"paths" : 
 	{
 		"build" : ".",
@@ -148,7 +148,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "tests/test_tcp_server.cc",
+			"path" : "tests/test_daemon.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

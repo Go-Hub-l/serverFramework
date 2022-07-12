@@ -55,6 +55,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_fiber.dir/DependInfo.cmake"
   "CMakeFiles/sylar.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
+  "CMakeFiles/test_daemon.dir/DependInfo.cmake"
   "CMakeFiles/test_iomanager.dir/DependInfo.cmake"
   "CMakeFiles/test_scheduler2.dir/DependInfo.cmake"
   "CMakeFiles/test_hook.dir/DependInfo.cmake"

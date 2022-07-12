@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/root/CPP/sylar/workspace/serverFramework/bin/test_http_connection"
+			"path" : "/root/CPP/sylar/workspace/serverFramework/bin/test_http_server"
 		}
 	],
 	"backtrace" : 1,
@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 114,
+				"line" : 111,
 				"parent" : 0
 			},
 			{
@@ -40,19 +40,19 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 116,
+				"line" : 113,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 115,
+				"line" : 112,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 43,
+				"line" : 44,
 				"parent" : 0
 			}
 		]
@@ -87,7 +87,7 @@
 			"id" : "sylar::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "test_http_connection::@6890427a1f51a3e7e1df",
+	"id" : "test_http_server::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -126,8 +126,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_http_connection",
-	"nameOnDisk" : "test_http_connection",
+	"name" : "test_http_server",
+	"nameOnDisk" : "test_http_server",
 	"paths" : 
 	{
 		"build" : ".",
@@ -148,7 +148,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "tests/test_http_connection.cc",
+			"path" : "tests/test_http_server.cc",
 			"sourceGroupIndex" : 0
 		}
 	],
