@@ -156,17 +156,22 @@ CMakeFiles/sylar.dir/sylar/daemon.cc.o: \
  /usr/include/c++/8/x86_64-redhat-linux/bits/time_members.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/8/bits/locale_facets_nonio.tcc \
- /usr/include/c++/8/bits/locale_conv.h /usr/local/include/yaml-cpp/yaml.h \
- /usr/local/include/yaml-cpp/parser.h /usr/local/include/yaml-cpp/dll.h \
- /usr/local/include/yaml-cpp/emitter.h /usr/include/c++/8/cmath \
- /usr/include/math.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/c++/8/bits/locale_conv.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/json/json.h \
+ /usr/include/c++/8/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/8/cstddef /usr/include/c++/8/deque \
+ /usr/include/c++/8/bits/stl_deque.h /usr/include/c++/8/bits/deque.tcc \
+ /usr/include/c++/8/stack /usr/include/c++/8/bits/stl_stack.h \
+ /usr/local/include/yaml-cpp/yaml.h /usr/local/include/yaml-cpp/parser.h \
+ /usr/local/include/yaml-cpp/dll.h /usr/local/include/yaml-cpp/emitter.h \
+ /usr/include/c++/8/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
  /usr/include/bits/fp-fast.h \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/8/cstddef \
- /usr/include/c++/8/limits /usr/local/include/yaml-cpp/binary.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/8/limits \
+ /usr/local/include/yaml-cpp/binary.h \
  /usr/local/include/yaml-cpp/emitterdef.h \
  /usr/local/include/yaml-cpp/emittermanip.h \
  /usr/local/include/yaml-cpp/null.h \
@@ -413,9 +418,8 @@ CMakeFiles/sylar.dir/sylar/daemon.cc.o: \
  /usr/include/boost/range/end.hpp \
  /usr/include/boost/range/detail/implementation_help.hpp \
  /usr/include/boost/range/detail/common.hpp \
- /usr/include/boost/range/detail/sfinae.hpp /usr/include/string.h \
- /usr/include/strings.h /usr/include/boost/range/size.hpp \
- /usr/include/boost/range/size_type.hpp \
+ /usr/include/boost/range/detail/sfinae.hpp \
+ /usr/include/boost/range/size.hpp /usr/include/boost/range/size_type.hpp \
  /usr/include/boost/range/difference_type.hpp \
  /usr/include/boost/range/has_range_iterator.hpp \
  /usr/include/boost/utility/enable_if.hpp \
@@ -548,7 +552,6 @@ CMakeFiles/sylar.dir/sylar/daemon.cc.o: \
  /usr/include/boost/move/detail/std_ns_begin.hpp \
  /usr/include/boost/move/detail/std_ns_end.hpp \
  /usr/include/boost/lexical_cast/detail/converter_lexical_streams.hpp \
- /usr/include/c++/8/cstring \
  /usr/include/boost/lexical_cast/detail/lcast_char_constants.hpp \
  /usr/include/boost/lexical_cast/detail/lcast_unsigned_converters.hpp \
  /usr/include/boost/noncopyable.hpp \
@@ -818,13 +821,65 @@ CMakeFiles/sylar.dir/sylar/daemon.cc.o: \
  /usr/include/boost/math/tools/real_cast.hpp \
  /usr/include/boost/integer.hpp /usr/include/boost/integer_fwd.hpp \
  /usr/include/boost/detail/basic_pointerbuf.hpp \
- /root/CPP/sylar/workspace/serverFramework/sylar/thread.h \
- /usr/include/c++/8/thread /usr/include/c++/8/chrono \
+ /usr/local/include/google/protobuf/message.h \
+ /usr/local/include/google/protobuf/stubs/casts.h \
+ /usr/local/include/google/protobuf/stubs/common.h \
+ /usr/local/include/google/protobuf/stubs/macros.h \
+ /usr/local/include/google/protobuf/stubs/platform_macros.h \
+ /usr/local/include/google/protobuf/stubs/port.h \
+ /usr/local/include/google/protobuf/port_def.inc \
+ /usr/local/include/google/protobuf/port_undef.inc \
+ /usr/local/include/google/protobuf/stubs/stringpiece.h \
+ /usr/local/include/google/protobuf/stubs/hash.h \
+ /usr/include/c++/8/unordered_set /usr/include/c++/8/bits/unordered_set.h \
+ /usr/local/include/google/protobuf/arena.h \
+ /usr/local/include/google/protobuf/arena_impl.h \
+ /usr/local/include/google/protobuf/stubs/logging.h \
+ /usr/local/include/google/protobuf/stubs/status.h \
+ /usr/local/include/google/protobuf/arenaz_sampler.h \
+ /usr/local/include/google/protobuf/port.h \
+ /usr/local/include/google/protobuf/descriptor.h \
+ /usr/local/include/google/protobuf/stubs/mutex.h \
+ /usr/include/c++/8/mutex /usr/include/c++/8/chrono \
  /usr/include/c++/8/ratio /usr/include/c++/8/bits/parse_numbers.h \
+ /usr/include/c++/8/bits/std_mutex.h \
+ /usr/local/include/google/protobuf/stubs/once.h \
+ /usr/local/include/google/protobuf/generated_message_reflection.h \
+ /usr/local/include/google/protobuf/generated_enum_reflection.h \
+ /usr/local/include/google/protobuf/stubs/strutil.h \
+ /usr/local/include/google/protobuf/generated_enum_util.h \
+ /usr/local/include/google/protobuf/message_lite.h \
+ /usr/local/include/google/protobuf/io/coded_stream.h \
+ /usr/local/include/google/protobuf/explicitly_constructed.h \
+ /usr/local/include/google/protobuf/metadata_lite.h \
+ /usr/local/include/google/protobuf/unknown_field_set.h \
+ /usr/local/include/google/protobuf/io/zero_copy_stream_impl_lite.h \
+ /usr/local/include/google/protobuf/stubs/callback.h \
+ /usr/local/include/google/protobuf/io/zero_copy_stream.h \
+ /usr/local/include/google/protobuf/stubs/stl_util.h \
+ /usr/local/include/google/protobuf/parse_context.h \
+ /usr/local/include/google/protobuf/arenastring.h \
+ /usr/local/include/google/protobuf/endian.h \
+ /usr/local/include/google/protobuf/implicit_weak_message.h \
+ /usr/local/include/google/protobuf/repeated_field.h \
+ /usr/local/include/google/protobuf/repeated_ptr_field.h \
+ /usr/local/include/google/protobuf/inlined_string_field.h \
+ /usr/local/include/google/protobuf/wire_format_lite.h \
+ /usr/local/include/google/protobuf/generated_message_util.h \
+ /usr/local/include/google/protobuf/any.h \
+ /usr/local/include/google/protobuf/has_bits.h \
+ /usr/local/include/google/protobuf/map.h \
+ /usr/local/include/google/protobuf/map_type_handler.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/util/json_util.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/thread.h \
+ /usr/include/c++/8/thread \
  /root/CPP/sylar/workspace/serverFramework/sylar/mutex.h \
  /usr/include/semaphore.h /usr/include/bits/semaphore.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/noncopyable.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/fiber.h \
+ /usr/include/ucontext.h /usr/include/bits/indirect-return.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/types/stack_t.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/config.h \
- /usr/include/c++/8/unordered_set /usr/include/c++/8/bits/unordered_set.h \
  /usr/include/sys/wait.h /usr/include/signal.h /usr/include/bits/signum.h \
  /usr/include/bits/signum-generic.h \
  /usr/include/bits/types/sig_atomic_t.h \
@@ -833,7 +888,6 @@ CMakeFiles/sylar.dir/sylar/daemon.cc.o: \
  /usr/include/bits/siginfo-consts-arch.h \
  /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
  /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
- /usr/include/bits/sigcontext.h /usr/include/bits/types/stack_t.h \
- /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
  /usr/include/bits/ss_flags.h /usr/include/bits/types/struct_sigstack.h \
  /usr/include/bits/sigthread.h

@@ -18,6 +18,7 @@
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_scheduler2.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_hook.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_address.dir
+/root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/main.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_tcp_server.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_http.dir
 /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles/test_http_parser.dir

@@ -26,6 +26,7 @@ namespace sylar {
             , sylar::http::HttpSession::ptr session) {
             auto slt = getMatchedServlet(request->getPath());
             if (slt) {
+                //调用slt的handle函数处理
                 slt->handle(request, response, session);
             }
             return 0;

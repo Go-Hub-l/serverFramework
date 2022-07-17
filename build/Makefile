@@ -354,6 +354,19 @@ test_address/fast:
 .PHONY : test_address/fast
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
 # Target rules for targets named test_tcp_server
 
 # Build rule for target.
@@ -476,6 +489,30 @@ sylar/address.s: sylar/address.cc.s
 sylar/address.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/address.cc.s
 .PHONY : sylar/address.cc.s
+
+sylar/application.o: sylar/application.cc.o
+.PHONY : sylar/application.o
+
+# target to build an object file
+sylar/application.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/application.cc.o
+.PHONY : sylar/application.cc.o
+
+sylar/application.i: sylar/application.cc.i
+.PHONY : sylar/application.i
+
+# target to preprocess a source file
+sylar/application.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/application.cc.i
+.PHONY : sylar/application.cc.i
+
+sylar/application.s: sylar/application.cc.s
+.PHONY : sylar/application.s
+
+# target to generate assembly for a file
+sylar/application.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/application.cc.s
+.PHONY : sylar/application.cc.s
 
 sylar/bytearray.o: sylar/bytearray.cc.o
 .PHONY : sylar/bytearray.o
@@ -837,6 +874,78 @@ sylar/http/servlet.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/servlet.cc.s
 .PHONY : sylar/http/servlet.cc.s
 
+sylar/http/ws_server.o: sylar/http/ws_server.cc.o
+.PHONY : sylar/http/ws_server.o
+
+# target to build an object file
+sylar/http/ws_server.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/ws_server.cc.o
+.PHONY : sylar/http/ws_server.cc.o
+
+sylar/http/ws_server.i: sylar/http/ws_server.cc.i
+.PHONY : sylar/http/ws_server.i
+
+# target to preprocess a source file
+sylar/http/ws_server.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/ws_server.cc.i
+.PHONY : sylar/http/ws_server.cc.i
+
+sylar/http/ws_server.s: sylar/http/ws_server.cc.s
+.PHONY : sylar/http/ws_server.s
+
+# target to generate assembly for a file
+sylar/http/ws_server.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/ws_server.cc.s
+.PHONY : sylar/http/ws_server.cc.s
+
+sylar/http/ws_servlet.o: sylar/http/ws_servlet.cc.o
+.PHONY : sylar/http/ws_servlet.o
+
+# target to build an object file
+sylar/http/ws_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/ws_servlet.cc.o
+.PHONY : sylar/http/ws_servlet.cc.o
+
+sylar/http/ws_servlet.i: sylar/http/ws_servlet.cc.i
+.PHONY : sylar/http/ws_servlet.i
+
+# target to preprocess a source file
+sylar/http/ws_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/ws_servlet.cc.i
+.PHONY : sylar/http/ws_servlet.cc.i
+
+sylar/http/ws_servlet.s: sylar/http/ws_servlet.cc.s
+.PHONY : sylar/http/ws_servlet.s
+
+# target to generate assembly for a file
+sylar/http/ws_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/ws_servlet.cc.s
+.PHONY : sylar/http/ws_servlet.cc.s
+
+sylar/http/ws_session.o: sylar/http/ws_session.cc.o
+.PHONY : sylar/http/ws_session.o
+
+# target to build an object file
+sylar/http/ws_session.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/ws_session.cc.o
+.PHONY : sylar/http/ws_session.cc.o
+
+sylar/http/ws_session.i: sylar/http/ws_session.cc.i
+.PHONY : sylar/http/ws_session.i
+
+# target to preprocess a source file
+sylar/http/ws_session.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/ws_session.cc.i
+.PHONY : sylar/http/ws_session.cc.i
+
+sylar/http/ws_session.s: sylar/http/ws_session.cc.s
+.PHONY : sylar/http/ws_session.s
+
+# target to generate assembly for a file
+sylar/http/ws_session.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/http/ws_session.cc.s
+.PHONY : sylar/http/ws_session.cc.s
+
 sylar/iomanager.o: sylar/iomanager.cc.o
 .PHONY : sylar/iomanager.o
 
@@ -860,6 +969,54 @@ sylar/iomanager.s: sylar/iomanager.cc.s
 sylar/iomanager.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/iomanager.cc.s
 .PHONY : sylar/iomanager.cc.s
+
+sylar/jsoncpp.o: sylar/jsoncpp.cpp.o
+.PHONY : sylar/jsoncpp.o
+
+# target to build an object file
+sylar/jsoncpp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/jsoncpp.cpp.o
+.PHONY : sylar/jsoncpp.cpp.o
+
+sylar/jsoncpp.i: sylar/jsoncpp.cpp.i
+.PHONY : sylar/jsoncpp.i
+
+# target to preprocess a source file
+sylar/jsoncpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/jsoncpp.cpp.i
+.PHONY : sylar/jsoncpp.cpp.i
+
+sylar/jsoncpp.s: sylar/jsoncpp.cpp.s
+.PHONY : sylar/jsoncpp.s
+
+# target to generate assembly for a file
+sylar/jsoncpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/jsoncpp.cpp.s
+.PHONY : sylar/jsoncpp.cpp.s
+
+sylar/library.o: sylar/library.cc.o
+.PHONY : sylar/library.o
+
+# target to build an object file
+sylar/library.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/library.cc.o
+.PHONY : sylar/library.cc.o
+
+sylar/library.i: sylar/library.cc.i
+.PHONY : sylar/library.i
+
+# target to preprocess a source file
+sylar/library.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/library.cc.i
+.PHONY : sylar/library.cc.i
+
+sylar/library.s: sylar/library.cc.s
+.PHONY : sylar/library.s
+
+# target to generate assembly for a file
+sylar/library.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/library.cc.s
+.PHONY : sylar/library.cc.s
 
 sylar/log.o: sylar/log.cc.o
 .PHONY : sylar/log.o
@@ -885,6 +1042,150 @@ sylar/log.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/log.cc.s
 .PHONY : sylar/log.cc.s
 
+sylar/main.o: sylar/main.cc.o
+.PHONY : sylar/main.o
+
+# target to build an object file
+sylar/main.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sylar/main.cc.o
+.PHONY : sylar/main.cc.o
+
+sylar/main.i: sylar/main.cc.i
+.PHONY : sylar/main.i
+
+# target to preprocess a source file
+sylar/main.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sylar/main.cc.i
+.PHONY : sylar/main.cc.i
+
+sylar/main.s: sylar/main.cc.s
+.PHONY : sylar/main.s
+
+# target to generate assembly for a file
+sylar/main.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sylar/main.cc.s
+.PHONY : sylar/main.cc.s
+
+sylar/module.o: sylar/module.cc.o
+.PHONY : sylar/module.o
+
+# target to build an object file
+sylar/module.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module.cc.o
+.PHONY : sylar/module.cc.o
+
+sylar/module.i: sylar/module.cc.i
+.PHONY : sylar/module.i
+
+# target to preprocess a source file
+sylar/module.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module.cc.i
+.PHONY : sylar/module.cc.i
+
+sylar/module.s: sylar/module.cc.s
+.PHONY : sylar/module.s
+
+# target to generate assembly for a file
+sylar/module.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module.cc.s
+.PHONY : sylar/module.cc.s
+
+sylar/module/chat_servlet.o: sylar/module/chat_servlet.cc.o
+.PHONY : sylar/module/chat_servlet.o
+
+# target to build an object file
+sylar/module/chat_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/chat_servlet.cc.o
+.PHONY : sylar/module/chat_servlet.cc.o
+
+sylar/module/chat_servlet.i: sylar/module/chat_servlet.cc.i
+.PHONY : sylar/module/chat_servlet.i
+
+# target to preprocess a source file
+sylar/module/chat_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/chat_servlet.cc.i
+.PHONY : sylar/module/chat_servlet.cc.i
+
+sylar/module/chat_servlet.s: sylar/module/chat_servlet.cc.s
+.PHONY : sylar/module/chat_servlet.s
+
+# target to generate assembly for a file
+sylar/module/chat_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/chat_servlet.cc.s
+.PHONY : sylar/module/chat_servlet.cc.s
+
+sylar/module/my_module.o: sylar/module/my_module.cc.o
+.PHONY : sylar/module/my_module.o
+
+# target to build an object file
+sylar/module/my_module.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/my_module.cc.o
+.PHONY : sylar/module/my_module.cc.o
+
+sylar/module/my_module.i: sylar/module/my_module.cc.i
+.PHONY : sylar/module/my_module.i
+
+# target to preprocess a source file
+sylar/module/my_module.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/my_module.cc.i
+.PHONY : sylar/module/my_module.cc.i
+
+sylar/module/my_module.s: sylar/module/my_module.cc.s
+.PHONY : sylar/module/my_module.s
+
+# target to generate assembly for a file
+sylar/module/my_module.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/my_module.cc.s
+.PHONY : sylar/module/my_module.cc.s
+
+sylar/module/protocol.o: sylar/module/protocol.cc.o
+.PHONY : sylar/module/protocol.o
+
+# target to build an object file
+sylar/module/protocol.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/protocol.cc.o
+.PHONY : sylar/module/protocol.cc.o
+
+sylar/module/protocol.i: sylar/module/protocol.cc.i
+.PHONY : sylar/module/protocol.i
+
+# target to preprocess a source file
+sylar/module/protocol.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/protocol.cc.i
+.PHONY : sylar/module/protocol.cc.i
+
+sylar/module/protocol.s: sylar/module/protocol.cc.s
+.PHONY : sylar/module/protocol.s
+
+# target to generate assembly for a file
+sylar/module/protocol.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/protocol.cc.s
+.PHONY : sylar/module/protocol.cc.s
+
+sylar/module/resource_servlet.o: sylar/module/resource_servlet.cc.o
+.PHONY : sylar/module/resource_servlet.o
+
+# target to build an object file
+sylar/module/resource_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/resource_servlet.cc.o
+.PHONY : sylar/module/resource_servlet.cc.o
+
+sylar/module/resource_servlet.i: sylar/module/resource_servlet.cc.i
+.PHONY : sylar/module/resource_servlet.i
+
+# target to preprocess a source file
+sylar/module/resource_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/resource_servlet.cc.i
+.PHONY : sylar/module/resource_servlet.cc.i
+
+sylar/module/resource_servlet.s: sylar/module/resource_servlet.cc.s
+.PHONY : sylar/module/resource_servlet.s
+
+# target to generate assembly for a file
+sylar/module/resource_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/resource_servlet.cc.s
+.PHONY : sylar/module/resource_servlet.cc.s
+
 sylar/mutex.o: sylar/mutex.cc.o
 .PHONY : sylar/mutex.o
 
@@ -908,6 +1209,30 @@ sylar/mutex.s: sylar/mutex.cc.s
 sylar/mutex.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/mutex.cc.s
 .PHONY : sylar/mutex.cc.s
+
+sylar/protocol.o: sylar/protocol.cc.o
+.PHONY : sylar/protocol.o
+
+# target to build an object file
+sylar/protocol.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/protocol.cc.o
+.PHONY : sylar/protocol.cc.o
+
+sylar/protocol.i: sylar/protocol.cc.i
+.PHONY : sylar/protocol.i
+
+# target to preprocess a source file
+sylar/protocol.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/protocol.cc.i
+.PHONY : sylar/protocol.cc.i
+
+sylar/protocol.s: sylar/protocol.cc.s
+.PHONY : sylar/protocol.s
+
+# target to generate assembly for a file
+sylar/protocol.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/protocol.cc.s
+.PHONY : sylar/protocol.cc.s
 
 sylar/scheduler.o: sylar/scheduler.cc.o
 .PHONY : sylar/scheduler.o
@@ -1124,6 +1449,78 @@ sylar/util.s: sylar/util.cc.s
 sylar/util.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/util.cc.s
 .PHONY : sylar/util.cc.s
+
+sylar/util/hash_util.o: sylar/util/hash_util.cc.o
+.PHONY : sylar/util/hash_util.o
+
+# target to build an object file
+sylar/util/hash_util.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/util/hash_util.cc.o
+.PHONY : sylar/util/hash_util.cc.o
+
+sylar/util/hash_util.i: sylar/util/hash_util.cc.i
+.PHONY : sylar/util/hash_util.i
+
+# target to preprocess a source file
+sylar/util/hash_util.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/util/hash_util.cc.i
+.PHONY : sylar/util/hash_util.cc.i
+
+sylar/util/hash_util.s: sylar/util/hash_util.cc.s
+.PHONY : sylar/util/hash_util.s
+
+# target to generate assembly for a file
+sylar/util/hash_util.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/util/hash_util.cc.s
+.PHONY : sylar/util/hash_util.cc.s
+
+sylar/util/json_util.o: sylar/util/json_util.cc.o
+.PHONY : sylar/util/json_util.o
+
+# target to build an object file
+sylar/util/json_util.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/util/json_util.cc.o
+.PHONY : sylar/util/json_util.cc.o
+
+sylar/util/json_util.i: sylar/util/json_util.cc.i
+.PHONY : sylar/util/json_util.i
+
+# target to preprocess a source file
+sylar/util/json_util.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/util/json_util.cc.i
+.PHONY : sylar/util/json_util.cc.i
+
+sylar/util/json_util.s: sylar/util/json_util.cc.s
+.PHONY : sylar/util/json_util.s
+
+# target to generate assembly for a file
+sylar/util/json_util.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/util/json_util.cc.s
+.PHONY : sylar/util/json_util.cc.s
+
+sylar/worker.o: sylar/worker.cc.o
+.PHONY : sylar/worker.o
+
+# target to build an object file
+sylar/worker.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/worker.cc.o
+.PHONY : sylar/worker.cc.o
+
+sylar/worker.i: sylar/worker.cc.i
+.PHONY : sylar/worker.i
+
+# target to preprocess a source file
+sylar/worker.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/worker.cc.i
+.PHONY : sylar/worker.cc.i
+
+sylar/worker.s: sylar/worker.cc.s
+.PHONY : sylar/worker.s
+
+# target to generate assembly for a file
+sylar/worker.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/worker.cc.s
+.PHONY : sylar/worker.cc.s
 
 tests/test.o: tests/test.cc.o
 .PHONY : tests/test.o
@@ -1590,6 +1987,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... echo_server"
+	@echo "... main"
 	@echo "... my_http_server"
 	@echo "... sylar"
 	@echo "... test"
@@ -1620,6 +2018,9 @@ help:
 	@echo "... sylar/address.o"
 	@echo "... sylar/address.i"
 	@echo "... sylar/address.s"
+	@echo "... sylar/application.o"
+	@echo "... sylar/application.i"
+	@echo "... sylar/application.s"
 	@echo "... sylar/bytearray.o"
 	@echo "... sylar/bytearray.i"
 	@echo "... sylar/bytearray.s"
@@ -1665,15 +2066,51 @@ help:
 	@echo "... sylar/http/servlet.o"
 	@echo "... sylar/http/servlet.i"
 	@echo "... sylar/http/servlet.s"
+	@echo "... sylar/http/ws_server.o"
+	@echo "... sylar/http/ws_server.i"
+	@echo "... sylar/http/ws_server.s"
+	@echo "... sylar/http/ws_servlet.o"
+	@echo "... sylar/http/ws_servlet.i"
+	@echo "... sylar/http/ws_servlet.s"
+	@echo "... sylar/http/ws_session.o"
+	@echo "... sylar/http/ws_session.i"
+	@echo "... sylar/http/ws_session.s"
 	@echo "... sylar/iomanager.o"
 	@echo "... sylar/iomanager.i"
 	@echo "... sylar/iomanager.s"
+	@echo "... sylar/jsoncpp.o"
+	@echo "... sylar/jsoncpp.i"
+	@echo "... sylar/jsoncpp.s"
+	@echo "... sylar/library.o"
+	@echo "... sylar/library.i"
+	@echo "... sylar/library.s"
 	@echo "... sylar/log.o"
 	@echo "... sylar/log.i"
 	@echo "... sylar/log.s"
+	@echo "... sylar/main.o"
+	@echo "... sylar/main.i"
+	@echo "... sylar/main.s"
+	@echo "... sylar/module.o"
+	@echo "... sylar/module.i"
+	@echo "... sylar/module.s"
+	@echo "... sylar/module/chat_servlet.o"
+	@echo "... sylar/module/chat_servlet.i"
+	@echo "... sylar/module/chat_servlet.s"
+	@echo "... sylar/module/my_module.o"
+	@echo "... sylar/module/my_module.i"
+	@echo "... sylar/module/my_module.s"
+	@echo "... sylar/module/protocol.o"
+	@echo "... sylar/module/protocol.i"
+	@echo "... sylar/module/protocol.s"
+	@echo "... sylar/module/resource_servlet.o"
+	@echo "... sylar/module/resource_servlet.i"
+	@echo "... sylar/module/resource_servlet.s"
 	@echo "... sylar/mutex.o"
 	@echo "... sylar/mutex.i"
 	@echo "... sylar/mutex.s"
+	@echo "... sylar/protocol.o"
+	@echo "... sylar/protocol.i"
+	@echo "... sylar/protocol.s"
 	@echo "... sylar/scheduler.o"
 	@echo "... sylar/scheduler.i"
 	@echo "... sylar/scheduler.s"
@@ -1701,6 +2138,15 @@ help:
 	@echo "... sylar/util.o"
 	@echo "... sylar/util.i"
 	@echo "... sylar/util.s"
+	@echo "... sylar/util/hash_util.o"
+	@echo "... sylar/util/hash_util.i"
+	@echo "... sylar/util/hash_util.s"
+	@echo "... sylar/util/json_util.o"
+	@echo "... sylar/util/json_util.i"
+	@echo "... sylar/util/json_util.s"
+	@echo "... sylar/worker.o"
+	@echo "... sylar/worker.i"
+	@echo "... sylar/worker.s"
 	@echo "... tests/test.o"
 	@echo "... tests/test.i"
 	@echo "... tests/test.s"

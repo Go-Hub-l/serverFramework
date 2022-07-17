@@ -106,7 +106,7 @@ namespace sylar {
         }
 
     //     void switchTo(int thread = -1);
-    //     std::ostream& dump(std::ostream& os);
+        std::ostream& dump(std::ostream& os);
     protected:
         /**
          * @brief 通知协程调度器有任务了

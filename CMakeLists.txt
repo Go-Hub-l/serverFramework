@@ -13,6 +13,7 @@ message("***", ${YAMLCPP})
 
 set(LIB_SRC
     sylar/address.cc
+    sylar/application.cc
     sylar/bytearray.cc
     sylar/config.cc
     sylar/daemon.cc
@@ -27,9 +28,20 @@ set(LIB_SRC
     sylar/http/http_session.cc
     sylar/http/http_server.cc
     sylar/http/servlet.cc
+    sylar/http/ws_server.cc
+    sylar/http/ws_servlet.cc
+    sylar/http/ws_session.cc
     sylar/iomanager.cc
+    sylar/jsoncpp.cpp
+    sylar/library.cc
     sylar/log.cc
     sylar/mutex.cc
+    sylar/module.cc
+    sylar/module/chat_servlet.cc
+    sylar/module/my_module.cc
+    sylar/module/protocol.cc
+    sylar/module/resource_servlet.cc
+    sylar/protocol.cc
     sylar/scheduler.cc
     sylar/socket.cc
     sylar/stream.cc
@@ -39,6 +51,9 @@ set(LIB_SRC
     sylar/thread.cc
     sylar/uri.cc
     sylar/util.cc
+    sylar/util/hash_util.cc
+    sylar/util/json_util.cc
+    sylar/worker.cc
     sylar/hook.cc
     )
 
@@ -132,6 +147,10 @@ target_link_libraries(test_daemon sylar ${PTHREAD} ${YAMLCPP})
 add_executable(test_env tests/test_env.cc)
 add_dependencies(test_env sylar)
 target_link_libraries(test_env sylar ${PTHREAD} ${YAMLCPP})
+
+add_executable(main sylar/main.cc)
+add_dependencies(main sylar)
+target_link_libraries(main sylar ${PTHREAD} ${YAMLCPP})
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

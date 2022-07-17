@@ -5,6 +5,9 @@
 #include <stdint.h>
 #include <semaphore.h>
 #include <stdexcept>
+#include "noncopyable.h"
+#include "fiber.h"
+#include <list>
 //#include <thread>
 
 namespace sylar {
@@ -200,6 +203,26 @@ namespace sylar {
         }
     private:
         pthread_spinlock_t m_mutex;
+    };
+
+    class Scheduler;
+    class FiberSemaphore : Noncopyable {
+    public:
+        typedef SpinLock MutexType;
+
+        FiberSemaphore(size_t initial_concurrency = 0);
+        ~FiberSemaphore();
+
+        bool tryWait();
+        void wait();
+        void notify();
+
+        size_t getConcurrency() const { return m_concurrency; }
+        void reset() { m_concurrency = 0; }
+    private:
+        MutexType m_mutex;
+        std::list<std::pair<Scheduler*, Fiber::ptr> > m_waiters;
+        size_t m_concurrency;
     };
 }
 #endif

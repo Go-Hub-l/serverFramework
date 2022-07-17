@@ -1,96 +1,3 @@
-
-// #include <arpa/inet.h>
-// #include <ifaddrs.h>
-// #include <unistd.h>
-// #include <vector>
-// #include <string>
-// #include <execinfo.h>
-// #include <dirent.h>
-// #include <string.h>
-
-// #include <sys/time.h>
-// #include <sys/syscall.h>
-// #include <sys/stat.h>
-// #include <sys/types.h>
-// //#include <google/protobuf/unknown_field_set.h>
-
-// #include "util.h"
-// #include "log.h"
-// #include "fiber.h"
-// #include "sylar.h"
-// #include "fiber.h"
-
-
-
-// namespace sylar {
-
-//     static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");
-
-//     uint32_t getThreadId() {
-
-//     return syscall(SYS_gettid);
-// }
-
-// uint64_t getFiberId() {
-
-//     sylar::Fiber::GetFiberId();
-//     return 0;
-// }
-
-// uint64_t GetCurrentMS() {
-//     struct timeval tv;
-//     gettimeofday(&tv, NULL);
-//     return tv.tv_sec * 1000ul + tv.tv_usec / 1000;
-// }
-
-// uint64_t GetCurrentUS() {
-//     struct timeval tv;
-//     gettimeofday(&tv, NULL);
-//     return tv.tv_sec * 1000 * 1000ul + tv.tv_usec;
-// }
-
-// void Backtrace(std::vector<std::string>& bt, int size, int skip) {
-//     void** array = (void**) malloc((sizeof(void*) * size));
-//     size_t s = ::backtrace(array, size);
-
-//     char** strings = backtrace_symbols(array, s);
-//     if (strings == NULL) {
-//         SYLAR_LOG_ERROR(g_logger) << "backtrace_synbols error";
-//         free(array);
-//         return;
-//     }
-
-//     for (size_t i = skip; i < s; ++i) {
-//         bt.push_back(strings[i]);
-//     }
-
-//     free(strings);
-//     free(array);
-// }
-
-// std::string BacktraceToString(int size, int skip, const std::string& prefix) {
-//     std::vector<std::string> bt;
-//     Backtrace(bt, size, skip);
-//     std::stringstream ss;
-//     for (size_t i = 0; i < bt.size(); ++i) {
-//         ss << prefix << bt[i] << std::endl;
-//     }
-//     return ss.str();
-// }
-
-// // bool FSUtil::Unlink(const std::string& filename, bool exist) {
-// //     if (!exist && __fxstat(filename.c_str())) {
-// //         return true;
-// //     }
-// //     return ::unlink(filename.c_str()) == 0;
-// // }
-
-// }
-
-
-
-
-
 #include "util.h"
 #include <execinfo.h>
 #include <sys/time.h>
@@ -101,8 +8,8 @@
 #include <sys/types.h>
 #include <arpa/inet.h>
 #include <ifaddrs.h>
-//#include <google/protobuf/unknown_field_set.h>
-
+#include <google/protobuf/unknown_field_set.h>
+#include <signal.h>
 #include "log.h"
 #include "fiber.h"
 
@@ -223,6 +130,7 @@ namespace sylar {
                     || !strcmp(dp->d_name, "..")) {
                     continue;
                 }
+                //如果还是目录：递归读取
                 ListAllFile(files, path + "/" + dp->d_name, subfix);
             } else if (dp->d_type == DT_REG) {
                 std::string filename(dp->d_name);
@@ -282,27 +190,27 @@ namespace sylar {
         return false;
     }
 
-    // bool FSUtil::IsRunningPidfile(const std::string& pidfile) {
-    //     if (__lstat(pidfile.c_str()) != 0) {
-    //         return false;
-    //     }
-    //     std::ifstream ifs(pidfile);
-    //     std::string line;
-    //     if (!ifs || !std::getline(ifs, line)) {
-    //         return false;
-    //     }
-    //     if (line.empty()) {
-    //         return false;
-    //     }
-    //     pid_t pid = atoi(line.c_str());
-    //     if (pid <= 1) {
-    //         return false;
-    //     }
-    //     if (kill(pid, 0) != 0) {
-    //         return false;
-    //     }
-    //     return true;
-    // }
+    bool FSUtil::IsRunningPidfile(const std::string& pidfile) {
+        if (__lstat(pidfile.c_str()) != 0) {
+            return false;
+        }
+        std::ifstream ifs(pidfile);
+        std::string line;
+        if (!ifs || !std::getline(ifs, line)) {
+            return false;
+        }
+        if (line.empty()) {
+            return false;
+        }
+        pid_t pid = atoi(line.c_str());
+        if (pid <= 1) {
+            return false;
+        }
+        if (kill(pid, 0) != 0) {
+            return false;
+        }
+        return true;
+    }
 
     bool FSUtil::Unlink(const std::string& filename, bool exist) {
         if (!exist && __lstat(filename.c_str())) {
@@ -683,69 +591,69 @@ namespace sylar {
     //     return ip;
     // }
 
-    // bool YamlToJson(const YAML::Node& ynode, Json::Value& jnode) {
-    //     try {
-    //         if (ynode.IsScalar()) {
-    //             Json::Value v(ynode.Scalar());
-    //             jnode.swapPayload(v);
-    //             return true;
-    //         }
-    //         if (ynode.IsSequence()) {
-    //             for (size_t i = 0; i < ynode.size(); ++i) {
-    //                 Json::Value v;
-    //                 if (YamlToJson(ynode[i], v)) {
-    //                     jnode.append(v);
-    //                 } else {
-    //                     return false;
-    //                 }
-    //             }
-    //         } else if (ynode.IsMap()) {
-    //             for (auto it = ynode.begin();
-    //                 it != ynode.end(); ++it) {
-    //                 Json::Value v;
-    //                 if (YamlToJson(it->second, v)) {
-    //                     jnode[it->first.Scalar()] = v;
-    //                 } else {
-    //                     return false;
-    //                 }
-    //             }
-    //         }
-    //     } catch (...) {
-    //         return false;
-    //     }
-    //     return true;
-    // }
+    bool YamlToJson(const YAML::Node& ynode, Json::Value& jnode) {
+        try {
+            if (ynode.IsScalar()) {
+                Json::Value v(ynode.Scalar());
+                jnode.swapPayload(v);
+                return true;
+            }
+            if (ynode.IsSequence()) {
+                for (size_t i = 0; i < ynode.size(); ++i) {
+                    Json::Value v;
+                    if (YamlToJson(ynode[i], v)) {
+                        jnode.append(v);
+                    } else {
+                        return false;
+                    }
+                }
+            } else if (ynode.IsMap()) {
+                for (auto it = ynode.begin();
+                    it != ynode.end(); ++it) {
+                    Json::Value v;
+                    if (YamlToJson(it->second, v)) {
+                        jnode[it->first.Scalar()] = v;
+                    } else {
+                        return false;
+                    }
+                }
+            }
+        } catch (...) {
+            return false;
+        }
+        return true;
+    }
 
-    // bool JsonToYaml(const Json::Value& jnode, YAML::Node& ynode) {
-    //     try {
-    //         if (jnode.isArray()) {
-    //             for (int i = 0; i < (int) jnode.size(); ++i) {
-    //                 YAML::Node n;
-    //                 if (JsonToYaml(jnode[i], n)) {
-    //                     ynode.push_back(n);
-    //                 } else {
-    //                     return false;
-    //                 }
-    //             }
-    //         } else if (jnode.isObject()) {
-    //             for (auto it = jnode.begin();
-    //                 it != jnode.end();
-    //                 ++it) {
-    //                 YAML::Node n;
-    //                 if (JsonToYaml(*it, n)) {
-    //                     ynode[it.name()] = n;
-    //                 } else {
-    //                     return false;
-    //                 }
-    //             }
-    //         } else {
-    //             ynode = jnode.asString();
-    //         }
-    //     } catch (...) {
-    //         return false;
-    //     }
-    //     return true;
-    // }
+    bool JsonToYaml(const Json::Value& jnode, YAML::Node& ynode) {
+        try {
+            if (jnode.isArray()) {
+                for (int i = 0; i < (int) jnode.size(); ++i) {
+                    YAML::Node n;
+                    if (JsonToYaml(jnode[i], n)) {
+                        ynode.push_back(n);
+                    } else {
+                        return false;
+                    }
+                }
+            } else if (jnode.isObject()) {
+                for (auto it = jnode.begin();
+                    it != jnode.end();
+                    ++it) {
+                    YAML::Node n;
+                    if (JsonToYaml(*it, n)) {
+                        ynode[it.name()] = n;
+                    } else {
+                        return false;
+                    }
+                }
+            } else {
+                ynode = jnode.asString();
+            }
+        } catch (...) {
+            return false;
+        }
+        return true;
+    }
 
     // static void serialize_unknowfieldset(const google::protobuf::UnknownFieldSet& ufs, Json::Value& jnode) {
     //     std::map<int, std::vector<Json::Value> > kvs;

@@ -217,7 +217,12 @@ CMakeFiles/sylar.dir/sylar/socket.cc.o: \
  /usr/include/c++/8/x86_64-redhat-linux/bits/time_members.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/8/bits/locale_facets_nonio.tcc \
- /usr/include/c++/8/bits/locale_conv.h /usr/local/include/yaml-cpp/yaml.h \
+ /usr/include/c++/8/bits/locale_conv.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/json/json.h \
+ /usr/include/c++/8/cstring /usr/include/c++/8/cstddef \
+ /usr/include/c++/8/deque /usr/include/c++/8/bits/stl_deque.h \
+ /usr/include/c++/8/bits/deque.tcc /usr/include/c++/8/stack \
+ /usr/include/c++/8/bits/stl_stack.h /usr/local/include/yaml-cpp/yaml.h \
  /usr/local/include/yaml-cpp/parser.h /usr/local/include/yaml-cpp/dll.h \
  /usr/local/include/yaml-cpp/emitter.h /usr/include/c++/8/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
@@ -226,8 +231,7 @@ CMakeFiles/sylar.dir/sylar/socket.cc.o: \
  /usr/include/bits/fp-fast.h \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/8/cstddef \
- /usr/local/include/yaml-cpp/binary.h \
+ /usr/include/bits/iscanonical.h /usr/local/include/yaml-cpp/binary.h \
  /usr/local/include/yaml-cpp/emitterdef.h \
  /usr/local/include/yaml-cpp/emittermanip.h \
  /usr/local/include/yaml-cpp/null.h \
@@ -601,7 +605,6 @@ CMakeFiles/sylar.dir/sylar/socket.cc.o: \
  /usr/include/boost/move/detail/std_ns_begin.hpp \
  /usr/include/boost/move/detail/std_ns_end.hpp \
  /usr/include/boost/lexical_cast/detail/converter_lexical_streams.hpp \
- /usr/include/c++/8/cstring \
  /usr/include/boost/lexical_cast/detail/lcast_char_constants.hpp \
  /usr/include/boost/lexical_cast/detail/lcast_unsigned_converters.hpp \
  /usr/include/boost/noncopyable.hpp \
@@ -871,6 +874,54 @@ CMakeFiles/sylar.dir/sylar/socket.cc.o: \
  /usr/include/boost/math/tools/real_cast.hpp \
  /usr/include/boost/integer.hpp /usr/include/boost/integer_fwd.hpp \
  /usr/include/boost/detail/basic_pointerbuf.hpp \
+ /usr/local/include/google/protobuf/message.h \
+ /usr/local/include/google/protobuf/stubs/casts.h \
+ /usr/local/include/google/protobuf/stubs/common.h \
+ /usr/local/include/google/protobuf/stubs/macros.h \
+ /usr/local/include/google/protobuf/stubs/platform_macros.h \
+ /usr/local/include/google/protobuf/stubs/port.h \
+ /usr/local/include/google/protobuf/port_def.inc \
+ /usr/local/include/google/protobuf/port_undef.inc \
+ /usr/local/include/google/protobuf/stubs/stringpiece.h \
+ /usr/local/include/google/protobuf/stubs/hash.h \
+ /usr/include/c++/8/unordered_set /usr/include/c++/8/bits/unordered_set.h \
+ /usr/local/include/google/protobuf/arena.h \
+ /usr/local/include/google/protobuf/arena_impl.h \
+ /usr/local/include/google/protobuf/stubs/logging.h \
+ /usr/local/include/google/protobuf/stubs/status.h \
+ /usr/local/include/google/protobuf/arenaz_sampler.h \
+ /usr/local/include/google/protobuf/port.h \
+ /usr/local/include/google/protobuf/descriptor.h \
+ /usr/local/include/google/protobuf/stubs/mutex.h \
+ /usr/include/c++/8/mutex /usr/include/c++/8/bits/std_mutex.h \
+ /usr/local/include/google/protobuf/stubs/once.h \
+ /usr/local/include/google/protobuf/generated_message_reflection.h \
+ /usr/local/include/google/protobuf/generated_enum_reflection.h \
+ /usr/local/include/google/protobuf/stubs/strutil.h \
+ /usr/local/include/google/protobuf/generated_enum_util.h \
+ /usr/local/include/google/protobuf/message_lite.h \
+ /usr/local/include/google/protobuf/io/coded_stream.h \
+ /usr/local/include/google/protobuf/explicitly_constructed.h \
+ /usr/local/include/google/protobuf/metadata_lite.h \
+ /usr/local/include/google/protobuf/unknown_field_set.h \
+ /usr/local/include/google/protobuf/io/zero_copy_stream_impl_lite.h \
+ /usr/local/include/google/protobuf/stubs/callback.h \
+ /usr/local/include/google/protobuf/io/zero_copy_stream.h \
+ /usr/local/include/google/protobuf/stubs/stl_util.h \
+ /usr/local/include/google/protobuf/parse_context.h \
+ /usr/local/include/google/protobuf/arenastring.h \
+ /usr/local/include/google/protobuf/endian.h \
+ /usr/local/include/google/protobuf/implicit_weak_message.h \
+ /usr/local/include/google/protobuf/repeated_field.h \
+ /usr/local/include/google/protobuf/repeated_ptr_field.h \
+ /usr/local/include/google/protobuf/inlined_string_field.h \
+ /usr/local/include/google/protobuf/wire_format_lite.h \
+ /usr/local/include/google/protobuf/generated_message_util.h \
+ /usr/local/include/google/protobuf/any.h \
+ /usr/local/include/google/protobuf/has_bits.h \
+ /usr/local/include/google/protobuf/map.h \
+ /usr/local/include/google/protobuf/map_type_handler.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/util/json_util.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/macro.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/hook.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \

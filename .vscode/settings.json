@@ -46,7 +46,9 @@
         "unordered_set": "cpp",
         "chrono": "cpp",
         "ratio": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp"
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
     "C_Cpp.errorSquiggles": "EnabledIfIncludesResolve"

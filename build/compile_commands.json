@@ -6,6 +6,11 @@
 },
 {
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/application.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/application.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/application.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
   "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/bytearray.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/bytearray.cc",
   "file": "/root/CPP/sylar/workspace/serverFramework/sylar/bytearray.cc"
 },
@@ -76,8 +81,33 @@
 },
 {
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/ws_server.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/ws_server.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/ws_server.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/ws_servlet.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/ws_servlet.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/ws_servlet.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/ws_session.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/ws_session.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/ws_session.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
   "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/iomanager.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/iomanager.cc",
   "file": "/root/CPP/sylar/workspace/serverFramework/sylar/iomanager.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/jsoncpp.cpp.o -c /root/CPP/sylar/workspace/serverFramework/sylar/jsoncpp.cpp",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/jsoncpp.cpp"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/library.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/library.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/library.cc"
 },
 {
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",
@@ -88,6 +118,36 @@
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",
   "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/mutex.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/mutex.cc",
   "file": "/root/CPP/sylar/workspace/serverFramework/sylar/mutex.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/module.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/module.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/module.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/chat_servlet.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/module/chat_servlet.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/module/chat_servlet.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/my_module.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/module/my_module.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/module/my_module.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/protocol.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/module/protocol.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/module/protocol.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/resource_servlet.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/module/resource_servlet.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/module/resource_servlet.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/protocol.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/protocol.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/protocol.cc"
 },
 {
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",
@@ -133,6 +193,21 @@
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",
   "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/util.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/util.cc",
   "file": "/root/CPP/sylar/workspace/serverFramework/sylar/util.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/util/hash_util.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/util/hash_util.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/util/hash_util.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/util/json_util.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/util/json_util.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/util/json_util.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/worker.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/worker.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/worker.cc"
 },
 {
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",
@@ -223,6 +298,11 @@
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",
   "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_address.dir/tests/test_address.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_address.cc",
   "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_address.cc"
+},
+{
+  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
+  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/main.dir/sylar/main.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/main.cc",
+  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/main.cc"
 },
 {
   "directory": "/root/CPP/sylar/workspace/serverFramework/build",

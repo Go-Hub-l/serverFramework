@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 12 07:48:20 2022
+# Make data base, printed on Sun Jul 17 07:59:53 2022
 
 # Variables
 
@@ -33,7 +33,7 @@ CURDIR := /root/CPP/sylar/workspace/serverFramework
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_translationsConfigFile":"/root/.vscode-server/data/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"/root/.vscode-server/data/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # makefile
@@ -49,25 +49,29 @@ LESSOPEN = ||/usr/bin/lesspipe.sh %s
 # environment
 VSCODE_CWD = /root
 # environment
-SSH_CONNECTION = 43.225.208.171 30462 172.26.85.62 22
+SSH_CONNECTION = 43.225.208.171 40164 172.26.85.62 22
 # environment
-PATH = /root/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
+PATH = /root/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/remote-cli:/usr/lib/jvm/jre-1.8.0-openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
 # environment
 XDG_RUNTIME_DIR = /run/user/0
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/0/vscode-ipc-afc3b9fc-9e71-41c6-851c-f939f5bf71e8.sock
+VSCODE_IPC_HOOK_CLI = /run/user/0/vscode-ipc-18464266-9418-4dc0-a912-64b8b8a4f6a0.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # automatic
 %F = $(notdir $%)
+# environment
+_JAVA_OPTIONS = -Xms64m -Xmx64m -Xmn32m
 # environment
 PWD = /root/CPP/sylar/workspace/serverFramework
 # default
 .LOADED := 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
+# environment
+PKG_CONFIG_PATH = /usr/local/lib/pkgconfig/
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -93,11 +97,15 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 5
 # environment
-XDG_SESSION_ID = 142
+JAVA_HOME = /usr/lib/jvm/jre-1.8.0-openjdk
+# environment
+XDG_SESSION_ID = 26
 # environment
 USER = root
 # makefile
 .DEFAULT_GOAL := 
+# environment
+CLASSPATH = .:/usr/lib/jvm/jre-1.8.0-openjdk/lib/dt.jar:/usr/lib/jvm/jre-1.8.0-openjdk/lib/tools.jar
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -111,13 +119,13 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 43.225.208.171 30462 22
+SSH_CLIENT = 43.225.208.171 40164 22
 # environment
 MAIL = /var/spool/mail/root
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /root/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/helpers/browser.sh
+BROWSER = /root/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/helpers/browser.sh
 # environment
 define BASH_FUNC_which%%
 () {  ( alias;
@@ -151,7 +159,7 @@ LANG = C
 # environment
 which_declare = declare -f
 # variable set hash-table stats:
-# Load=67/1024=7%, Rehash=0, Collisions=9/89=10%
+# Load=71/1024=7%, Rehash=0, Collisions=9/93=10%
 
 # Pattern-specific Variable Values
 
@@ -159,9 +167,9 @@ which_declare = declare -f
 
 # Directories
 
-# . (device 64769, inode 34339290): 13 files, no impossibilities.
+# . (device 64769, inode 34339290): 15 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -211,12 +219,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 21 / storage = 167 B / avg = 7 B
-# current buf: size = 8162 B / used = 167 B / count = 21 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 23 / storage = 183 B / avg = 7 B
+# current buf: size = 8162 B / used = 183 B / count = 23 / avg = 7 B
 
-# strcache performance: lookups = 24 / hit rate = 12%
+# strcache performance: lookups = 26 / hit rate = 11%
 # hash-table stats:
-# Load=21/8192=0%, Rehash=0, Collisions=1/24=4%
-# Finished Make data base on Tue Jul 12 07:48:20 2022
+# Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
+# Finished Make data base on Sun Jul 17 07:59:53 2022
 
  

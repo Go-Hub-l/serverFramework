@@ -161,6 +161,7 @@ CMakeFiles/echo_server.dir/examples/echo_server.cc.o: \
  /usr/include/c++/8/ctime /usr/include/c++/8/bits/parse_numbers.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/mutex.h \
  /usr/include/semaphore.h /usr/include/bits/semaphore.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/noncopyable.h \
  /usr/include/c++/8/atomic \
  /root/CPP/sylar/workspace/serverFramework/sylar/timer.h \
  /usr/include/c++/8/set /usr/include/c++/8/bits/stl_set.h \
@@ -201,7 +202,6 @@ CMakeFiles/echo_server.dir/examples/echo_server.cc.o: \
  /usr/include/openssl/sslerr.h /usr/include/openssl/ssl2.h \
  /usr/include/openssl/ssl3.h /usr/include/openssl/tls1.h \
  /usr/include/openssl/dtls1.h /usr/include/openssl/srtp.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/noncopyable.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/config.h \
  /usr/include/c++/8/sstream /usr/include/c++/8/bits/sstream.tcc \
  /usr/include/boost/lexical_cast.hpp /usr/include/boost/config.hpp \
@@ -832,20 +832,8 @@ CMakeFiles/echo_server.dir/examples/echo_server.cc.o: \
  /usr/include/boost/math/tools/real_cast.hpp \
  /usr/include/boost/integer.hpp /usr/include/boost/integer_fwd.hpp \
  /usr/include/boost/detail/basic_pointerbuf.hpp \
- /root/CPP/sylar/workspace/serverFramework/sylar/log.h \
- /usr/include/c++/8/fstream \
- /usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/8/bits/fstream.tcc \
- /root/CPP/sylar/workspace/serverFramework/sylar/singleton.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/util.h \
- /usr/include/c++/8/cxxabi.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/cxxabi_tweaks.h \
- /usr/include/sys/syscall.h /usr/include/asm/unistd.h \
- /usr/include/asm/unistd_64.h /usr/include/bits/syscall.h \
- /usr/include/c++/8/iomanip /usr/local/include/yaml-cpp/yaml.h \
- /usr/local/include/yaml-cpp/parser.h /usr/local/include/yaml-cpp/dll.h \
- /usr/local/include/yaml-cpp/emitter.h \
+ /usr/local/include/yaml-cpp/yaml.h /usr/local/include/yaml-cpp/parser.h \
+ /usr/local/include/yaml-cpp/dll.h /usr/local/include/yaml-cpp/emitter.h \
  /usr/local/include/yaml-cpp/binary.h \
  /usr/local/include/yaml-cpp/emitterdef.h \
  /usr/local/include/yaml-cpp/emittermanip.h \
@@ -877,6 +865,69 @@ CMakeFiles/echo_server.dir/examples/echo_server.cc.o: \
  /usr/local/include/yaml-cpp/node/parse.h \
  /usr/local/include/yaml-cpp/node/emit.h /usr/include/c++/8/unordered_set \
  /usr/include/c++/8/bits/unordered_set.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/log.h \
+ /usr/include/c++/8/fstream \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/8/bits/fstream.tcc \
+ /root/CPP/sylar/workspace/serverFramework/sylar/singleton.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/util.h \
+ /usr/include/c++/8/cxxabi.h \
+ /usr/include/c++/8/x86_64-redhat-linux/bits/cxxabi_tweaks.h \
+ /usr/include/sys/syscall.h /usr/include/asm/unistd.h \
+ /usr/include/asm/unistd_64.h /usr/include/bits/syscall.h \
+ /usr/include/c++/8/iomanip \
+ /root/CPP/sylar/workspace/serverFramework/sylar/json/json.h \
+ /usr/include/c++/8/deque /usr/include/c++/8/bits/stl_deque.h \
+ /usr/include/c++/8/bits/deque.tcc /usr/include/c++/8/stack \
+ /usr/include/c++/8/bits/stl_stack.h \
+ /usr/local/include/google/protobuf/message.h \
+ /usr/local/include/google/protobuf/stubs/casts.h \
+ /usr/local/include/google/protobuf/stubs/common.h \
+ /usr/local/include/google/protobuf/stubs/macros.h \
+ /usr/local/include/google/protobuf/stubs/platform_macros.h \
+ /usr/local/include/google/protobuf/stubs/port.h \
+ /usr/local/include/google/protobuf/port_def.inc \
+ /usr/local/include/google/protobuf/port_undef.inc \
+ /usr/local/include/google/protobuf/stubs/stringpiece.h \
+ /usr/local/include/google/protobuf/stubs/hash.h \
+ /usr/local/include/google/protobuf/arena.h \
+ /usr/local/include/google/protobuf/arena_impl.h \
+ /usr/local/include/google/protobuf/stubs/logging.h \
+ /usr/local/include/google/protobuf/stubs/status.h \
+ /usr/local/include/google/protobuf/arenaz_sampler.h \
+ /usr/local/include/google/protobuf/port.h \
+ /usr/local/include/google/protobuf/descriptor.h \
+ /usr/local/include/google/protobuf/stubs/mutex.h \
+ /usr/include/c++/8/mutex /usr/include/c++/8/bits/std_mutex.h \
+ /usr/local/include/google/protobuf/stubs/once.h \
+ /usr/local/include/google/protobuf/generated_message_reflection.h \
+ /usr/local/include/google/protobuf/generated_enum_reflection.h \
+ /usr/local/include/google/protobuf/stubs/strutil.h \
+ /usr/local/include/google/protobuf/generated_enum_util.h \
+ /usr/local/include/google/protobuf/message_lite.h \
+ /usr/local/include/google/protobuf/io/coded_stream.h \
+ /usr/local/include/google/protobuf/explicitly_constructed.h \
+ /usr/local/include/google/protobuf/metadata_lite.h \
+ /usr/local/include/google/protobuf/unknown_field_set.h \
+ /usr/local/include/google/protobuf/io/zero_copy_stream_impl_lite.h \
+ /usr/local/include/google/protobuf/stubs/callback.h \
+ /usr/local/include/google/protobuf/io/zero_copy_stream.h \
+ /usr/local/include/google/protobuf/stubs/stl_util.h \
+ /usr/local/include/google/protobuf/parse_context.h \
+ /usr/local/include/google/protobuf/arenastring.h \
+ /usr/local/include/google/protobuf/endian.h \
+ /usr/local/include/google/protobuf/implicit_weak_message.h \
+ /usr/local/include/google/protobuf/repeated_field.h \
+ /usr/local/include/google/protobuf/repeated_ptr_field.h \
+ /usr/local/include/google/protobuf/inlined_string_field.h \
+ /usr/local/include/google/protobuf/wire_format_lite.h \
+ /usr/local/include/google/protobuf/generated_message_util.h \
+ /usr/local/include/google/protobuf/any.h \
+ /usr/local/include/google/protobuf/has_bits.h \
+ /usr/local/include/google/protobuf/map.h \
+ /usr/local/include/google/protobuf/map_type_handler.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/util/json_util.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/log.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/iomanager.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/bytearray.h \

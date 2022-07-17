@@ -1,0 +1,3 @@
+    聊天信息：<input id="msg" type="text" /><button onclick="sendmsg()">发送<button><br />
+            <div id="message">
+            </div>

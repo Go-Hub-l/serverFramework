@@ -122,6 +122,12 @@ CMakeFiles/sylar.dir/sylar/fd_manager.cc.o: \
  /usr/include/c++/8/ctime /usr/include/c++/8/bits/parse_numbers.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/mutex.h \
  /usr/include/semaphore.h /usr/include/bits/semaphore.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/noncopyable.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/fiber.h \
+ /usr/include/ucontext.h /usr/include/bits/indirect-return.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/types/stack_t.h \
+ /usr/include/c++/8/list /usr/include/c++/8/bits/stl_list.h \
+ /usr/include/c++/8/bits/list.tcc \
  /root/CPP/sylar/workspace/serverFramework/sylar/singleton.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/hook.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
