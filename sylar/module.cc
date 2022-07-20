@@ -5,6 +5,7 @@
 #include "util.h"
 #include "log.h"
 #include "application.h"
+#include "module/my_module.h"
 
 namespace sylar {
 
@@ -172,15 +173,24 @@ namespace sylar {
     }
 
     void ModuleManager::init() {
-        auto path = EnvMgr::GetInstance()->getAbsolutePath(g_module_path->getValue());
+        /*
+            这里改为自己直接调用CreateModule
+        */
+        //可执行文件所在目录下的module
+        // auto path = EnvMgr::GetInstance()->getAbsolutePath(g_module_path->getValue());
 
-        std::vector<std::string> files;
-        sylar::FSUtil::ListAllFile(files, path, ".so");
+        // std::vector<std::string> files;
+        // //加载单元模块动态库链接
+        // sylar::FSUtil::ListAllFile(files, path, ".so");
 
-        std::sort(files.begin(), files.end());
-        for (auto& i : files) {
-            initModule(i);
-        }
+        // std::sort(files.begin(), files.end());
+        // for (auto& i : files) {
+        //     //初始化单元模块
+        //     initModule(i);
+        // }
+        Module::ptr m(chat::MyModule::CreateModule());
+        //添加
+        add(m);
     }
 
     void ModuleManager::listByType(uint32_t type, std::vector<Module::ptr>& ms) {

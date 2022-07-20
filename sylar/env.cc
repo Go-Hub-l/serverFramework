@@ -17,9 +17,9 @@ namespace sylar {
         sprintf(link, "/proc/%d/exe", getpid());
         //读到连接指向的真正的绝对路径：exe->绝对路径
         readlink(link, path, sizeof(path));
-        // /path/xxx/exe
+        // /path/xxx/exe  获取可执行文件的绝对路径
         m_exe = path;
-
+        //从后往前找到可执行程序所在的的文件夹
         auto pos = m_exe.find_last_of("/");
         m_cwd = m_exe.substr(0, pos) + "/";
 
@@ -30,6 +30,7 @@ namespace sylar {
             if (argv[i][0] == '-') {
                 if (strlen(argv[i]) > 1) {
                     if (now_key) {
+                        //执行main函数时传入的参数保存映射关系
                         add(now_key, "");
                     }
                     now_key = argv[i] + 1;
@@ -119,10 +120,10 @@ namespace sylar {
         if (path.empty()) {
             return "/";
         }
-        if (path[0] == '/') {
+        if (path[0] == '/') {//说明是自己传的配置路径
             return path;
         }
-        return m_cwd + path;
+        return m_cwd + path;//没自己传就使用默认的
     }
 
     std::string Env::getAbsoluteWorkPath(const std::string& path) const {
@@ -138,6 +139,7 @@ namespace sylar {
     }
 
     std::string Env::getConfigPath() {
+        //传配置路径就找到
         return getAbsolutePath(get("c", "conf"));
     }
 

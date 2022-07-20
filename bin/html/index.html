@@ -1,24 +1,4 @@
-<!-- <html>
-
-<head>
-    <title>xlb chat room</title>
-</head>
-<script type="text/javascript">
-    function login() {
-        alert("登录");
-    }
-</script>
-
-
-<body>
-    昵称：<input id="tname" type="text" /><button onclick="login()">登录</button><br />
-    聊天信息：<input id="msg" type="text" /><button onclick="sendmsg()">发送</button><br />
-    <div id="message">
-    </div>
-</body>
-
-</html> -->
-
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -30,7 +10,7 @@
         document.getElementById("message").innerHTML += msg + "<br/>"
     }
     function login() {
-        websocket = new WebSocket("ws://192.168.1.5:8072/sylar/chat");
+        websocket = new WebSocket("ws://www.xlb.design:8090/sylar/chat");
 
         websocket.onerror = function () {
             write_msg("onerror");

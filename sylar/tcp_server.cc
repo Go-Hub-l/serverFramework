@@ -76,9 +76,16 @@ namespace sylar {
     }
 
     void TcpServer::startAccept(Socket::ptr sock) {
+        int i = 0;
         while (!m_isStop) {
+
             Socket::ptr client = sock->accept();
+
             if (client) {
+                if (!i) {
+                    SYLAR_LOG_INFO(g_logger) << "sock=" << sock->getSocket() << "accepting success";
+                    i = 1;
+                }
                 client->setRecvTimeout(m_recvTimeout);
                 //处理连接成功的客户端任务
                 m_ioWorker->schedule(std::bind(&TcpServer::handleClient,

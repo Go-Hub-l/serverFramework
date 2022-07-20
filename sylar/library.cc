@@ -73,6 +73,7 @@ namespace sylar {
             << " version=" << module->getVersion()
             << " path=" << module->getFilename()
             << " success";
+        //加载配置文件
         Config::LoadFromConfDir(sylar::EnvMgr::GetInstance()->getConfigPath(), true);
         return module;
     }

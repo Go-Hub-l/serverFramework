@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-redhat-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul 17 07:59:53 2022
+# Make data base, printed on Wed Jul 20 16:29:09 2022
 
 # Variables
 
@@ -33,9 +31,11 @@ CURDIR := /root/CPP/sylar/workspace/serverFramework
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"/root/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
+# environment
+MAVEN_HOME = /root/LIBRARY/apache-maven-3.8.6
 # makefile
 MAKEFILE_LIST := 
 # environment
@@ -49,15 +49,15 @@ LESSOPEN = ||/usr/bin/lesspipe.sh %s
 # environment
 VSCODE_CWD = /root
 # environment
-SSH_CONNECTION = 43.225.208.171 40164 172.26.85.62 22
+SSH_CONNECTION = 43.225.208.171 43868 172.26.85.62 22
 # environment
-PATH = /root/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/remote-cli:/usr/lib/jvm/jre-1.8.0-openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
+PATH = /root/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/root/LIBRARY/apache-maven-3.8.6/bin:/usr/lib/jvm/jre-1.8.0-openjdk-1.8.0.312.b07-2.el8_5.x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/usr/local/zookeeper/bin
 # environment
 XDG_RUNTIME_DIR = /run/user/0
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/0/vscode-ipc-18464266-9418-4dc0-a912-64b8b8a4f6a0.sock
+VSCODE_IPC_HOOK_CLI = /run/user/0/vscode-ipc-c8c1612a-ea0a-48e3-a1c9-1ee5132367fd.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # automatic
@@ -77,9 +77,11 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /root
 # environment
+LD_LIBRARY_PATH = :/usr/local/lib:/usr/local/lib
+# environment
 LOGNAME = root
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 +F = $(notdir $+)
 # environment
@@ -97,19 +99,21 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 5
 # environment
-JAVA_HOME = /usr/lib/jvm/jre-1.8.0-openjdk
+JAVA_HOME = /usr/lib/jvm/jre-1.8.0-openjdk-1.8.0.312.b07-2.el8_5.x86_64
 # environment
-XDG_SESSION_ID = 26
+XDG_SESSION_ID = 85
 # environment
 USER = root
 # makefile
 .DEFAULT_GOAL := 
 # environment
-CLASSPATH = .:/usr/lib/jvm/jre-1.8.0-openjdk/lib/dt.jar:/usr/lib/jvm/jre-1.8.0-openjdk/lib/tools.jar
+CLASSPATH = .:/usr/lib/jvm/jre-1.8.0-openjdk-1.8.0.312.b07-2.el8_5.x86_64/lib/dt.jar:/usr/lib/jvm/jre-1.8.0-openjdk-1.8.0.312.b07-2.el8_5.x86_64/lib/tools.jar
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := make
+# environment
+OLDPWD = /root/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # default
 .VARIABLES := 
 # automatic
@@ -119,13 +123,13 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 43.225.208.171 40164 22
+SSH_CLIENT = 43.225.208.171 43868 22
 # environment
 MAIL = /var/spool/mail/root
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /root/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/helpers/browser.sh
+BROWSER = /root/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/helpers/browser.sh
 # environment
 define BASH_FUNC_which%%
 () {  ( alias;
@@ -159,7 +163,7 @@ LANG = C
 # environment
 which_declare = declare -f
 # variable set hash-table stats:
-# Load=71/1024=7%, Rehash=0, Collisions=9/93=10%
+# Load=74/1024=7%, Rehash=0, Collisions=9/96=9%
 
 # Pattern-specific Variable Values
 
@@ -225,6 +229,8 @@ GNUmakefile:
 # strcache performance: lookups = 26 / hit rate = 11%
 # hash-table stats:
 # Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
-# Finished Make data base on Sun Jul 17 07:59:53 2022
+# Finished Make data base on Wed Jul 20 16:29:09 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+

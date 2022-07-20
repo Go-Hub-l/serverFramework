@@ -43,6 +43,7 @@ namespace sylar {
     Application* Application::s_instance = nullptr;
 
     Application::Application() {
+        //当前对象实例，所有对象共享
         s_instance = this;
     }
 
@@ -50,27 +51,30 @@ namespace sylar {
         m_argc = argc;
         m_argv = argv;
 
+        //单例对象：添加帮助
         sylar::EnvMgr::GetInstance()->addHelp("s", "start with the terminal");
         sylar::EnvMgr::GetInstance()->addHelp("d", "run as daemon");
         sylar::EnvMgr::GetInstance()->addHelp("c", "conf path default: ./conf");
         sylar::EnvMgr::GetInstance()->addHelp("p", "print help");
 
         bool is_print_help = false;
-        if (!sylar::EnvMgr::GetInstance()->init(argc, argv)) {
+        //环境初始化的目的就是：1 找到可执行文件的路径  2 将传入的参数添加到映射表
+        if (!sylar::EnvMgr::GetInstance()->init(argc, argv)) {//初始化错误打印帮助
             is_print_help = true;
         }
-
+        //传的参数有p打印帮助
         if (sylar::EnvMgr::GetInstance()->has("p")) {
             is_print_help = true;
         }
 
+        //获得配置文件所在的文件夹
         std::string conf_path = sylar::EnvMgr::GetInstance()->getConfigPath();
         SYLAR_LOG_INFO(g_logger) << "load conf path:" << conf_path;
         sylar::Config::LoadFromConfDir(conf_path);
 
-        ModuleMgr::GetInstance()->init();
+        ModuleMgr::GetInstance()->init();//可执行程序下的module模块：因为我的没有，所以不需要加载这个
         std::vector<Module::ptr> modules;
-        //获得所有的module对象
+        //获得所有的module对象到modules中:即刚刚init的Module对象（多态：Module指针指向的MyModule对象）
         ModuleMgr::GetInstance()->listAll(modules);
 
         for (auto i : modules) {
@@ -278,9 +282,9 @@ namespace sylar {
                         << i.cert_file << " key_file=" << i.key_file;
                 }
             }
-            server->setConf(i);
+            server->setConf(i);//这个暂时没看懂
             //server->start();
-            m_servers[i.type].push_back(server);
+            m_servers[i.type].push_back(server);//将Server类型与对应的server对象映射
             svrs.push_back(server);
         }
 
@@ -319,12 +323,12 @@ namespace sylar {
         //     }
         // }
 
-        for (auto& i : modules) {
+        for (auto& i : modules) {//此处调用到my_module.cc模块处执行准备工作
             i->onServerReady();
         }
 
         for (auto& i : svrs) {
-            i->start();
+            i->start();//此处服务器开始监听工作
         }
 
         // if (m_rockSDLoadBalance) {

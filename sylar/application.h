@@ -30,6 +30,7 @@ namespace sylar {
         //std::vector<sylar::http::HttpServer::ptr> m_httpservers;
         std::map<std::string, std::vector<TcpServer::ptr> > m_servers;
         IOManager::ptr m_mainIOManager;
+        //应用实例：所有对象共享
         static Application* s_instance;
 
         //ZKServiceDiscovery::ptr m_serviceDiscovery;

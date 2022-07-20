@@ -184,8 +184,10 @@ namespace sylar {
     static sylar::Mutex s_mutex;
 
     void Config::LoadFromConfDir(const std::string& path, bool force) {
+        //配置文件所在文件夹的绝对路径
         std::string absoulte_path = sylar::EnvMgr::GetInstance()->getAbsolutePath(path);
         std::vector<std::string> files;
+        //将所有的配置文件的绝对路径都保存到files数组中
         FSUtil::ListAllFile(files, absoulte_path, ".yml");
 
         for (auto& i : files) {
@@ -193,12 +195,14 @@ namespace sylar {
                 struct stat st;
                 lstat(i.c_str(), &st);
                 sylar::Mutex::Lock lock(s_mutex);
+                //记录每个配置文件的修改时间
                 if (!force && s_file2modifytime[i] == (uint64_t) st.st_mtime) {
                     continue;
                 }
                 s_file2modifytime[i] = st.st_mtime;
             }
             try {
+                //加载该配置文件
                 YAML::Node root = YAML::LoadFile(i);
                 LoadFromYaml(root);
                 SYLAR_LOG_INFO(g_logger) << "LoadConfFile file="

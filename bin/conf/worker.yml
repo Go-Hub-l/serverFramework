@@ -4,7 +4,7 @@ workers:
     http_io:
         thread_num: 1
     accept:
-        thread_num: 2
+        thread_num: 4
     worker:
         thread_num: 8
     notify:

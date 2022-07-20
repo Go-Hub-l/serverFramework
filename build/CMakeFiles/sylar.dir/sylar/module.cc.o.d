@@ -940,4 +940,6 @@ CMakeFiles/sylar.dir/sylar/module.cc.o: \
  /root/CPP/sylar/workspace/serverFramework/sylar/http/http.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/http/servlet.h \
  /root/CPP/sylar/workspace/serverFramework/sylar/thread.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/util.h
+ /root/CPP/sylar/workspace/serverFramework/sylar/util.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/module/my_module.h \
+ /root/CPP/sylar/workspace/serverFramework/sylar/module.h

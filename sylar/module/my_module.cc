@@ -146,17 +146,17 @@ namespace chat {
         return true;
     }
 
-    extern "C" {
+    // extern "C" {//hook了，加载的时候到这里执行
 
-        sylar::Module* CreateModule() {
+        sylar::Module* MyModule::CreateModule() {
             sylar::Module* module = new chat::MyModule;
             SYLAR_LOG_INFO(chat::g_logger) << "CreateModule " << module;
             return module;
         }
 
-        void DestoryModule(sylar::Module* module) {
+        void MyModule::DestoryModule(sylar::Module* module) {
             SYLAR_LOG_INFO(chat::g_logger) << "CreateModule " << module;
             delete module;
         }
-    }
+    // }
 }

@@ -14,6 +14,8 @@ namespace chat {
         bool onUnload() override;
         bool onServerReady() override;
         bool onServerUp() override;
+        static Module* CreateModule();
+        static void DestoryModule(sylar::Module* module);
     //     static void main();
     // private:
     //     static void run();
