@@ -1017,6 +1017,7 @@ CMakeFiles/test_http.dir/tests/test_http.cc.o: ../tests/test_http.cc \
   /usr/local/include/google/protobuf/has_bits.h \
   /usr/local/include/google/protobuf/map.h \
   /usr/local/include/google/protobuf/map_type_handler.h \
+  ../sylar/util/hash_util.h \
   ../sylar/util/json_util.h \
   ../sylar/thread.h \
   /usr/include/c++/8/thread \
@@ -1044,6 +1045,8 @@ CMakeFiles/test_http.dir/tests/test_http.cc.o: ../tests/test_http.cc \
 ../sylar/thread.h:
 
 ../sylar/util/json_util.h:
+
+../sylar/util/hash_util.h:
 
 /usr/local/include/google/protobuf/map_type_handler.h:
 

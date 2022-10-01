@@ -1,0 +1,1 @@
+/usr/bin/g++  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -rdynamic CMakeFiles/test_mysql.dir/tests/test_mysql.cc.o -o ../bin/test_mysql   -L/usr/lib64/mysql  -Wl,-rpath,/usr/lib64/mysql:/root/projects/CoroutineDFS/lib ../lib/libsylar.so -lpthread -lyaml-cpp 

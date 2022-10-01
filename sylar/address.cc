@@ -4,8 +4,8 @@
 #include <netdb.h>
 #include <ifaddrs.h>
 #include <stddef.h>
-
 #include "endian.h"
+
 
 namespace sylar {
 
@@ -210,7 +210,7 @@ namespace sylar {
         }
 
         Address::ptr result;
-        switch (addr->sa_family) {
+        switch (addr->sa_family) {//简单工厂模式
         case AF_INET:
             result.reset(new IPv4Address(*(const sockaddr_in*) addr));
             break;

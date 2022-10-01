@@ -120,23 +120,12 @@ namespace chat {
             sylar::http::ResourceServlet::ptr slt(new sylar::http::ResourceServlet(
                 sylar::EnvMgr::GetInstance()->getCwd()
             ));
-            slt_dispatch->addGlobServlet("/html/*", slt);
+            sylar::http::LoginServlet::ptr sltLogin(new sylar::http::LoginServlet(
+                sylar::EnvMgr::GetInstance()->getCwd()
+            ));
+            slt_dispatch->addGlobServlet("/test", slt);
+            slt_dispatch->addGlobServlet("/api/login", sltLogin);
             SYLAR_LOG_INFO(g_logger) << "addServlet";
-        }
-
-        svrs.clear();
-        if (!sylar::Application::GetInstance()->getServer("ws", svrs)) {
-            SYLAR_LOG_INFO(g_logger) << "no ws alive";
-            return false;
-        }
-
-        for (auto& i : svrs) {
-            sylar::http::WSServer::ptr ws_server =
-                std::dynamic_pointer_cast<sylar::http::WSServer>(i);
-
-            sylar::http::ServletDispatch::ptr slt_dispatch = ws_server->getWSServletDispatch();
-            ChatWSServlet::ptr slt(new ChatWSServlet);
-            slt_dispatch->addServlet("/sylar/chat", slt);
         }
         return true;
     }

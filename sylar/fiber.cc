@@ -4,8 +4,18 @@
 #include "log.h"
 #include "scheduler.h"
 #include <atomic>
+// #include <iostream>
 
 namespace sylar {
+    class pTr {
+    public:
+        pTr() {
+            std::cout << "construct!\n";
+        }
+        ~pTr() {
+            std::cout << "destruct!\n";
+        }
+    };
 
     static Logger::ptr g_logger = SYLAR_LOG_NAME("system");
 
@@ -55,7 +65,7 @@ namespace sylar {
         :m_id(++s_fiber_id)
         , m_cb(cb) {
         ++s_fiber_count;
-        m_stacksize = stacksize ? stacksize : g_fiber_stack_size->getValue();
+        m_stacksize = stacksize ? stacksize : g_fiber_stack_size->getValue();//协程栈大小设置为128K
 
         m_stack = StackAllocator::Alloc(m_stacksize);
         if (getcontext(&m_ctx)) {
@@ -214,7 +224,6 @@ namespace sylar {
                 << std::endl
                 << sylar::BacktraceToString();
         }
-
         auto raw_ptr = cur.get();
         cur.reset();
         raw_ptr->swapOut();

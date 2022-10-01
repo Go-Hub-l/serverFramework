@@ -51,19 +51,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /usr/local/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/CPP/sylar/workspace/serverFramework
+CMAKE_SOURCE_DIR = /root/projects/CoroutineDFS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/CPP/sylar/workspace/serverFramework/build
+CMAKE_BINARY_DIR = /root/projects/CoroutineDFS/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /root/CPP/sylar/workspace/serverFramework/build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,8 +80,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/local/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -90,9 +90,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles /root/CPP/sylar/workspace/serverFramework/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/CoroutineDFS/build/CMakeFiles /root/projects/CoroutineDFS/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CPP/sylar/workspace/serverFramework/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/CoroutineDFS/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -118,6 +118,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named test_mysql
+
+# Build rule for target.
+test_mysql: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_mysql
+.PHONY : test_mysql
+
+# fast build rule for target.
+test_mysql/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mysql.dir/build.make CMakeFiles/test_mysql.dir/build
+.PHONY : test_mysql/fast
 
 #=============================================================================
 # Target rules for targets named test_uri
@@ -276,17 +289,30 @@ sylar/fast:
 .PHONY : sylar/fast
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named test1
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
+test1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test1
+.PHONY : test1
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+test1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
+.PHONY : test1/fast
+
+#=============================================================================
+# Target rules for targets named echo_server
+
+# Build rule for target.
+echo_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_server
+.PHONY : echo_server
+
+# fast build rule for target.
+echo_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/build
+.PHONY : echo_server/fast
 
 #=============================================================================
 # Target rules for targets named test_daemon
@@ -404,19 +430,6 @@ test_http_parser: cmake_check_build_system
 test_http_parser/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_http_parser.dir/build.make CMakeFiles/test_http_parser.dir/build
 .PHONY : test_http_parser/fast
-
-#=============================================================================
-# Target rules for targets named echo_server
-
-# Build rule for target.
-echo_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_server
-.PHONY : echo_server
-
-# fast build rule for target.
-echo_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/build
-.PHONY : echo_server/fast
 
 examples/echo_server.o: examples/echo_server.cc.o
 .PHONY : examples/echo_server.o
@@ -538,6 +551,222 @@ sylar/bytearray.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/bytearray.cc.s
 .PHONY : sylar/bytearray.cc.s
 
+sylar/common/base64.o: sylar/common/base64.cc.o
+.PHONY : sylar/common/base64.o
+
+# target to build an object file
+sylar/common/base64.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/base64.cc.o
+.PHONY : sylar/common/base64.cc.o
+
+sylar/common/base64.i: sylar/common/base64.cc.i
+.PHONY : sylar/common/base64.i
+
+# target to preprocess a source file
+sylar/common/base64.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/base64.cc.i
+.PHONY : sylar/common/base64.cc.i
+
+sylar/common/base64.s: sylar/common/base64.cc.s
+.PHONY : sylar/common/base64.s
+
+# target to generate assembly for a file
+sylar/common/base64.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/base64.cc.s
+.PHONY : sylar/common/base64.cc.s
+
+sylar/common/cJSON.o: sylar/common/cJSON.cc.o
+.PHONY : sylar/common/cJSON.o
+
+# target to build an object file
+sylar/common/cJSON.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/cJSON.cc.o
+.PHONY : sylar/common/cJSON.cc.o
+
+sylar/common/cJSON.i: sylar/common/cJSON.cc.i
+.PHONY : sylar/common/cJSON.i
+
+# target to preprocess a source file
+sylar/common/cJSON.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/cJSON.cc.i
+.PHONY : sylar/common/cJSON.cc.i
+
+sylar/common/cJSON.s: sylar/common/cJSON.cc.s
+.PHONY : sylar/common/cJSON.s
+
+# target to generate assembly for a file
+sylar/common/cJSON.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/cJSON.cc.s
+.PHONY : sylar/common/cJSON.cc.s
+
+sylar/common/cfg.o: sylar/common/cfg.cc.o
+.PHONY : sylar/common/cfg.o
+
+# target to build an object file
+sylar/common/cfg.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/cfg.cc.o
+.PHONY : sylar/common/cfg.cc.o
+
+sylar/common/cfg.i: sylar/common/cfg.cc.i
+.PHONY : sylar/common/cfg.i
+
+# target to preprocess a source file
+sylar/common/cfg.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/cfg.cc.i
+.PHONY : sylar/common/cfg.cc.i
+
+sylar/common/cfg.s: sylar/common/cfg.cc.s
+.PHONY : sylar/common/cfg.s
+
+# target to generate assembly for a file
+sylar/common/cfg.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/cfg.cc.s
+.PHONY : sylar/common/cfg.cc.s
+
+sylar/common/deal_mysql.o: sylar/common/deal_mysql.cc.o
+.PHONY : sylar/common/deal_mysql.o
+
+# target to build an object file
+sylar/common/deal_mysql.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/deal_mysql.cc.o
+.PHONY : sylar/common/deal_mysql.cc.o
+
+sylar/common/deal_mysql.i: sylar/common/deal_mysql.cc.i
+.PHONY : sylar/common/deal_mysql.i
+
+# target to preprocess a source file
+sylar/common/deal_mysql.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/deal_mysql.cc.i
+.PHONY : sylar/common/deal_mysql.cc.i
+
+sylar/common/deal_mysql.s: sylar/common/deal_mysql.cc.s
+.PHONY : sylar/common/deal_mysql.s
+
+# target to generate assembly for a file
+sylar/common/deal_mysql.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/deal_mysql.cc.s
+.PHONY : sylar/common/deal_mysql.cc.s
+
+sylar/common/des.o: sylar/common/des.cc.o
+.PHONY : sylar/common/des.o
+
+# target to build an object file
+sylar/common/des.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/des.cc.o
+.PHONY : sylar/common/des.cc.o
+
+sylar/common/des.i: sylar/common/des.cc.i
+.PHONY : sylar/common/des.i
+
+# target to preprocess a source file
+sylar/common/des.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/des.cc.i
+.PHONY : sylar/common/des.cc.i
+
+sylar/common/des.s: sylar/common/des.cc.s
+.PHONY : sylar/common/des.s
+
+# target to generate assembly for a file
+sylar/common/des.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/des.cc.s
+.PHONY : sylar/common/des.cc.s
+
+sylar/common/make_log.o: sylar/common/make_log.cc.o
+.PHONY : sylar/common/make_log.o
+
+# target to build an object file
+sylar/common/make_log.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/make_log.cc.o
+.PHONY : sylar/common/make_log.cc.o
+
+sylar/common/make_log.i: sylar/common/make_log.cc.i
+.PHONY : sylar/common/make_log.i
+
+# target to preprocess a source file
+sylar/common/make_log.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/make_log.cc.i
+.PHONY : sylar/common/make_log.cc.i
+
+sylar/common/make_log.s: sylar/common/make_log.cc.s
+.PHONY : sylar/common/make_log.s
+
+# target to generate assembly for a file
+sylar/common/make_log.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/make_log.cc.s
+.PHONY : sylar/common/make_log.cc.s
+
+sylar/common/md5.o: sylar/common/md5.cc.o
+.PHONY : sylar/common/md5.o
+
+# target to build an object file
+sylar/common/md5.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/md5.cc.o
+.PHONY : sylar/common/md5.cc.o
+
+sylar/common/md5.i: sylar/common/md5.cc.i
+.PHONY : sylar/common/md5.i
+
+# target to preprocess a source file
+sylar/common/md5.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/md5.cc.i
+.PHONY : sylar/common/md5.cc.i
+
+sylar/common/md5.s: sylar/common/md5.cc.s
+.PHONY : sylar/common/md5.s
+
+# target to generate assembly for a file
+sylar/common/md5.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/md5.cc.s
+.PHONY : sylar/common/md5.cc.s
+
+sylar/common/redis_op.o: sylar/common/redis_op.cc.o
+.PHONY : sylar/common/redis_op.o
+
+# target to build an object file
+sylar/common/redis_op.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/redis_op.cc.o
+.PHONY : sylar/common/redis_op.cc.o
+
+sylar/common/redis_op.i: sylar/common/redis_op.cc.i
+.PHONY : sylar/common/redis_op.i
+
+# target to preprocess a source file
+sylar/common/redis_op.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/redis_op.cc.i
+.PHONY : sylar/common/redis_op.cc.i
+
+sylar/common/redis_op.s: sylar/common/redis_op.cc.s
+.PHONY : sylar/common/redis_op.s
+
+# target to generate assembly for a file
+sylar/common/redis_op.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/redis_op.cc.s
+.PHONY : sylar/common/redis_op.cc.s
+
+sylar/common/util_cgi.o: sylar/common/util_cgi.cc.o
+.PHONY : sylar/common/util_cgi.o
+
+# target to build an object file
+sylar/common/util_cgi.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/util_cgi.cc.o
+.PHONY : sylar/common/util_cgi.cc.o
+
+sylar/common/util_cgi.i: sylar/common/util_cgi.cc.i
+.PHONY : sylar/common/util_cgi.i
+
+# target to preprocess a source file
+sylar/common/util_cgi.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/util_cgi.cc.i
+.PHONY : sylar/common/util_cgi.cc.i
+
+sylar/common/util_cgi.s: sylar/common/util_cgi.cc.s
+.PHONY : sylar/common/util_cgi.s
+
+# target to generate assembly for a file
+sylar/common/util_cgi.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/common/util_cgi.cc.s
+.PHONY : sylar/common/util_cgi.cc.s
+
 sylar/config.o: sylar/config.cc.o
 .PHONY : sylar/config.o
 
@@ -585,6 +814,78 @@ sylar/daemon.s: sylar/daemon.cc.s
 sylar/daemon.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/daemon.cc.s
 .PHONY : sylar/daemon.cc.s
+
+sylar/db/db.o: sylar/db/db.cc.o
+.PHONY : sylar/db/db.o
+
+# target to build an object file
+sylar/db/db.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/db/db.cc.o
+.PHONY : sylar/db/db.cc.o
+
+sylar/db/db.i: sylar/db/db.cc.i
+.PHONY : sylar/db/db.i
+
+# target to preprocess a source file
+sylar/db/db.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/db/db.cc.i
+.PHONY : sylar/db/db.cc.i
+
+sylar/db/db.s: sylar/db/db.cc.s
+.PHONY : sylar/db/db.s
+
+# target to generate assembly for a file
+sylar/db/db.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/db/db.cc.s
+.PHONY : sylar/db/db.cc.s
+
+sylar/db/myMysql.o: sylar/db/myMysql.cc.o
+.PHONY : sylar/db/myMysql.o
+
+# target to build an object file
+sylar/db/myMysql.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/db/myMysql.cc.o
+.PHONY : sylar/db/myMysql.cc.o
+
+sylar/db/myMysql.i: sylar/db/myMysql.cc.i
+.PHONY : sylar/db/myMysql.i
+
+# target to preprocess a source file
+sylar/db/myMysql.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/db/myMysql.cc.i
+.PHONY : sylar/db/myMysql.cc.i
+
+sylar/db/myMysql.s: sylar/db/myMysql.cc.s
+.PHONY : sylar/db/myMysql.s
+
+# target to generate assembly for a file
+sylar/db/myMysql.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/db/myMysql.cc.s
+.PHONY : sylar/db/myMysql.cc.s
+
+sylar/db/user.o: sylar/db/user.cc.o
+.PHONY : sylar/db/user.o
+
+# target to build an object file
+sylar/db/user.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/db/user.cc.o
+.PHONY : sylar/db/user.cc.o
+
+sylar/db/user.i: sylar/db/user.cc.i
+.PHONY : sylar/db/user.i
+
+# target to preprocess a source file
+sylar/db/user.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/db/user.cc.i
+.PHONY : sylar/db/user.cc.i
+
+sylar/db/user.s: sylar/db/user.cc.s
+.PHONY : sylar/db/user.s
+
+# target to generate assembly for a file
+sylar/db/user.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/db/user.cc.s
+.PHONY : sylar/db/user.cc.s
 
 sylar/env.o: sylar/env.cc.o
 .PHONY : sylar/env.o
@@ -1527,7 +1828,7 @@ tests/test.o: tests/test.cc.o
 
 # target to build an object file
 tests/test.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/test.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/tests/test.cc.o
 .PHONY : tests/test.cc.o
 
 tests/test.i: tests/test.cc.i
@@ -1535,7 +1836,7 @@ tests/test.i: tests/test.cc.i
 
 # target to preprocess a source file
 tests/test.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/test.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/tests/test.cc.i
 .PHONY : tests/test.cc.i
 
 tests/test.s: tests/test.cc.s
@@ -1543,7 +1844,7 @@ tests/test.s: tests/test.cc.s
 
 # target to generate assembly for a file
 tests/test.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/test.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/tests/test.cc.s
 .PHONY : tests/test.cc.s
 
 tests/test_address.o: tests/test_address.cc.o
@@ -1834,6 +2135,30 @@ tests/test_iomanager.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.s
 .PHONY : tests/test_iomanager.cc.s
 
+tests/test_mysql.o: tests/test_mysql.cc.o
+.PHONY : tests/test_mysql.o
+
+# target to build an object file
+tests/test_mysql.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mysql.dir/build.make CMakeFiles/test_mysql.dir/tests/test_mysql.cc.o
+.PHONY : tests/test_mysql.cc.o
+
+tests/test_mysql.i: tests/test_mysql.cc.i
+.PHONY : tests/test_mysql.i
+
+# target to preprocess a source file
+tests/test_mysql.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mysql.dir/build.make CMakeFiles/test_mysql.dir/tests/test_mysql.cc.i
+.PHONY : tests/test_mysql.cc.i
+
+tests/test_mysql.s: tests/test_mysql.cc.s
+.PHONY : tests/test_mysql.s
+
+# target to generate assembly for a file
+tests/test_mysql.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mysql.dir/build.make CMakeFiles/test_mysql.dir/tests/test_mysql.cc.s
+.PHONY : tests/test_mysql.cc.s
+
 tests/test_scheduler.o: tests/test_scheduler.cc.o
 .PHONY : tests/test_scheduler.o
 
@@ -1990,7 +2315,7 @@ help:
 	@echo "... main"
 	@echo "... my_http_server"
 	@echo "... sylar"
-	@echo "... test"
+	@echo "... test1"
 	@echo "... test_address"
 	@echo "... test_bytearray"
 	@echo "... test_config"
@@ -2003,6 +2328,7 @@ help:
 	@echo "... test_http_parser"
 	@echo "... test_http_server"
 	@echo "... test_iomanager"
+	@echo "... test_mysql"
 	@echo "... test_scheduler"
 	@echo "... test_scheduler2"
 	@echo "... test_socket"
@@ -2024,12 +2350,48 @@ help:
 	@echo "... sylar/bytearray.o"
 	@echo "... sylar/bytearray.i"
 	@echo "... sylar/bytearray.s"
+	@echo "... sylar/common/base64.o"
+	@echo "... sylar/common/base64.i"
+	@echo "... sylar/common/base64.s"
+	@echo "... sylar/common/cJSON.o"
+	@echo "... sylar/common/cJSON.i"
+	@echo "... sylar/common/cJSON.s"
+	@echo "... sylar/common/cfg.o"
+	@echo "... sylar/common/cfg.i"
+	@echo "... sylar/common/cfg.s"
+	@echo "... sylar/common/deal_mysql.o"
+	@echo "... sylar/common/deal_mysql.i"
+	@echo "... sylar/common/deal_mysql.s"
+	@echo "... sylar/common/des.o"
+	@echo "... sylar/common/des.i"
+	@echo "... sylar/common/des.s"
+	@echo "... sylar/common/make_log.o"
+	@echo "... sylar/common/make_log.i"
+	@echo "... sylar/common/make_log.s"
+	@echo "... sylar/common/md5.o"
+	@echo "... sylar/common/md5.i"
+	@echo "... sylar/common/md5.s"
+	@echo "... sylar/common/redis_op.o"
+	@echo "... sylar/common/redis_op.i"
+	@echo "... sylar/common/redis_op.s"
+	@echo "... sylar/common/util_cgi.o"
+	@echo "... sylar/common/util_cgi.i"
+	@echo "... sylar/common/util_cgi.s"
 	@echo "... sylar/config.o"
 	@echo "... sylar/config.i"
 	@echo "... sylar/config.s"
 	@echo "... sylar/daemon.o"
 	@echo "... sylar/daemon.i"
 	@echo "... sylar/daemon.s"
+	@echo "... sylar/db/db.o"
+	@echo "... sylar/db/db.i"
+	@echo "... sylar/db/db.s"
+	@echo "... sylar/db/myMysql.o"
+	@echo "... sylar/db/myMysql.i"
+	@echo "... sylar/db/myMysql.s"
+	@echo "... sylar/db/user.o"
+	@echo "... sylar/db/user.i"
+	@echo "... sylar/db/user.s"
 	@echo "... sylar/env.o"
 	@echo "... sylar/env.i"
 	@echo "... sylar/env.s"
@@ -2186,6 +2548,9 @@ help:
 	@echo "... tests/test_iomanager.o"
 	@echo "... tests/test_iomanager.i"
 	@echo "... tests/test_iomanager.s"
+	@echo "... tests/test_mysql.o"
+	@echo "... tests/test_mysql.i"
+	@echo "... tests/test_mysql.s"
 	@echo "... tests/test_scheduler.o"
 	@echo "... tests/test_scheduler.i"
 	@echo "... tests/test_scheduler.s"

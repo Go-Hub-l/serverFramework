@@ -192,7 +192,7 @@ namespace sylar {
                 }
                 int32_t port = atoi(a.substr(pos + 1).c_str());
                 //127.0.0.1
-                auto addr = sylar::IPAddress::Create(a.substr(0, pos).c_str(), port);
+                auto addr = sylar::IPAddress::Create(a.substr(0, pos).c_str(), port);//设置了ip地址和端口号
                 if (addr) {
                     address.push_back(addr);
                     continue;

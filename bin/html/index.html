@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,7 +9,7 @@
         document.getElementById("message").innerHTML += msg + "<br/>"
     }
     function login() {
-        websocket = new WebSocket("ws://www.xlb.design:8090/sylar/chat");
+        websocket = new WebSocket("ws://www.xlb.design:8099/sylar/chat");
 
         websocket.onerror = function () {
             write_msg("onerror");

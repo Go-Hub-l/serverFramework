@@ -84,7 +84,7 @@ namespace sylar {
             if (client) {
                 if (!i) {
                     SYLAR_LOG_INFO(g_logger) << "sock=" << sock->getSocket() << "accepting success";
-                    i = 1;
+                    i = 0;
                 }
                 client->setRecvTimeout(m_recvTimeout);
                 //处理连接成功的客户端任务

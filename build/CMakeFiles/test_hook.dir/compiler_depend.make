@@ -1041,6 +1041,7 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
   /usr/local/include/google/protobuf/has_bits.h \
   /usr/local/include/google/protobuf/map.h \
   /usr/local/include/google/protobuf/map_type_handler.h \
+  ../sylar/util/hash_util.h \
   ../sylar/util/json_util.h \
   ../sylar/thread.h \
   /usr/include/c++/8/thread \
@@ -1081,6 +1082,8 @@ CMakeFiles/test_hook.dir/tests/test_hook.cc.o: ../tests/test_hook.cc \
 ../sylar/thread.h:
 
 ../sylar/util/json_util.h:
+
+../sylar/util/hash_util.h:
 
 /usr/local/include/google/protobuf/map_type_handler.h:
 

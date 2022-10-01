@@ -1,327 +1,392 @@
 [
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/address.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/address.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/address.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/address.cc.o -c /root/projects/CoroutineDFS/sylar/address.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/address.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/application.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/application.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/application.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/application.cc.o -c /root/projects/CoroutineDFS/sylar/application.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/application.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/bytearray.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/bytearray.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/bytearray.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/bytearray.cc.o -c /root/projects/CoroutineDFS/sylar/bytearray.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/bytearray.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/config.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/config.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/config.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/config.cc.o -c /root/projects/CoroutineDFS/sylar/config.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/config.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/daemon.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/daemon.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/daemon.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/common/base64.cc.o -c /root/projects/CoroutineDFS/sylar/common/base64.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/common/base64.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/env.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/env.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/env.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/common/cfg.cc.o -c /root/projects/CoroutineDFS/sylar/common/cfg.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/common/cfg.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/fiber.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/fiber.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/fiber.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/common/cJSON.cc.o -c /root/projects/CoroutineDFS/sylar/common/cJSON.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/common/cJSON.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/fd_manager.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/fd_manager.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/fd_manager.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/common/deal_mysql.cc.o -c /root/projects/CoroutineDFS/sylar/common/deal_mysql.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/http.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/http.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/common/des.cc.o -c /root/projects/CoroutineDFS/sylar/common/des.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/common/des.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/http11_parser.rl.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/http11_parser.rl.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/common/make_log.cc.o -c /root/projects/CoroutineDFS/sylar/common/make_log.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/common/make_log.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/httpclient_parser.rl.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/httpclient_parser.rl.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/httpclient_parser.rl.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/common/md5.cc.o -c /root/projects/CoroutineDFS/sylar/common/md5.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/common/md5.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/http_connection.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/http_connection.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/common/redis_op.cc.o -c /root/projects/CoroutineDFS/sylar/common/redis_op.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/common/redis_op.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/http_parser.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/http_parser.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/common/util_cgi.cc.o -c /root/projects/CoroutineDFS/sylar/common/util_cgi.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/common/util_cgi.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_session.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/http_session.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/http_session.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/daemon.cc.o -c /root/projects/CoroutineDFS/sylar/daemon.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/daemon.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_server.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/http_server.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/http_server.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/db/db.cc.o -c /root/projects/CoroutineDFS/sylar/db/db.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/db/db.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/servlet.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/servlet.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/servlet.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/db/myMysql.cc.o -c /root/projects/CoroutineDFS/sylar/db/myMysql.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/db/myMysql.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/ws_server.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/ws_server.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/ws_server.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/db/user.cc.o -c /root/projects/CoroutineDFS/sylar/db/user.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/db/user.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/ws_servlet.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/ws_servlet.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/ws_servlet.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/env.cc.o -c /root/projects/CoroutineDFS/sylar/env.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/env.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/ws_session.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/http/ws_session.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/http/ws_session.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/fiber.cc.o -c /root/projects/CoroutineDFS/sylar/fiber.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/fiber.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/iomanager.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/iomanager.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/iomanager.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/fd_manager.cc.o -c /root/projects/CoroutineDFS/sylar/fd_manager.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/fd_manager.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/jsoncpp.cpp.o -c /root/CPP/sylar/workspace/serverFramework/sylar/jsoncpp.cpp",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/jsoncpp.cpp"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http.cc.o -c /root/projects/CoroutineDFS/sylar/http/http.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/http.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/library.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/library.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/library.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.o -c /root/projects/CoroutineDFS/sylar/http/http11_parser.rl.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/http11_parser.rl.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/log.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/log.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/log.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/httpclient_parser.rl.cc.o -c /root/projects/CoroutineDFS/sylar/http/httpclient_parser.rl.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/httpclient_parser.rl.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/mutex.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/mutex.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/mutex.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o -c /root/projects/CoroutineDFS/sylar/http/http_connection.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/http_connection.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/module.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/module.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/module.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o -c /root/projects/CoroutineDFS/sylar/http/http_parser.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/http_parser.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/chat_servlet.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/module/chat_servlet.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/module/chat_servlet.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_session.cc.o -c /root/projects/CoroutineDFS/sylar/http/http_session.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/http_session.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/my_module.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/module/my_module.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/module/my_module.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_server.cc.o -c /root/projects/CoroutineDFS/sylar/http/http_server.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/http_server.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/protocol.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/module/protocol.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/module/protocol.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/servlet.cc.o -c /root/projects/CoroutineDFS/sylar/http/servlet.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/servlet.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/resource_servlet.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/module/resource_servlet.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/module/resource_servlet.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/ws_server.cc.o -c /root/projects/CoroutineDFS/sylar/http/ws_server.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/ws_server.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/protocol.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/protocol.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/protocol.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/ws_servlet.cc.o -c /root/projects/CoroutineDFS/sylar/http/ws_servlet.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/ws_servlet.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/scheduler.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/scheduler.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/scheduler.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/ws_session.cc.o -c /root/projects/CoroutineDFS/sylar/http/ws_session.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/http/ws_session.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/socket.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/socket.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/socket.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/iomanager.cc.o -c /root/projects/CoroutineDFS/sylar/iomanager.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/iomanager.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/stream.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/stream.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/stream.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/jsoncpp.cpp.o -c /root/projects/CoroutineDFS/sylar/jsoncpp.cpp",
+  "file": "/root/projects/CoroutineDFS/sylar/jsoncpp.cpp"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/streams/socket_stream.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/streams/socket_stream.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/library.cc.o -c /root/projects/CoroutineDFS/sylar/library.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/library.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/tcp_server.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/tcp_server.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/tcp_server.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/log.cc.o -c /root/projects/CoroutineDFS/sylar/log.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/log.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/timer.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/timer.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/timer.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/mutex.cc.o -c /root/projects/CoroutineDFS/sylar/mutex.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/mutex.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/thread.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/thread.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/thread.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/module.cc.o -c /root/projects/CoroutineDFS/sylar/module.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/module.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/uri.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/uri.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/uri.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/chat_servlet.cc.o -c /root/projects/CoroutineDFS/sylar/module/chat_servlet.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/module/chat_servlet.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/util.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/util.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/util.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/my_module.cc.o -c /root/projects/CoroutineDFS/sylar/module/my_module.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/module/my_module.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/util/hash_util.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/util/hash_util.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/util/hash_util.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/protocol.cc.o -c /root/projects/CoroutineDFS/sylar/module/protocol.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/module/protocol.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/util/json_util.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/util/json_util.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/util/json_util.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/module/resource_servlet.cc.o -c /root/projects/CoroutineDFS/sylar/module/resource_servlet.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/worker.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/worker.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/worker.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/protocol.cc.o -c /root/projects/CoroutineDFS/sylar/protocol.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/protocol.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -fPIC -o CMakeFiles/sylar.dir/sylar/hook.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/hook.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/hook.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/scheduler.cc.o -c /root/projects/CoroutineDFS/sylar/scheduler.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/scheduler.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_uri.dir/tests/test_uri.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_uri.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_uri.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/socket.cc.o -c /root/projects/CoroutineDFS/sylar/socket.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/socket.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_env.dir/tests/test_env.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_env.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_env.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/stream.cc.o -c /root/projects/CoroutineDFS/sylar/stream.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/stream.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_http_connection.dir/tests/test_http_connection.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_http_connection.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_http_connection.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o -c /root/projects/CoroutineDFS/sylar/streams/socket_stream.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/streams/socket_stream.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_http_server.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_http_server.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/tcp_server.cc.o -c /root/projects/CoroutineDFS/sylar/tcp_server.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/tcp_server.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_scheduler.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_scheduler.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/timer.cc.o -c /root/projects/CoroutineDFS/sylar/timer.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/timer.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_socket.dir/tests/test_socket.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_socket.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_socket.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/thread.cc.o -c /root/projects/CoroutineDFS/sylar/thread.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/thread.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_thread.dir/tests/test_thread.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_thread.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_thread.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/uri.cc.o -c /root/projects/CoroutineDFS/sylar/uri.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/uri.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_bytearray.dir/tests/test_bytearray.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_bytearray.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_bytearray.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/util.cc.o -c /root/projects/CoroutineDFS/sylar/util.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/util.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/my_http_server.dir/samples/my_http_server.cc.o -c /root/CPP/sylar/workspace/serverFramework/samples/my_http_server.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/samples/my_http_server.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/util/hash_util.cc.o -c /root/projects/CoroutineDFS/sylar/util/hash_util.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/util/hash_util.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_config.dir/tests/test_config.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_config.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_config.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/util/json_util.cc.o -c /root/projects/CoroutineDFS/sylar/util/json_util.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/util/json_util.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_fiber.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_fiber.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/worker.cc.o -c /root/projects/CoroutineDFS/sylar/worker.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/worker.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test.dir/tests/test.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC -o CMakeFiles/sylar.dir/sylar/hook.cc.o -c /root/projects/CoroutineDFS/sylar/hook.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/hook.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_daemon.dir/tests/test_daemon.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_daemon.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_daemon.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_mysql.dir/tests/test_mysql.cc.o -c /root/projects/CoroutineDFS/tests/test_mysql.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_mysql.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_iomanager.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_iomanager.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_uri.dir/tests/test_uri.cc.o -c /root/projects/CoroutineDFS/tests/test_uri.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_uri.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_scheduler2.dir/tests/test_scheduler2.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_scheduler2.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_scheduler2.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_env.dir/tests/test_env.cc.o -c /root/projects/CoroutineDFS/tests/test_env.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_env.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_hook.dir/tests/test_hook.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_hook.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_hook.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_http_connection.dir/tests/test_http_connection.cc.o -c /root/projects/CoroutineDFS/tests/test_http_connection.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_http_connection.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_address.dir/tests/test_address.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_address.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_address.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o -c /root/projects/CoroutineDFS/tests/test_http_server.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_http_server.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/main.dir/sylar/main.cc.o -c /root/CPP/sylar/workspace/serverFramework/sylar/main.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/sylar/main.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -c /root/projects/CoroutineDFS/tests/test_scheduler.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_scheduler.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_tcp_server.dir/tests/test_tcp_server.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_tcp_server.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_tcp_server.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_socket.dir/tests/test_socket.cc.o -c /root/projects/CoroutineDFS/tests/test_socket.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_socket.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_http.dir/tests/test_http.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_http.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_http.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_thread.dir/tests/test_thread.cc.o -c /root/projects/CoroutineDFS/tests/test_thread.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_thread.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/test_http_parser.dir/tests/test_http_parser.cc.o -c /root/CPP/sylar/workspace/serverFramework/tests/test_http_parser.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/tests/test_http_parser.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_bytearray.dir/tests/test_bytearray.cc.o -c /root/projects/CoroutineDFS/tests/test_bytearray.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_bytearray.cc"
 },
 {
-  "directory": "/root/CPP/sylar/workspace/serverFramework/build",
-  "command": "/usr/bin/g++  -I/root/CPP/sylar/workspace/serverFramework/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -g -o CMakeFiles/echo_server.dir/examples/echo_server.cc.o -c /root/CPP/sylar/workspace/serverFramework/examples/echo_server.cc",
-  "file": "/root/CPP/sylar/workspace/serverFramework/examples/echo_server.cc"
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/my_http_server.dir/samples/my_http_server.cc.o -c /root/projects/CoroutineDFS/samples/my_http_server.cc",
+  "file": "/root/projects/CoroutineDFS/samples/my_http_server.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_config.dir/tests/test_config.cc.o -c /root/projects/CoroutineDFS/tests/test_config.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_config.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -c /root/projects/CoroutineDFS/tests/test_fiber.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_fiber.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test1.dir/tests/test.cc.o -c /root/projects/CoroutineDFS/tests/test.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/echo_server.dir/examples/echo_server.cc.o -c /root/projects/CoroutineDFS/examples/echo_server.cc",
+  "file": "/root/projects/CoroutineDFS/examples/echo_server.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_daemon.dir/tests/test_daemon.cc.o -c /root/projects/CoroutineDFS/tests/test_daemon.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_daemon.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -c /root/projects/CoroutineDFS/tests/test_iomanager.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_iomanager.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_scheduler2.dir/tests/test_scheduler2.cc.o -c /root/projects/CoroutineDFS/tests/test_scheduler2.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_scheduler2.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_hook.dir/tests/test_hook.cc.o -c /root/projects/CoroutineDFS/tests/test_hook.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_hook.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_address.dir/tests/test_address.cc.o -c /root/projects/CoroutineDFS/tests/test_address.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_address.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/main.dir/sylar/main.cc.o -c /root/projects/CoroutineDFS/sylar/main.cc",
+  "file": "/root/projects/CoroutineDFS/sylar/main.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_tcp_server.dir/tests/test_tcp_server.cc.o -c /root/projects/CoroutineDFS/tests/test_tcp_server.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_tcp_server.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_http.dir/tests/test_http.cc.o -c /root/projects/CoroutineDFS/tests/test_http.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_http.cc"
+},
+{
+  "directory": "/root/projects/CoroutineDFS/build",
+  "command": "/usr/bin/g++  -I/root/projects/CoroutineDFS/sylar  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -o CMakeFiles/test_http_parser.dir/tests/test_http_parser.cc.o -c /root/projects/CoroutineDFS/tests/test_http_parser.cc",
+  "file": "/root/projects/CoroutineDFS/tests/test_http_parser.cc"
 }
 ]

@@ -3,9 +3,12 @@ project(sylar)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -rdynamic -g -std=c++11 -Wall")
-set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto")
+set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis")
+# SET(CMAKE_CXX_COMPILER "/usr/bin/g++")
+
 
 link_directories(/usr/local/lib64)
+link_directories(/usr/lib64/mysql)
 
 find_library(YAMLCPP yaml-cpp)
 find_library(PTHREAD pthread)
@@ -16,7 +19,19 @@ set(LIB_SRC
     sylar/application.cc
     sylar/bytearray.cc
     sylar/config.cc
+    sylar/common/base64.cc
+    sylar/common/cfg.cc
+    sylar/common/cJSON.cc
+    sylar/common/deal_mysql.cc
+    sylar/common/des.cc
+    sylar/common/make_log.cc
+    sylar/common/md5.cc
+    sylar/common/redis_op.cc
+    sylar/common/util_cgi.cc
     sylar/daemon.cc
+    sylar/db/db.cc
+    sylar/db/myMysql.cc
+    sylar/db/user.cc
     sylar/env.cc
     sylar/fiber.cc
     sylar/fd_manager.cc
@@ -58,15 +73,17 @@ set(LIB_SRC
     )
 
 include_directories(sylar/)
+include_directories(/usr/include/c++/8/)
+# include_directories(sylar/common)
 include_directories(/usr/local/include)
 
 add_library(sylar SHARED ${LIB_SRC})
 #add_library(sylar_static STATIC ${LIB_SRC})
 #SET_TARGET_PROPERTIES (sylar_static PROPERTIES OUTPUT_NAME "sylar")
 
-add_executable(test tests/test.cc)
-add_dependencies(test sylar)
-target_link_libraries(test sylar ${YAMLCPP})
+add_executable(test1 tests/test.cc)
+add_dependencies(test1 sylar)
+target_link_libraries(test1 sylar ${YAMLCPP})
 
 add_executable(test_config tests/test_config.cc)
 add_dependencies(test_config sylar)
@@ -151,6 +168,10 @@ target_link_libraries(test_env sylar ${PTHREAD} ${YAMLCPP})
 add_executable(main sylar/main.cc)
 add_dependencies(main sylar)
 target_link_libraries(main sylar ${PTHREAD} ${YAMLCPP})
+
+add_executable(test_mysql tests/test_mysql.cc)
+add_dependencies(test_mysql sylar)
+target_link_libraries(test_mysql sylar ${PTHREAD} ${YAMLCPP})
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

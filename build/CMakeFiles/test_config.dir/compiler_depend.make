@@ -1028,12 +1028,15 @@ CMakeFiles/test_config.dir/tests/test_config.cc.o: ../tests/test_config.cc \
   /usr/local/include/google/protobuf/has_bits.h \
   /usr/local/include/google/protobuf/map.h \
   /usr/local/include/google/protobuf/map_type_handler.h \
+  ../sylar/util/hash_util.h \
   ../sylar/util/json_util.h \
   ../sylar/log.h \
   ../sylar/env.h
 
 
 ../sylar/util/json_util.h:
+
+../sylar/util/hash_util.h:
 
 /usr/local/include/google/protobuf/map_type_handler.h:
 

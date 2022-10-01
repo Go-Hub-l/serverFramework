@@ -356,14 +356,14 @@ namespace sylar {
                     next_timeout = MAX_TIMEOUT;
                 }
                 rt = epoll_wait(m_epfd, events, MAX_EVNETS, (int) next_timeout);
-                if (rt < 0 && errno == EINTR) {
-                } else {
+                if (rt < 0 && errno == EINTR) {//如果是中断则略过，下次继续监听
+                } else {//超时或者事件就绪，跳出本次监听
                     break;
                 }
             } while (true);
 
             std::vector<std::function<void()> > cbs;
-            listExpiredCb(cbs);
+            listExpiredCb(cbs);//过期的定时器事件
             if (!cbs.empty()) {
                 SYLAR_LOG_DEBUG(g_logger) << "on timer cbs.size=" << cbs.size();
                 schedule(cbs.begin(), cbs.end());

@@ -48,7 +48,18 @@
         "ratio": "cpp",
         "thread": "cpp",
         "condition_variable": "cpp",
-        "mutex": "cpp"
+        "mutex": "cpp",
+        "string": "cpp",
+        "cstdarg": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "map": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "set": "cpp",
+        "cfenv": "cpp",
+        "cinttypes": "cpp"
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
     "C_Cpp.errorSquiggles": "EnabledIfIncludesResolve"

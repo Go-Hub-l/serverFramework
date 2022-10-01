@@ -1,8 +1,8 @@
 CMakeFiles/sylar.dir/sylar/http/httpclient_parser.rl.cc.o: \
- /root/CPP/sylar/workspace/serverFramework/sylar/http/httpclient_parser.rl.cc \
+ /root/projects/CoroutineDFS/sylar/http/httpclient_parser.rl.cc \
  /usr/include/stdc-predef.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/http/httpclient_parser.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/http/http11_common.h \
+ /root/projects/CoroutineDFS/sylar/http/httpclient_parser.h \
+ /root/projects/CoroutineDFS/sylar/http/http11_common.h \
  /usr/include/sys/types.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
  /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
@@ -12,8 +12,8 @@ CMakeFiles/sylar.dir/sylar/http/httpclient_parser.rl.cc.o: \
  /usr/include/bits/types/timer_t.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
  /usr/include/bits/stdint-intn.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/endian.h \
- /usr/include/byteswap.h /usr/include/bits/byteswap.h \
+ /root/projects/CoroutineDFS/sylar/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/byteswap.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/bits/wchar.h /usr/include/bits/stdint-uintn.h \

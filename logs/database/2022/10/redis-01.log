@@ -1,0 +1,8 @@
+[2022-10-01 21:38:32]--[/root/projects/CoroutineDFS/sylar/common/redis_op.cc:354]--[-][GMS_REDIS]Connect 127.0.0.1:6379 Error:Connection refused
+[2022-10-01 21:38:32]--[/root/projects/CoroutineDFS/sylar/common/redis_op.cc:360]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2022-10-01 21:39:36]--[/root/projects/CoroutineDFS/sylar/common/redis_op.cc:354]--[-][GMS_REDIS]Connect 127.0.0.1:6379 Error:Connection refused
+[2022-10-01 21:39:36]--[/root/projects/CoroutineDFS/sylar/common/redis_op.cc:360]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2022-10-01 21:41:33]--[/root/projects/CoroutineDFS/sylar/common/redis_op.cc:354]--[-][GMS_REDIS]Connect 127.0.0.1:6379 Error:Connection refused
+[2022-10-01 21:41:33]--[/root/projects/CoroutineDFS/sylar/common/redis_op.cc:360]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2022-10-01 21:42:51]--[/root/projects/CoroutineDFS/sylar/common/redis_op.cc:360]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2022-10-01 21:42:51]--[/root/projects/CoroutineDFS/sylar/common/redis_op.cc:512]--[+][GMS_REDIS]Disconnect SUCCESS!

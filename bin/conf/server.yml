@@ -7,7 +7,7 @@ servers:
       io_worker: http_io
       process_worker:  http_io
       type: http
-    - address: ["0.0.0.0:8090", "0.0.0.0:8089"]
+    - address: ["0.0.0.0:8099", "0.0.0.0:8089"]
       timeout: 1000
       name: sylar-ws/1.0
       accept_worker: accept

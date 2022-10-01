@@ -1,8 +1,6 @@
 CMakeFiles/sylar.dir/sylar/jsoncpp.cpp.o: \
- /root/CPP/sylar/workspace/serverFramework/sylar/jsoncpp.cpp \
- /usr/include/stdc-predef.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/json/json.h \
- /usr/include/c++/8/cstring \
+ /root/projects/CoroutineDFS/sylar/jsoncpp.cpp /usr/include/stdc-predef.h \
+ /root/projects/CoroutineDFS/sylar/json/json.h /usr/include/c++/8/cstring \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
@@ -53,8 +51,7 @@ CMakeFiles/sylar.dir/sylar/jsoncpp.cpp.o: \
  /usr/include/bits/types/FILE.h /usr/include/c++/8/ext/atomicity.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
- /usr/include/pthread.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/endian.h \
+ /usr/include/pthread.h /root/projects/CoroutineDFS/sylar/endian.h \
  /usr/include/byteswap.h /usr/include/bits/byteswap.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \

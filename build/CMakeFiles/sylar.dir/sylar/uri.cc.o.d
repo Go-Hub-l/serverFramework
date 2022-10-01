@@ -1,8 +1,7 @@
 CMakeFiles/sylar.dir/sylar/uri.cc.o: \
- /root/CPP/sylar/workspace/serverFramework/sylar/uri.cc \
- /usr/include/stdc-predef.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/uri.h \
- /usr/include/c++/8/memory /usr/include/c++/8/bits/stl_algobase.h \
+ /root/projects/CoroutineDFS/sylar/uri.cc /usr/include/stdc-predef.h \
+ /root/projects/CoroutineDFS/sylar/uri.h /usr/include/c++/8/memory \
+ /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
@@ -51,8 +50,7 @@ CMakeFiles/sylar.dir/sylar/uri.cc.o: \
  /usr/include/bits/types/__locale_t.h /usr/include/c++/8/ext/atomicity.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
- /usr/include/pthread.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/endian.h \
+ /usr/include/pthread.h /root/projects/CoroutineDFS/sylar/endian.h \
  /usr/include/byteswap.h /usr/include/bits/byteswap.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
@@ -113,12 +111,11 @@ CMakeFiles/sylar.dir/sylar/uri.cc.o: \
  /usr/include/c++/8/bits/atomic_base.h \
  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
  /usr/include/c++/8/backward/auto_ptr.h \
- /root/CPP/sylar/workspace/serverFramework/sylar/address.h \
- /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
- /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
- /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
- /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
- /usr/include/asm-generic/sockios.h \
+ /root/projects/CoroutineDFS/sylar/address.h /usr/include/sys/socket.h \
+ /usr/include/bits/types/struct_iovec.h /usr/include/bits/socket.h \
+ /usr/include/bits/socket_type.h /usr/include/bits/sockaddr.h \
+ /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
+ /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h \
  /usr/include/bits/types/struct_osockaddr.h /usr/include/sys/un.h \
  /usr/include/string.h /usr/include/strings.h /usr/include/arpa/inet.h \
  /usr/include/netinet/in.h /usr/include/bits/in.h \

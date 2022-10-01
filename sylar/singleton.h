@@ -18,7 +18,7 @@ template <class T, class X = void, int N = 0>
 class Singletonptr {
 public:
     static T* GetInstance() {
-        std::shared_ptr<T> l(new T);
+        std::shared_ptr<T> l(new T);//存在线程安全的问题
         return l;
     }
 };
