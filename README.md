@@ -597,3 +597,10 @@ typedef Singleton<LogManager> loggerMgr;
     接着，该LogManager实例对象调用了他的类方法getLogger(name)；对于该类方法，首先他会查找是否存在名为name的日志（map存储的，name为键），如果找到了直接返回该日志对象。否则，就新创建一个名为name的日志对象，并且该对象的m_root设置成管理类的m_root，然后添加到map。最后返回。
 ```
 
+## 启动过程
+> 1 打开nginx
+> 2 打开fastdfs的trackerServer
+> 3 打开fastdfs的storageServer
+> 4 打开redis-server
+》5 打开HTTP-server(mainDFS)
+

@@ -1,0 +1,191 @@
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：511]到本地
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:232]--boundary: [------WebKitFormBoundaryfTtglKAeNIlQKJFW]
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:250]--file_end:0x7fffe0008b5b, p:------WebKitFormBoundaryfTtglKAeNIlQKJFW
+Content-Disposition: form-data; name="user"
+
+888888
+------WebKitFormBoundaryfTtglKAeNIlQKJFW
+Content-Disposition: form-data; name="md5"
+
+021b7e98660a560b1380f152f1835eff
+------WebKitFormBoundaryfTtglKAeNIlQKJFW
+Content-Disposition: form-data; name="size"
+
+17
+------WebKitFormBoundaryfTtglKAeNIlQKJFW--
+
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:255]--2 ->61 62 63 64 65 66 74 67 68 69 61 64 73
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:256]--file_end - file_start:19
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:264]--recv_save_file 264
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:268]--filename[8]: [text.txt]
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:271]--recv_save_file 271, file_end:FW
+Content-Disposition: form-data; name="user"
+
+888888
+------WebKitFormBoundaryfTtglKAeNIlQKJFW
+Content-Disposition: form-data; name="md5"
+
+021b7e98660a560b1380f152f1835eff
+------WebKitFormBoundaryfTtglKAeNIlQKJFW
+Content-Disposition: form-data; name="size"
+
+17
+------WebKitFormBoundaryfTtglKAeNIlQKJFW--
+
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:273]--recv_save_file 273, p3:name="user"
+
+888888
+------WebKitFormBoundaryfTtglKAeNIlQKJFW
+Content-Disposition: form-data; name="md5"
+
+021b7e98660a560b1380f152f1835eff
+------WebKitFormBoundaryfTtglKAeNIlQKJFW
+Content-Disposition: form-data; name="size"
+
+17
+------WebKitFormBoundaryfTtglKAeNIlQKJFW--
+
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:275]--recv_save_file 275, p3:
+
+888888
+------WebKitFormBoundaryfTtglKAeNIlQKJFW
+Content-Disposition: form-data; name="md5"
+
+021b7e98660a560b1380f152f1835eff
+------WebKitFormBoundaryfTtglKAeNIlQKJFW
+Content-Disposition: form-data; name="size"
+
+17
+------WebKitFormBoundaryfTtglKAeNIlQKJFW--
+
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:285]--user[6]: [888888]
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:290]--recv_save_file 290
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:295]--md5[32]: [021b7e98660a560b1380f152f1835eff]
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:296]--recv_save_file 296, p5:
+------WebKitFormBoundaryfTtglKAeNIlQKJFW
+Content-Disposition: form-data; name="size"
+
+17
+------WebKitFormBoundaryfTtglKAeNIlQKJFW--
+
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:313]--recv_save_file 313
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:318]--size[2]: [17]
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:333]--recv_save_file 333, p6:------WebKitFormBoundaryfTtglKAeNIlQKJFW--
+
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:335]--recv_save_file 335, p6:--
+
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:338]--recv_save_file 338, buf_end-p6:0 p6:
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:339]--file size[17]
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:353]--start open text.txt
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:362]--write text.txt len 17
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:72]--888888成功上传[text.txt, 大小：17, md5码：021b7e98660a560b1380f152f1835eff]到本地
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:698]--fdfs_upload_file /etc/fdfs/client.conf text.txt
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:726]--get [group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt] success!
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:829]--file url is: http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt
+[2022-10-02 20:16:46]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:880]--insert into file_info (md5, file_id, url, size, type, count) values ('021b7e98660a560b1380f152f1835eff', 'group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt', 'http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt', '17', 'txt', 1) 文件信息插入成功
+[2022-10-02 20:17:15]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：328823]到本地
+[2022-10-02 20:17:15]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:232]--boundary: [------WebKitFormBoundaryC0TQm0GvJPUhrWaC]
+[2022-10-02 20:17:15]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:250]--file_end:(nil), p:(null)
+[2022-10-02 20:17:15]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:255]--2 ->50 4b 03 04 0a 00 00 00 00 00 00 00 00
+[2022-10-02 20:17:15]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:256]--file_end - file_start:536343491
+[2022-10-02 20:17:15]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:264]--recv_save_file 264
+[2022-10-02 20:17:15]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:268]--filename[38]: [2022.9.8实习&校招网申列表.xlsx]
+[2022-10-02 20:23:20]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：328823]到本地
+[2022-10-02 20:23:20]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:232]--boundary: [------WebKitFormBoundaryIdhLlkC9W0abXbjV]
+[2022-10-02 20:23:20]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:250]--file_end:(nil), p:(null)
+[2022-10-02 20:23:20]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:255]--2 ->50 4b 03 04 0a 00 00 00 00 00 00 00 00
+[2022-10-02 20:23:20]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:256]--file_end - file_start:536403907
+[2022-10-02 20:23:20]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:264]--recv_save_file 264
+[2022-10-02 20:23:20]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:268]--filename[38]: [2022.9.8实习&校招网申列表.xlsx]
+[2022-10-02 20:24:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：328823]到本地
+[2022-10-02 20:24:49]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:232]--boundary: [------WebKitFormBoundary2X8LMeh8azfFLCxa]
+[2022-10-02 20:24:56]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:250]--file_end:(nil), p:(null)
+[2022-10-02 20:25:02]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:255]--2 ->50 4b 03 04 0a 00 00 00 00 00 00 00 00
+[2022-10-02 20:25:03]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:256]--file_end - file_start:536411987
+[2022-10-02 20:25:07]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:264]--recv_save_file 264
+[2022-10-02 20:25:11]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:268]--filename[38]: [2022.9.8实习&校招网申列表.xlsx]
+[2022-10-02 20:28:06]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：328823]到本地
+[2022-10-02 20:28:11]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:232]--boundary: [------WebKitFormBoundaryifMSaDmwJGGceI3u]
+[2022-10-02 20:28:11]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:250]--file_end:(nil), p:(null)
+[2022-10-02 20:28:11]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:255]--2 ->50 4b 03 04 0a 00 00 00 00 00 00 00 00
+[2022-10-02 20:28:11]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:256]--file_end - file_start:536507187
+[2022-10-02 20:28:11]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:264]--recv_save_file 264
+[2022-10-02 20:28:11]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:268]--filename[38]: [2022.9.8实习&校招网申列表.xlsx]
+[2022-10-02 20:29:43]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：328823]到本地
+[2022-10-02 20:29:48]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:232]--boundary: [------WebKitFormBoundaryitGWDnNXMvFqlrND]
+[2022-10-02 20:31:42]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:250]--file_end:(nil), p:(null)
+[2022-10-02 20:36:52]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：632]到本地
+[2022-10-02 20:38:47]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：637]到本地
+[2022-10-02 20:39:32]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------229661477015664687493617310125]
+[2022-10-02 20:43:20]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:253]--file_end:0x7fffe0008f0d, p:-----------------------------229661477015664687493617310125
+Content-Disposition: form-data; name="user"
+
+888888
+-----------------------------229661477015664687493617310125
+Content-Disposition: form-data; name="md5"
+
+f813644e7c5ccc139af36a4b2b4c39cb
+-----------------------------229661477015664687493617310125
+Content-Disposition: form-data; name="size"
+
+40
+-----------------------------229661477015664687493617310125--
+
+[2022-10-02 20:43:44]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:258]--2 ->67 68 70 5f 67 4c 62 73 79 30 77 53 65
+[2022-10-02 20:43:47]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:259]--file_end - file_start:42
+[2022-10-02 20:48:12]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208768]到本地
+[2022-10-02 20:48:16]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [------WebKitFormBoundaryiCOfL5XjtaWoZwwo]
+[2022-10-02 20:48:17]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:253]--file_end:(nil), p:(null)
+[2022-10-02 20:48:17]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:258]--2 ->50 4b 03 04 14 00 00 00 00 00 00 00 00
+[2022-10-02 20:48:17]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:259]--file_end - file_start:536503937
+[2022-10-02 20:48:17]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:267]--recv_save_file 267
+[2022-10-02 20:48:17]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:271]--filename[34]: [夏领兵-完整版 - 改 - 2.docx]
+[2022-10-02 20:50:52]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208768]到本地
+[2022-10-02 20:51:34]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [------WebKitFormBoundarytaCGFVBr20ZeDy09]
+[2022-10-02 20:51:36]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:253]--file_end:(nil), p:(null)
+[2022-10-02 20:57:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208768]到本地
+[2022-10-02 20:57:28]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [------WebKitFormBoundaryEIoREebEe2Bq4qk2]
+[2022-10-02 20:57:28]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:259]--file_end:(nil), p:(null)
+[2022-10-02 20:59:04]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208768]到本地
+[2022-10-02 20:59:08]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [------WebKitFormBoundarybRKnUV8rfBBCsc9b]
+[2022-10-02 21:09:14]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208768]到本地
+[2022-10-02 21:09:18]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [------WebKitFormBoundaryZfrRBVYtGIjJBAep]
+[2022-10-02 21:10:56]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208858]到本地
+[2022-10-02 21:11:20]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------30121006907280918732677201631]
+[2022-10-02 21:13:19]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208858]到本地
+[2022-10-02 21:13:28]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------10805615338520719742533591255]
+[2022-10-02 21:21:02]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208853]到本地
+[2022-10-02 21:21:05]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------3986523572808474722817112106]
+[2022-10-02 21:21:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:264]--file_end:(nil), p:(null)
+[2022-10-02 21:23:45]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208858]到本地
+[2022-10-02 21:23:51]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------84465361411375877433955357817]
+[2022-10-02 21:26:15]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208863]到本地
+[2022-10-02 21:26:19]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------291010893215042502974274066356]
+[2022-10-02 21:28:50]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208853]到本地
+[2022-10-02 21:28:53]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------2575423493719317692816086311]
+[2022-10-02 21:30:22]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208858]到本地
+[2022-10-02 21:30:28]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------58744336830180831132929344503]
+[2022-10-02 21:35:27]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208863]到本地
+[2022-10-02 21:35:31]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------272288721824383504012341373065]
+[2022-10-02 21:40:12]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208858]到本地
+[2022-10-02 21:40:16]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------18080423171891832245499023156]
+[2022-10-02 21:42:02]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208863]到本地
+[2022-10-02 21:42:11]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:235]--boundary: [-----------------------------253316842219659004652243596843]
+[2022-10-02 21:47:20]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208848]到本地
+[2022-10-02 21:48:59]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208863]到本地
+[2022-10-02 21:58:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：208858]到本地
+[2022-10-02 21:58:31]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:236]--boundary: [-----------------------------15556093872330322777633391584]
+[2022-10-02 21:58:41]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:261]--file_end:0x7fffe006e73a, p:-----------------------------15556093872330322777633391584
+Content-Disposition: form-data; name="user"
+
+888888
+-----------------------------15556093872330322777633391584
+Content-Disposition: form-data; name="md5"
+
+5d64b65e42088c65f713285becfa0916
+-----------------------------15556093872330322777633391584
+Content-Disposition: form-data; name="size"
+
+208183
+-----------------------------15556093872330322777633391584--
+

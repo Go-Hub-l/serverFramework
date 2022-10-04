@@ -1,0 +1,911 @@
+[2022-10-02 10:29:21]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 10:30:20]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 10:45:33]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 10:45:33]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = 
+[2022-10-02 10:45:33]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:43]--buf = {
+    "user":"123456",
+    "pwd":"e10adc3949ba59abbe56e057f20f883e"
+}
+[2022-10-02 10:45:33]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:264]--cJSON_GetObjectItem err
+[2022-10-02 10:45:33]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:68]--user = 123456, token = , start = 0, count = 0
+[2022-10-02 10:46:01]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 10:46:11]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = 
+[2022-10-02 10:46:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:43]--buf = {
+    "user":"123456",
+    "pwd":"e10adc3949ba59abbe56e057f20f883e"
+}
+[2022-10-02 10:48:55]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 10:48:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = 
+[2022-10-02 10:50:19]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 10:50:19]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 10:50:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {
+    "user":"123456",
+    "pwd":"e10adc3949ba59abbe56e057f20f883e",
+    "count":10
+}
+[2022-10-02 10:50:33]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:134]--cJSON_GetObjectItem err
+[2022-10-02 10:55:09]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 10:55:09]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 10:55:09]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {
+    "token":"63b54b88ea00566eaad9d268b1ae62b7",
+    "user":"123456"}
+[2022-10-02 10:56:23]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 10:57:34]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 10:57:48]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:00:10]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:00:10]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 11:00:10]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {
+    "user":"123456",
+    "token":"9ee5dce4582c2e9e4e82b09363379d15"
+}
+[2022-10-02 11:00:21]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:206]--ret = 0, line = 15
+[2022-10-02 11:00:21]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:216]--ret = 0, line = 15
+[2022-10-02 11:01:12]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:01:12]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 11:01:12]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {
+    "user":"123456",
+    "token":"9ee5dce4582c2e9e4e82b09363379d15"
+}
+[2022-10-02 11:01:23]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:206]--ret = 0, line = 15
+[2022-10-02 11:01:26]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:216]--ret = 0, line = 15
+[2022-10-02 11:07:18]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:07:18]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 11:07:18]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {
+    "user":"123456",
+    "token":"9ee5dce4582c2e9e4e82b09363379d15"
+}
+[2022-10-02 11:07:23]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 15
+[2022-10-02 11:07:23]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = 0, line = 15
+[2022-10-02 11:09:28]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:09:28]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 11:09:28]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {
+    "user":"123456",
+    "token":"f99a7ef16f8d9936bd58bd4f7cea64c4",
+    "count":10,"start":0
+}
+[2022-10-02 11:09:38]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 11:09:40]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 123456, token = f99a7ef16f8d9936bd58bd4f7cea64c4, start = 0, count = 10
+[2022-10-02 11:11:51]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:12:08]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:12:08]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 11:12:08]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {
+    "user":"123456",
+    "token":	"0291cf9766cae427bdb02f4405a1e8e0",
+    "count":10,"start":0
+}
+[2022-10-02 11:12:14]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 11:12:16]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 123456, token = 0291cf9766cae427bdb02f4405a1e8e0, start = 0, count = 10
+[2022-10-02 11:12:24]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 15
+[2022-10-02 11:12:24]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:355]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123456' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 11:12:25]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:375]--mysql_num_rows(res_set) = 10
+[2022-10-02 11:12:25]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:483]--{
+	"files":	[{
+			"user":	"123456",
+			"md5":	"d7c591e0c376f461dda8f9c0b2603730",
+			"create_time":	"2022-09-15 12:40:24",
+			"file_name":	"CC++.md",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMCTtaAfjarAAAAu080-AE2312.md",
+			"size":	187,
+			"type":	"md"
+		}, {
+			"user":	"123456",
+			"md5":	"b432964f78e5224778d5d22c3d8189db",
+			"create_time":	"2022-09-15 12:44:21",
+			"file_name":	"6.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMCTv2AOymeAACS2Psk8Xg140.jpg",
+			"size":	37592,
+			"type":	"jpg"
+		}, {
+			"user":	"123456",
+			"md5":	"47bd874133f4071c61ecc5e9a9b8d5fe",
+			"create_time":	"2022-08-25 22:49:06",
+			"file_name":	"2022.8.02实习&校招网申列表.xlsx",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHi-KAcBmlAAI2XKZbrj424.xlsx",
+			"size":	144988,
+			"type":	"xlsx"
+		}, {
+			"user":	"123456",
+			"md5":	"78e87cdf016b4f029e7d57f4e4c77b0a",
+			"create_time":	"2022-08-25 22:49:21",
+			"file_name":	"2022.6.29实习&校招提前批网申列表.xlsx",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHi_GAIBneAAEm-KjV9O007.xlsx",
+			"size":	75512,
+			"type":	"xlsx"
+		}, {
+			"user":	"123456",
+			"md5":	"90c3b066f461798afa7b127c6cc844da",
+			"create_time":	"2022-08-25 23:11:49",
+			"file_name":	"个人简历.docx",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkTWAaqWkAAMiYKBz1Io36.docx",
+			"size":	205408,
+			"type":	"docx"
+		}, {
+			"user":	"123456",
+			"md5":	"f211e488d070a7e192e213f002f80f5c",
+			"create_time":	"2022-08-25 23:14:20",
+			"file_name":	"个人简历.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkcyARcJ8AAVVVIpDWSQ937.pdf",
+			"size":	349524,
+			"type":	"pdf"
+		}, {
+			"user":	"123456",
+			"md5":	"449c4b60836c9b9696a2f2345149a90e",
+			"create_time":	"2022-08-25 23:17:21",
+			"file_name":	"实习内容.docx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkoGAaW2qAAApBrEhFdo95.docx",
+			"size":	10502,
+			"type":	"docx"
+		}, {
+			"user":	"123456",
+			"md5":	"872dacff8c9721784fa58550269f48da",
+			"create_time":	"2022-08-26 00:10:12",
+			"file_name":	"夏领兵-后端开发工程师.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHnuSABiboAAVsO8BuM_8168.pdf",
+			"size":	355387,
+			"type":	"pdf"
+		}, {
+			"user":	"123456",
+			"md5":	"ba45c505b73eeb1f921768b05fac1b5e",
+			"create_time":	"2022-08-26 00:21:28",
+			"file_name":	"投递情况.xlsx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHoYiAbNZ1AABYLzWdpH034.xlsx",
+			"size":	22575,
+			"type":	"xlsx"
+		}, {
+			"user":	"123456",
+			"md5":	"8957464c86440830938236bec9d820dd",
+			"create_time":	"2022-08-29 15:52:25",
+			"file_name":	"1.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMMcDmAf21qADkUkN98Ak4508.jpg",
+			"size":	3740816,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"count":	10,
+	"total":	15
+}
+[2022-10-02 11:15:57]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:15:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 11:15:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {
+    "user":"123456",
+    "token":	"0291cf9766cae427bdb02f4405a1e8e0",
+    "count":10,"start":0
+}
+[2022-10-02 11:15:59]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 11:15:59]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 123456, token = 0291cf9766cae427bdb02f4405a1e8e0, start = 0, count = 10
+[2022-10-02 11:16:01]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 15
+[2022-10-02 11:16:01]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123456' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 11:16:01]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 10
+[2022-10-02 11:16:01]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"123456",
+			"md5":	"d7c591e0c376f461dda8f9c0b2603730",
+			"create_time":	"2022-09-15 12:40:24",
+			"file_name":	"CC++.md",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMCTtaAfjarAAAAu080-AE2312.md",
+			"size":	187,
+			"type":	"md"
+		}, {
+			"user":	"123456",
+			"md5":	"b432964f78e5224778d5d22c3d8189db",
+			"create_time":	"2022-09-15 12:44:21",
+			"file_name":	"6.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMCTv2AOymeAACS2Psk8Xg140.jpg",
+			"size":	37592,
+			"type":	"jpg"
+		}, {
+			"user":	"123456",
+			"md5":	"47bd874133f4071c61ecc5e9a9b8d5fe",
+			"create_time":	"2022-08-25 22:49:06",
+			"file_name":	"2022.8.02实习&校招网申列表.xlsx",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHi-KAcBmlAAI2XKZbrj424.xlsx",
+			"size":	144988,
+			"type":	"xlsx"
+		}, {
+			"user":	"123456",
+			"md5":	"78e87cdf016b4f029e7d57f4e4c77b0a",
+			"create_time":	"2022-08-25 22:49:21",
+			"file_name":	"2022.6.29实习&校招提前批网申列表.xlsx",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHi_GAIBneAAEm-KjV9O007.xlsx",
+			"size":	75512,
+			"type":	"xlsx"
+		}, {
+			"user":	"123456",
+			"md5":	"90c3b066f461798afa7b127c6cc844da",
+			"create_time":	"2022-08-25 23:11:49",
+			"file_name":	"个人简历.docx",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkTWAaqWkAAMiYKBz1Io36.docx",
+			"size":	205408,
+			"type":	"docx"
+		}, {
+			"user":	"123456",
+			"md5":	"f211e488d070a7e192e213f002f80f5c",
+			"create_time":	"2022-08-25 23:14:20",
+			"file_name":	"个人简历.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkcyARcJ8AAVVVIpDWSQ937.pdf",
+			"size":	349524,
+			"type":	"pdf"
+		}, {
+			"user":	"123456",
+			"md5":	"449c4b60836c9b9696a2f2345149a90e",
+			"create_time":	"2022-08-25 23:17:21",
+			"file_name":	"实习内容.docx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkoGAaW2qAAApBrEhFdo95.docx",
+			"size":	10502,
+			"type":	"docx"
+		}, {
+			"user":	"123456",
+			"md5":	"872dacff8c9721784fa58550269f48da",
+			"create_time":	"2022-08-26 00:10:12",
+			"file_name":	"夏领兵-后端开发工程师.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHnuSABiboAAVsO8BuM_8168.pdf",
+			"size":	355387,
+			"type":	"pdf"
+		}, {
+			"user":	"123456",
+			"md5":	"ba45c505b73eeb1f921768b05fac1b5e",
+			"create_time":	"2022-08-26 00:21:28",
+			"file_name":	"投递情况.xlsx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHoYiAbNZ1AABYLzWdpH034.xlsx",
+			"size":	22575,
+			"type":	"xlsx"
+		}, {
+			"user":	"123456",
+			"md5":	"8957464c86440830938236bec9d820dd",
+			"create_time":	"2022-08-29 15:52:25",
+			"file_name":	"1.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMMcDmAf21qADkUkN98Ak4508.jpg",
+			"size":	3740816,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"count":	10,
+	"total":	15
+}
+[2022-10-02 11:19:20]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:19:20]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:19:20]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 11:19:20]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"631a8d4b19a518743ed2ca0c4511f29e","user":"123456"}
+[2022-10-02 11:19:25]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 15
+[2022-10-02 11:19:25]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = 0, line = 15
+[2022-10-02 11:19:27]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 11:19:27]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 11:19:27]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"631a8d4b19a518743ed2ca0c4511f29e","user":"123456","count":10,"start":0}
+[2022-10-02 11:19:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 11:19:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 123456, token = 631a8d4b19a518743ed2ca0c4511f29e, start = 0, count = 10
+[2022-10-02 11:19:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 15
+[2022-10-02 11:19:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123456' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 11:19:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 10
+[2022-10-02 11:19:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"123456",
+			"md5":	"d7c591e0c376f461dda8f9c0b2603730",
+			"create_time":	"2022-09-15 12:40:24",
+			"file_name":	"CC++.md",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMCTtaAfjarAAAAu080-AE2312.md",
+			"size":	187,
+			"type":	"md"
+		}, {
+			"user":	"123456",
+			"md5":	"b432964f78e5224778d5d22c3d8189db",
+			"create_time":	"2022-09-15 12:44:21",
+			"file_name":	"6.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMCTv2AOymeAACS2Psk8Xg140.jpg",
+			"size":	37592,
+			"type":	"jpg"
+		}, {
+			"user":	"123456",
+			"md5":	"47bd874133f4071c61ecc5e9a9b8d5fe",
+			"create_time":	"2022-08-25 22:49:06",
+			"file_name":	"2022.8.02实习&校招网申列表.xlsx",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHi-KAcBmlAAI2XKZbrj424.xlsx",
+			"size":	144988,
+			"type":	"xlsx"
+		}, {
+			"user":	"123456",
+			"md5":	"78e87cdf016b4f029e7d57f4e4c77b0a",
+			"create_time":	"2022-08-25 22:49:21",
+			"file_name":	"2022.6.29实习&校招提前批网申列表.xlsx",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHi_GAIBneAAEm-KjV9O007.xlsx",
+			"size":	75512,
+			"type":	"xlsx"
+		}, {
+			"user":	"123456",
+			"md5":	"90c3b066f461798afa7b127c6cc844da",
+			"create_time":	"2022-08-25 23:11:49",
+			"file_name":	"个人简历.docx",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkTWAaqWkAAMiYKBz1Io36.docx",
+			"size":	205408,
+			"type":	"docx"
+		}, {
+			"user":	"123456",
+			"md5":	"f211e488d070a7e192e213f002f80f5c",
+			"create_time":	"2022-08-25 23:14:20",
+			"file_name":	"个人简历.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkcyARcJ8AAVVVIpDWSQ937.pdf",
+			"size":	349524,
+			"type":	"pdf"
+		}, {
+			"user":	"123456",
+			"md5":	"449c4b60836c9b9696a2f2345149a90e",
+			"create_time":	"2022-08-25 23:17:21",
+			"file_name":	"实习内容.docx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkoGAaW2qAAApBrEhFdo95.docx",
+			"size":	10502,
+			"type":	"docx"
+		}, {
+			"user":	"123456",
+			"md5":	"872dacff8c9721784fa58550269f48da",
+			"create_time":	"2022-08-26 00:10:12",
+			"file_name":	"夏领兵-后端开发工程师.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHnuSABiboAAVsO8BuM_8168.pdf",
+			"size":	355387,
+			"type":	"pdf"
+		}, {
+			"user":	"123456",
+			"md5":	"ba45c505b73eeb1f921768b05fac1b5e",
+			"create_time":	"2022-08-26 00:21:28",
+			"file_name":	"投递情况.xlsx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHoYiAbNZ1AABYLzWdpH034.xlsx",
+			"size":	22575,
+			"type":	"xlsx"
+		}, {
+			"user":	"123456",
+			"md5":	"8957464c86440830938236bec9d820dd",
+			"create_time":	"2022-08-29 15:52:25",
+			"file_name":	"1.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMMcDmAf21qADkUkN98Ak4508.jpg",
+			"size":	3740816,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"count":	10,
+	"total":	15
+}
+[2022-10-02 16:10:08]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 16:10:08]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 16:10:08]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 16:10:08]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"9280f60150e79f1e14f8babb08f62e02","user":"888888"}
+[2022-10-02 16:10:37]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:196]--select count from user_file_count where user='888888' 操作失败
+[2022-10-02 16:10:37]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = -1, line = 0
+[2022-10-02 16:10:38]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 16:10:38]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 16:10:38]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"9280f60150e79f1e14f8babb08f62e02","user":"888888","count":10,"start":0}
+[2022-10-02 16:10:38]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 16:10:38]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 9280f60150e79f1e14f8babb08f62e02, start = 0, count = 10
+[2022-10-02 16:10:38]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:196]--select count from user_file_count where user='888888' 操作失败
+[2022-10-02 16:10:38]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:327]--get_user_files_count err
+[2022-10-02 19:18:08]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:18:11]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:18:11]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 19:18:11]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"a7a933b35242cd6e448d07c5e46d2284","user":"888888","count":10,"start":0}
+[2022-10-02 19:18:11]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 19:18:11]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = a7a933b35242cd6e448d07c5e46d2284, start = 0, count = 10
+[2022-10-02 19:18:11]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:196]--select count from user_file_count where user='888888' 操作失败
+[2022-10-02 19:18:11]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:327]--get_user_files_count err
+[2022-10-02 19:18:11]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:18:11]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 19:18:11]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"a7a933b35242cd6e448d07c5e46d2284","user":"888888"}
+[2022-10-02 19:18:19]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:196]--select count from user_file_count where user='888888' 操作失败
+[2022-10-02 19:18:19]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = -1, line = 0
+[2022-10-02 19:18:36]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:20:37]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:20:37]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 19:20:37]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"c4a7890c8a37674c0e0087b165cac618","user":"123456"}
+[2022-10-02 19:20:37]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:20:37]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 19:20:37]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"c4a7890c8a37674c0e0087b165cac618","user":"123456","count":10,"start":0}
+[2022-10-02 19:20:37]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 19:20:37]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 123456, token = c4a7890c8a37674c0e0087b165cac618, start = 0, count = 10
+[2022-10-02 19:20:50]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:20:52]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:20:52]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 19:20:52]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"eb097fd65cd50c9d1c6bee5c052b45bc","user":"888888"}
+[2022-10-02 19:20:52]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:196]--select count from user_file_count where user='888888' 操作失败
+[2022-10-02 19:20:52]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = -1, line = 0
+[2022-10-02 19:20:52]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:20:52]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 19:20:52]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"eb097fd65cd50c9d1c6bee5c052b45bc","user":"888888","count":10,"start":0}
+[2022-10-02 19:20:52]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 19:20:52]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = eb097fd65cd50c9d1c6bee5c052b45bc, start = 0, count = 10
+[2022-10-02 19:20:53]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:196]--select count from user_file_count where user='888888' 操作失败
+[2022-10-02 19:20:53]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:327]--get_user_files_count err
+[2022-10-02 19:21:09]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:21:46]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:23:24]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:25:15]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 19:26:50]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:16:29]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:16:30]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:16:30]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 20:16:30]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"645686c873c8bddd698a101b0c1c960c","user":"888888"}
+[2022-10-02 20:16:31]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:196]--select count from user_file_count where user='888888' 操作失败
+[2022-10-02 20:16:31]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = -1, line = 0
+[2022-10-02 20:16:31]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:16:31]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:16:31]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"645686c873c8bddd698a101b0c1c960c","user":"888888","count":10,"start":0}
+[2022-10-02 20:16:31]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:16:31]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 645686c873c8bddd698a101b0c1c960c, start = 0, count = 10
+[2022-10-02 20:16:31]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:196]--select count from user_file_count where user='888888' 操作失败
+[2022-10-02 20:16:31]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:327]--get_user_files_count err
+[2022-10-02 20:16:45]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:16:46]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:16:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:16:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"645686c873c8bddd698a101b0c1c960c","user":"888888","count":10,"start":0}
+[2022-10-02 20:16:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:16:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 645686c873c8bddd698a101b0c1c960c, start = 0, count = 10
+[2022-10-02 20:16:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 1
+[2022-10-02 20:16:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '888888' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 20:16:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 1
+[2022-10-02 20:16:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"888888",
+			"md5":	"021b7e98660a560b1380f152f1835eff",
+			"create_time":	"2022-10-02 20:16:46",
+			"file_name":	"text.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt",
+			"size":	17,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"count":	1,
+	"total":	1
+}
+[2022-10-02 20:17:15]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:22:35]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:22:40]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:22:51]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 20:22:51]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"29f94563713c0588dceb58686af8e77a","user":"888888"}
+[2022-10-02 20:22:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 1
+[2022-10-02 20:22:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = 0, line = 1
+[2022-10-02 20:22:57]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:22:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:22:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"29f94563713c0588dceb58686af8e77a","user":"888888","count":10,"start":0}
+[2022-10-02 20:22:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:22:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 29f94563713c0588dceb58686af8e77a, start = 0, count = 10
+[2022-10-02 20:22:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 1
+[2022-10-02 20:22:59]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '888888' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 20:23:00]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 1
+[2022-10-02 20:23:00]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"888888",
+			"md5":	"021b7e98660a560b1380f152f1835eff",
+			"create_time":	"2022-10-02 20:16:46",
+			"file_name":	"text.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt",
+			"size":	17,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"count":	1,
+	"total":	1
+}
+[2022-10-02 20:23:20]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"29f94563713c0588dceb58686af8e77a","user":"888888","count":10,"start":0}
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 29f94563713c0588dceb58686af8e77a, start = 0, count = 10
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 1
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '888888' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 1
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"888888",
+			"md5":	"021b7e98660a560b1380f152f1835eff",
+			"create_time":	"2022-10-02 20:16:46",
+			"file_name":	"text.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt",
+			"size":	17,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"count":	1,
+	"total":	1
+}
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"29f94563713c0588dceb58686af8e77a","user":"888888"}
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 1
+[2022-10-02 20:24:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = 0, line = 1
+[2022-10-02 20:24:18]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:28:01]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:29:39]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:34:41]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:34:41]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 20:34:41]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"eb097fd65cd50c9d1c6bee5c052b45bc","user":"888888"}
+[2022-10-02 20:34:41]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:34:41]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:34:41]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"eb097fd65cd50c9d1c6bee5c052b45bc","user":"888888","count":10,"start":0}
+[2022-10-02 20:34:41]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:34:41]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = eb097fd65cd50c9d1c6bee5c052b45bc, start = 0, count = 10
+[2022-10-02 20:34:48]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:34:48]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 20:34:48]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"eb097fd65cd50c9d1c6bee5c052b45bc","user":"888888"}
+[2022-10-02 20:34:48]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:34:48]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:34:48]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"eb097fd65cd50c9d1c6bee5c052b45bc","user":"888888","count":10,"start":0}
+[2022-10-02 20:34:48]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:34:48]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = eb097fd65cd50c9d1c6bee5c052b45bc, start = 0, count = 10
+[2022-10-02 20:34:57]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:34:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:34:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"eb097fd65cd50c9d1c6bee5c052b45bc","user":"888888","count":10,"start":0}
+[2022-10-02 20:34:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:34:57]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = eb097fd65cd50c9d1c6bee5c052b45bc, start = 0, count = 10
+[2022-10-02 20:35:02]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"57f9482f3c3c6b894db7e2f523a5744a","user":"888888"}
+[2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 1
+[2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = 0, line = 1
+[2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"57f9482f3c3c6b894db7e2f523a5744a","user":"888888","count":10,"start":0}
+[2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 57f9482f3c3c6b894db7e2f523a5744a, start = 0, count = 10
+[2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 1
+[2022-10-02 20:35:04]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '888888' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 20:35:05]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 1
+[2022-10-02 20:35:05]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"888888",
+			"md5":	"021b7e98660a560b1380f152f1835eff",
+			"create_time":	"2022-10-02 20:16:46",
+			"file_name":	"text.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt",
+			"size":	17,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"count":	1,
+	"total":	1
+}
+[2022-10-02 20:36:20]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:38:43]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:46:49]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:46:49]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 20:46:49]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"29f94563713c0588dceb58686af8e77a","user":"888888"}
+[2022-10-02 20:46:49]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:46:49]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:46:49]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"29f94563713c0588dceb58686af8e77a","user":"888888","count":10,"start":0}
+[2022-10-02 20:46:49]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:46:49]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 29f94563713c0588dceb58686af8e77a, start = 0, count = 10
+[2022-10-02 20:46:58]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:46:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:46:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"29f94563713c0588dceb58686af8e77a","user":"888888","count":10,"start":0}
+[2022-10-02 20:46:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:46:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 29f94563713c0588dceb58686af8e77a, start = 0, count = 10
+[2022-10-02 20:47:05]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"2b3dd7307bc3caf099b7af0fac21149b","user":"888888"}
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 2
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = 0, line = 2
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"2b3dd7307bc3caf099b7af0fac21149b","user":"888888","count":10,"start":0}
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 2b3dd7307bc3caf099b7af0fac21149b, start = 0, count = 10
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 2
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '888888' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 2
+[2022-10-02 20:47:06]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"888888",
+			"md5":	"c26cbf56176609a48e4a9206c59520e2",
+			"create_time":	"2022-10-02 20:45:37",
+			"file_name":	"zvoice.conf.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMe7JiAakWGAAABqJNWVyM041.txt",
+			"size":	424,
+			"type":	"txt"
+		}, {
+			"user":	"888888",
+			"md5":	"021b7e98660a560b1380f152f1835eff",
+			"create_time":	"2022-10-02 20:16:46",
+			"file_name":	"text.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt",
+			"size":	17,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"count":	2,
+	"total":	2
+}
+[2022-10-02 20:47:24]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:47:24]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:47:24]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"2b3dd7307bc3caf099b7af0fac21149b","user":"888888","count":10,"start":0}
+[2022-10-02 20:47:24]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:47:24]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 2b3dd7307bc3caf099b7af0fac21149b, start = 0, count = 10
+[2022-10-02 20:47:24]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 3
+[2022-10-02 20:47:25]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '888888' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 20:47:25]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 3
+[2022-10-02 20:47:25]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"888888",
+			"md5":	"a234484e52936856f6cfd9ccb1dd396d",
+			"create_time":	"2022-10-02 20:47:24",
+			"file_name":	"2022.8.12实习&校招网申列表.xlsx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHiCWABpYnAAKb5JNwlY464.xlsx",
+			"size":	170980,
+			"type":	"xlsx"
+		}, {
+			"user":	"888888",
+			"md5":	"c26cbf56176609a48e4a9206c59520e2",
+			"create_time":	"2022-10-02 20:45:37",
+			"file_name":	"zvoice.conf.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMe7JiAakWGAAABqJNWVyM041.txt",
+			"size":	424,
+			"type":	"txt"
+		}, {
+			"user":	"888888",
+			"md5":	"021b7e98660a560b1380f152f1835eff",
+			"create_time":	"2022-10-02 20:16:46",
+			"file_name":	"text.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt",
+			"size":	17,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"count":	3,
+	"total":	3
+}
+[2022-10-02 20:47:36]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:47:36]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:47:36]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"2b3dd7307bc3caf099b7af0fac21149b","user":"888888","count":10,"start":0}
+[2022-10-02 20:47:36]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:47:36]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 2b3dd7307bc3caf099b7af0fac21149b, start = 0, count = 10
+[2022-10-02 20:47:36]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 4
+[2022-10-02 20:47:36]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '888888' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 20:47:36]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 4
+[2022-10-02 20:47:36]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"888888",
+			"md5":	"a234484e52936856f6cfd9ccb1dd396d",
+			"create_time":	"2022-10-02 20:47:24",
+			"file_name":	"2022.8.12实习&校招网申列表.xlsx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHiCWABpYnAAKb5JNwlY464.xlsx",
+			"size":	170980,
+			"type":	"xlsx"
+		}, {
+			"user":	"888888",
+			"md5":	"90c3b066f461798afa7b127c6cc844da",
+			"create_time":	"2022-10-02 20:47:36",
+			"file_name":	"个人简历.docx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkTWAaqWkAAMiYKBz1Io36.docx",
+			"size":	205408,
+			"type":	"docx"
+		}, {
+			"user":	"888888",
+			"md5":	"c26cbf56176609a48e4a9206c59520e2",
+			"create_time":	"2022-10-02 20:45:37",
+			"file_name":	"zvoice.conf.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMe7JiAakWGAAABqJNWVyM041.txt",
+			"size":	424,
+			"type":	"txt"
+		}, {
+			"user":	"888888",
+			"md5":	"021b7e98660a560b1380f152f1835eff",
+			"create_time":	"2022-10-02 20:16:46",
+			"file_name":	"text.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt",
+			"size":	17,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"count":	4,
+	"total":	4
+}
+[2022-10-02 20:47:45]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:47:45]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:47:45]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"2b3dd7307bc3caf099b7af0fac21149b","user":"888888","count":10,"start":0}
+[2022-10-02 20:47:45]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:47:45]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 2b3dd7307bc3caf099b7af0fac21149b, start = 0, count = 10
+[2022-10-02 20:47:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 5
+[2022-10-02 20:47:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '888888' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 20:47:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 5
+[2022-10-02 20:47:46]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"888888",
+			"md5":	"a234484e52936856f6cfd9ccb1dd396d",
+			"create_time":	"2022-10-02 20:47:24",
+			"file_name":	"2022.8.12实习&校招网申列表.xlsx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHiCWABpYnAAKb5JNwlY464.xlsx",
+			"size":	170980,
+			"type":	"xlsx"
+		}, {
+			"user":	"888888",
+			"md5":	"90c3b066f461798afa7b127c6cc844da",
+			"create_time":	"2022-10-02 20:47:36",
+			"file_name":	"个人简历.docx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkTWAaqWkAAMiYKBz1Io36.docx",
+			"size":	205408,
+			"type":	"docx"
+		}, {
+			"user":	"888888",
+			"md5":	"c26cbf56176609a48e4a9206c59520e2",
+			"create_time":	"2022-10-02 20:45:37",
+			"file_name":	"zvoice.conf.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMe7JiAakWGAAABqJNWVyM041.txt",
+			"size":	424,
+			"type":	"txt"
+		}, {
+			"user":	"888888",
+			"md5":	"e2a328e17321faa206fa9fa21a6724f1",
+			"create_time":	"2022-10-02 20:47:45",
+			"file_name":	"生活照.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMgBSmAeORWAAGWoduMQNo123.jpg",
+			"size":	104097,
+			"type":	"jpg"
+		}, {
+			"user":	"888888",
+			"md5":	"021b7e98660a560b1380f152f1835eff",
+			"create_time":	"2022-10-02 20:16:46",
+			"file_name":	"text.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt",
+			"size":	17,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"count":	5,
+	"total":	5
+}
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"2b3dd7307bc3caf099b7af0fac21149b","user":"888888","count":10,"start":0}
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 2b3dd7307bc3caf099b7af0fac21149b, start = 0, count = 10
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 5
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '888888' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 5
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"888888",
+			"md5":	"a234484e52936856f6cfd9ccb1dd396d",
+			"create_time":	"2022-10-02 20:47:24",
+			"file_name":	"2022.8.12实习&校招网申列表.xlsx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHiCWABpYnAAKb5JNwlY464.xlsx",
+			"size":	170980,
+			"type":	"xlsx"
+		}, {
+			"user":	"888888",
+			"md5":	"90c3b066f461798afa7b127c6cc844da",
+			"create_time":	"2022-10-02 20:47:36",
+			"file_name":	"个人简历.docx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkTWAaqWkAAMiYKBz1Io36.docx",
+			"size":	205408,
+			"type":	"docx"
+		}, {
+			"user":	"888888",
+			"md5":	"c26cbf56176609a48e4a9206c59520e2",
+			"create_time":	"2022-10-02 20:45:37",
+			"file_name":	"zvoice.conf.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMe7JiAakWGAAABqJNWVyM041.txt",
+			"size":	424,
+			"type":	"txt"
+		}, {
+			"user":	"888888",
+			"md5":	"e2a328e17321faa206fa9fa21a6724f1",
+			"create_time":	"2022-10-02 20:47:45",
+			"file_name":	"生活照.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMgBSmAeORWAAGWoduMQNo123.jpg",
+			"size":	104097,
+			"type":	"jpg"
+		}, {
+			"user":	"888888",
+			"md5":	"021b7e98660a560b1380f152f1835eff",
+			"create_time":	"2022-10-02 20:16:46",
+			"file_name":	"text.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt",
+			"size":	17,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"count":	5,
+	"total":	5
+}
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"2b3dd7307bc3caf099b7af0fac21149b","user":"888888"}
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 5
+[2022-10-02 20:47:58]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = 0, line = 5
+[2022-10-02 20:48:08]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:49:35]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:50:48]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:57:20]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 20:59:02]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:09:11]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:10:27]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = count
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"44319a6576e53ffebb05e11642a986c6","user":"888888"}
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 5
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:219]--ret = 0, line = 5
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:32]--cmd = normal
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:44]--buf = {"token":"44319a6576e53ffebb05e11642a986c6","user":"888888","count":10,"start":0}
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:295]--count:0
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:69]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, start = 0, count = 10
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:208]--ret = 0, line = 5
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:357]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '888888' and file_info.md5 = user_file_list.md5 limit 0, 10 在操作
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:377]--mysql_num_rows(res_set) = 5
+[2022-10-02 21:10:29]--[/root/projects/CoroutineDFS/sylar/module/myfiles_servlet.cc:485]--{
+	"files":	[{
+			"user":	"888888",
+			"md5":	"a234484e52936856f6cfd9ccb1dd396d",
+			"create_time":	"2022-10-02 20:47:24",
+			"file_name":	"2022.8.12实习&校招网申列表.xlsx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHiCWABpYnAAKb5JNwlY464.xlsx",
+			"size":	170980,
+			"type":	"xlsx"
+		}, {
+			"user":	"888888",
+			"md5":	"90c3b066f461798afa7b127c6cc844da",
+			"create_time":	"2022-10-02 20:47:36",
+			"file_name":	"个人简历.docx",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkTWAaqWkAAMiYKBz1Io36.docx",
+			"size":	205408,
+			"type":	"docx"
+		}, {
+			"user":	"888888",
+			"md5":	"c26cbf56176609a48e4a9206c59520e2",
+			"create_time":	"2022-10-02 20:45:37",
+			"file_name":	"zvoice.conf.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMe7JiAakWGAAABqJNWVyM041.txt",
+			"size":	424,
+			"type":	"txt"
+		}, {
+			"user":	"888888",
+			"md5":	"e2a328e17321faa206fa9fa21a6724f1",
+			"create_time":	"2022-10-02 20:47:45",
+			"file_name":	"生活照.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMgBSmAeORWAAGWoduMQNo123.jpg",
+			"size":	104097,
+			"type":	"jpg"
+		}, {
+			"user":	"888888",
+			"md5":	"021b7e98660a560b1380f152f1835eff",
+			"create_time":	"2022-10-02 20:16:46",
+			"file_name":	"text.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmM5gS2AVKUGAAAAEcEfaTw110.txt",
+			"size":	17,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"count":	5,
+	"total":	5
+}
+[2022-10-02 21:10:39]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:13:16]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:20:59]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:23:41]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:26:13]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:28:48]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:30:19]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:35:21]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:40:07]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:41:58]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:47:01]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:48:54]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-02 21:58:20]--[/root/projects/CoroutineDFS/sylar/module/resource_servlet.cc:35]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang]

@@ -1,0 +1,92 @@
+[2022-10-03 14:54:20]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-03 14:54:20]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-03 14:54:20]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:53]--cmd = share
+[2022-10-03 14:54:20]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:69]--buf = {"token":"44319a6576e53ffebb05e11642a986c6","user":"888888","md5":"c26cbf56176609a48e4a9206c59520e2","filename":"zvoice.conf.txt"}
+[2022-10-03 14:54:20]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:72]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, md5 = c26cbf56176609a48e4a9206c59520e2, file_name = zvoice.conf.txt
+[2022-10-03 14:55:37]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-03 14:55:37]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-03 14:55:43]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:53]--cmd = share
+[2022-10-03 14:55:50]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:69]--buf = {
+    "token":"44319a6576e53ffebb05e11642a986c6",
+    "user":"888888",
+    "md5":"c26cbf56176609a48e4a9206c59520e2",
+    "filename":"zvoice.conf.txt"
+}
+[2022-10-03 14:55:52]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:72]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, md5 = c26cbf56176609a48e4a9206c59520e2, file_name = zvoice.conf.txt
+[2022-10-03 14:57:33]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-03 14:57:33]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-03 14:57:39]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:54]--cmd = share
+[2022-10-03 14:57:43]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:70]--buf = {
+    "token":"44319a6576e53ffebb05e11642a986c6",
+    "user":"888888",
+    "md5":"c26cbf56176609a48e4a9206c59520e2",
+    "filename":"zvoice.conf.txt"
+}
+[2022-10-03 14:57:44]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:73]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, md5 = c26cbf56176609a48e4a9206c59520e2, file_name = zvoice.conf.txt
+[2022-10-03 14:59:14]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-03 14:59:14]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-03 14:59:14]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:54]--cmd = del
+[2022-10-03 14:59:14]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:70]--buf = {"token":"44319a6576e53ffebb05e11642a986c6","user":"888888","md5":"90c3b066f461798afa7b127c6cc844da","filename":"个人简历.docx"}
+[2022-10-03 14:59:14]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:73]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, md5 = 90c3b066f461798afa7b127c6cc844da, file_name = 个人简历.docx
+[2022-10-03 14:59:15]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:678]--del_file 678
+[2022-10-03 14:59:15]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:687]--del_file 687 ret2:1
+[2022-10-03 14:59:15]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:761]--del_file 761 share:1
+[2022-10-03 14:59:15]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:764]--del_file 764 share:1
+[2022-10-03 14:59:15]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:875]--del_file 875 share:1
+[2022-10-03 14:59:15]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:880]--del_file 880 ret2:0, tmp:11
+[2022-10-03 14:59:15]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:933]--del_file 933, sql_cmd:update user_file_count set count = 10 where user = '888888'
+[2022-10-03 14:59:15]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:999]--del_file 999 ret2:0
+[2022-10-03 14:59:15]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:1032]--del_file 1032 sql_cmd:update file_info set count=2 where md5 = '90c3b066f461798afa7b127c6cc844da'
+[2022-10-03 15:01:57]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-03 15:01:57]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-03 15:01:57]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:54]--cmd = pv
+[2022-10-03 15:01:57]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:70]--buf = {"token":"44319a6576e53ffebb05e11642a986c6","user":"888888","md5":"e2a328e17321faa206fa9fa21a6724f1","filename":"生活照.jpg"}
+[2022-10-03 15:01:57]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:73]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, md5 = e2a328e17321faa206fa9fa21a6724f1, file_name = 生活照.jpg
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:54]--cmd = del
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:70]--buf = {
+    "token":"44319a6576e53ffebb05e11642a986c6",
+    "user":"888888",
+    "md5":"e2a328e17321faa206fa9fa21a6724f1",
+    "filename":"生活照.jpg"
+}
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:73]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, md5 = e2a328e17321faa206fa9fa21a6724f1, file_name = 生活照.jpg
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:678]--del_file 678
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:687]--del_file 687 ret2:0
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:703]--process_result_one share  = 0
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:761]--del_file 761 share:0
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:875]--del_file 875 share:0
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:880]--del_file 880 ret2:0, tmp:10
+[2022-10-03 15:03:25]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:933]--del_file 933, sql_cmd:update user_file_count set count = 9 where user = '888888'
+[2022-10-03 15:03:26]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:999]--del_file 999 ret2:0
+[2022-10-03 15:03:26]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:1032]--del_file 1032 sql_cmd:update file_info set count=2 where md5 = 'e2a328e17321faa206fa9fa21a6724f1'
+[2022-10-03 15:04:54]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-03 15:04:54]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-03 15:04:54]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:54]--cmd = pv
+[2022-10-03 15:04:54]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:70]--buf = {"token":"44319a6576e53ffebb05e11642a986c6","user":"888888","md5":"ddd6663c12e861b5af9230091e3852fc","filename":"Lingbing Xia - Software Development engineer - Harbin University of Science and Technology.pdf"}
+[2022-10-03 15:04:54]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:73]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, md5 = ddd6663c12e861b5af9230091e3852fc, file_name = Lingbing Xia - Software Development engineer - Harbin University of Science and Technology.pdf
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:54]--cmd = del
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:70]--buf = {
+    "token":"44319a6576e53ffebb05e11642a986c6",
+    "user":"888888",
+    "md5":"ddd6663c12e861b5af9230091e3852fc",
+    "filename":"Lingbing Xia - Software Development engineer - Harbin University of Science and Technology.pdf"
+    }
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:73]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, md5 = ddd6663c12e861b5af9230091e3852fc, file_name = Lingbing Xia - Software Development engineer - Harbin University of Science and Technology.pdf
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:678]--del_file 678
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:687]--del_file 687 ret2:0
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:703]--process_result_one share  = 0
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:761]--del_file 761 share:0
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:875]--del_file 875 share:0
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:880]--del_file 880 ret2:0, tmp:9
+[2022-10-03 15:05:58]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:933]--del_file 933, sql_cmd:update user_file_count set count = 8 where user = '888888'
+[2022-10-03 15:05:59]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:999]--del_file 999 ret2:0
+[2022-10-03 15:05:59]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:1032]--del_file 1032 sql_cmd:update file_info set count=1 where md5 = 'ddd6663c12e861b5af9230091e3852fc'
+[2022-10-03 15:06:28]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-03 15:06:28]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-03 15:06:28]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:54]--cmd = pv
+[2022-10-03 15:06:28]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:70]--buf = {"token":"44319a6576e53ffebb05e11642a986c6","user":"888888","md5":"51fb068ab44541558b9376d85e26b325","filename":"2022.9.8实习&校招网申列表.xlsx"}
+[2022-10-03 15:06:28]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:73]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, md5 = 51fb068ab44541558b9376d85e26b325, file_name = 2022.9.8实习&校招网申列表.xlsx
+[2022-10-03 15:06:52]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-03 15:06:52]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-03 15:06:52]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:54]--cmd = pv
+[2022-10-03 15:06:52]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:70]--buf = {
+    "token":"44319a6576e53ffebb05e11642a986c6",
+    "user":"888888",
+    "md5":"51fb068ab44541558b9376d85e26b325",
+    "filename":"2022.9.8实习&校招网申列表.xlsx"
+    }
+[2022-10-03 15:06:52]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:73]--user = 888888, token = 44319a6576e53ffebb05e11642a986c6, md5 = 51fb068ab44541558b9376d85e26b325, file_name = 2022.9.8实习&校招网申列表.xlsx

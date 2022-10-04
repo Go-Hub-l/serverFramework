@@ -1,0 +1,1 @@
+/usr/bin/g++  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -lfdfsclient -lfastcommon -g -rdynamic CMakeFiles/mainDFS.dir/sylar/main.cc.o -o ../bin/mainDFS   -L/usr/lib64/mysql  -Wl,-rpath,/usr/lib64/mysql:/root/projects/CoroutineDFS/lib ../lib/libsylar.so -lpthread -lyaml-cpp 

@@ -111,6 +111,12 @@ int process_result_one(MYSQL* conn, char* sql_cmd, char* buf) {
         print_error(conn, "mysql_query error!\n");
         ret = -1;
         //goto END;
+        if (res_set != NULL) {
+        //完成所有对数据的操作后，调用mysql_free_result来善后处理
+            mysql_free_result(res_set);
+        }
+
+        return ret;
     }
 
     res_set = mysql_store_result(conn);//生成结果集
@@ -118,6 +124,12 @@ int process_result_one(MYSQL* conn, char* sql_cmd, char* buf) {
         print_error(conn, "smysql_store_result error!\n");
         ret = -1;
         //goto END;
+        if (res_set != NULL) {
+        //完成所有对数据的操作后，调用mysql_free_result来善后处理
+            mysql_free_result(res_set);
+        }
+
+        return ret;
     }
 
     MYSQL_ROW row;
@@ -130,17 +142,29 @@ int process_result_one(MYSQL* conn, char* sql_cmd, char* buf) {
         if (buf)
             strcpy(buf, "0"); // 文件数量为0， 这里不算是错误
         //goto END;
+        if (res_set != NULL) {
+        //完成所有对数据的操作后，调用mysql_free_result来善后处理
+            mysql_free_result(res_set);
+        }
+
+        return ret;
     } else if (line > 0 && buf == NULL) //如果buf为NULL，无需保存结果集，只做判断有没有此记录
     {
         ret = 2; //2有记录集但是没有保存
         //goto END;
+        if (res_set != NULL) {
+        //完成所有对数据的操作后，调用mysql_free_result来善后处理
+            mysql_free_result(res_set);
+        }
+
+        return ret;
     }
 
     // mysql_fetch_row从结果结构中提取一行，并把它放到一个行结构中。当数据用完或发生错误时返回NULL.
     if ((row = mysql_fetch_row(res_set)) != NULL) {
         if (row[0] != NULL) {
             strcpy(buf, row[0]);
-            //LOG(REG_LOG_MODULE, REG_DEBUG_LOG_PROC, "row[0] = %s\n", row[0]);
+            LOG(REG_LOG_MODULE, REG_DEBUG_LOG_PROC, "row[0] = %s\n", row[0]);
         }
     }
 

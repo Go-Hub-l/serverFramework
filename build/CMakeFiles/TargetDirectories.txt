@@ -13,6 +13,7 @@
 /root/projects/CoroutineDFS/build/CMakeFiles/test_config.dir
 /root/projects/CoroutineDFS/build/CMakeFiles/test_fiber.dir
 /root/projects/CoroutineDFS/build/CMakeFiles/sylar.dir
+/root/projects/CoroutineDFS/build/CMakeFiles/mainDFS.dir
 /root/projects/CoroutineDFS/build/CMakeFiles/test1.dir
 /root/projects/CoroutineDFS/build/CMakeFiles/echo_server.dir
 /root/projects/CoroutineDFS/build/CMakeFiles/test_daemon.dir
@@ -20,7 +21,6 @@
 /root/projects/CoroutineDFS/build/CMakeFiles/test_scheduler2.dir
 /root/projects/CoroutineDFS/build/CMakeFiles/test_hook.dir
 /root/projects/CoroutineDFS/build/CMakeFiles/test_address.dir
-/root/projects/CoroutineDFS/build/CMakeFiles/main.dir
 /root/projects/CoroutineDFS/build/CMakeFiles/test_tcp_server.dir
 /root/projects/CoroutineDFS/build/CMakeFiles/test_http.dir
 /root/projects/CoroutineDFS/build/CMakeFiles/test_http_parser.dir

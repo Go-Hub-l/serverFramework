@@ -6,6 +6,14 @@
 #include "http/ws_server.h"
 #include "chat_servlet.h"
 #include "application.h"
+#include "login_servlet.h"
+#include "myfiles_servlet.h"
+#include "reg_servlet.h"
+#include "upload_servlet.h"
+#include "md5_servlet.h"
+#include "dealfile_servlet.h"
+#include "sharefiles_servlet.h"
+#include "dealsharefile_servlet.h"
 
 namespace chat {
 
@@ -15,81 +23,6 @@ namespace chat {
         :sylar::Module("chat_room", "1.0", "") {
 
     }
-
-// #define XX(...) #__VA_ARGS__
-
-//     sylar::IOManager::ptr worker;
-//     //调度的主运行函数
-//     void MyModule::run() {
-//         // g_logger->setLevel(sylar::LogLevel::INFO);
-//         //         //sylar::http::HttpServer::ptr server(new sylar::http::HttpServer(true, worker.get(), sylar::IOManager::GetThis()));
-//         // sylar::http::HttpServer::ptr server(new sylar::http::HttpServer(true));
-//         // sylar::Address::ptr addr = sylar::Address::LookupAnyIPAddress("172.26.85.62:8088");
-//         // while (!server->bind(addr)) {
-//         //     sleep(2);
-//         // }
-//         // auto sd = server->getServletDispatch();
-//         // sylar::http::ResourceServlet::ptr slt(new sylar::http::ResourceServlet(
-//         //     sylar::EnvMgr::GetInstance()->getCwd()
-//         // ));
-//         // //设置访问/sylar/*路径，就执行后面跟的回调函数或者servlet类的handle函数
-//         // SYLAR_LOG_INFO(g_logger) << "addServlet";
-//         // sd->addGlobServlet("/html/*", slt);
-
-//         // std::vector<sylar::TcpServer::ptr> srvs;
-//         // sylar::TcpServer::ptr server;
-//         // server.reset(new sylar::http::WSServer(sylar::IOManager::GetThis(),
-//         //     sylar::IOManager::GetThis(),
-//         //     sylar::IOManager::GetThis()));
-
-//         //服务器开始监听
-//         //server->start();
-
-
-
-//         std::vector<sylar::TcpServer::ptr> svrs;
-//         if (!sylar::Application::GetInstance()->getServer("http", svrs)) {
-//             SYLAR_LOG_INFO(g_logger) << "no httpserver alive";
-//             return;
-//         }
-
-//         // for (auto& i : svrs) {
-//         //     sylar::http::HttpServer::ptr http_server =
-//         //         std::dynamic_pointer_cast<sylar::http::HttpServer>(i);
-//         //     if (!i) {
-//         //         continue;
-//         //     }
-//         //     auto slt_dispatch = http_server->getServletDispatch();
-
-//         //     sylar::http::ResourceServlet::ptr slt(new sylar::http::ResourceServlet(
-//         //         sylar::EnvMgr::GetInstance()->getCwd()
-//         //     ));
-//         //     slt_dispatch->addGlobServlet("/html/*", slt);
-//         //     SYLAR_LOG_INFO(g_logger) << "addServlet";
-//         // }
-
-//         // svrs.clear();
-//         // if (!sylar::Application::GetInstance()->getServer("ws", svrs)) {
-//         //     SYLAR_LOG_INFO(g_logger) << "no ws alive";
-//         //     return;
-//         // }
-
-//         // for (auto& i : svrs) {
-//         //     sylar::http::WSServer::ptr ws_server =
-//         //         std::dynamic_pointer_cast<sylar::http::WSServer>(i);
-
-//         //     sylar::http::ServletDispatch::ptr slt_dispatch = ws_server->getWSServletDispatch();
-//         //     ChatWSServlet::ptr slt(new ChatWSServlet);
-//         //     slt_dispatch->addServlet("/sylar/chat", slt);
-//         // }
-
-//     }
-
-    // void MyModule::main() {
-    //     sylar::IOManager iom(2, true, "main");
-    //     //worker.reset(new sylar::IOManager(3, false, "worker"));
-    //     iom.schedule(run);
-    // }
 
     bool MyModule::onLoad() {
         SYLAR_LOG_INFO(g_logger) << "onLoad";
@@ -123,8 +56,36 @@ namespace chat {
             sylar::http::LoginServlet::ptr sltLogin(new sylar::http::LoginServlet(
                 sylar::EnvMgr::GetInstance()->getCwd()
             ));
+            sylar::http::RegServlet::ptr sltReg(new sylar::http::RegServlet(
+                sylar::EnvMgr::GetInstance()->getCwd()
+            ));
+            sylar::http::MyfilesServlet::ptr sltMyfiles(new sylar::http::MyfilesServlet(
+                sylar::EnvMgr::GetInstance()->getCwd()
+            ));
+            sylar::http::UploadServlet::ptr sltUpload(new sylar::http::UploadServlet(
+                sylar::EnvMgr::GetInstance()->getCwd()
+            ));
+            sylar::http::MD5Servlet::ptr sltMD5(new sylar::http::MD5Servlet(
+                sylar::EnvMgr::GetInstance()->getCwd()
+            ));
+            sylar::http::DealfileServlet::ptr sltDealfile(new sylar::http::DealfileServlet(
+                sylar::EnvMgr::GetInstance()->getCwd()
+            ));
+            sylar::http::ShareFilesServlet::ptr sltSharefiles(new sylar::http::ShareFilesServlet(
+                sylar::EnvMgr::GetInstance()->getCwd()
+            ));
+            sylar::http::DealShareFileServlet::ptr sltDealSharefile(new sylar::http::DealShareFileServlet(
+                sylar::EnvMgr::GetInstance()->getCwd()
+            ));
             slt_dispatch->addGlobServlet("/test", slt);
             slt_dispatch->addGlobServlet("/api/login", sltLogin);
+            slt_dispatch->addGlobServlet("/api/reg", sltReg);
+            slt_dispatch->addGlobServlet("/api/myfiles", sltMyfiles);
+            slt_dispatch->addGlobServlet("/api/upload", sltUpload);
+            slt_dispatch->addGlobServlet("/api/md5", sltMD5);
+            slt_dispatch->addGlobServlet("/api/dealfile", sltDealfile);
+            slt_dispatch->addGlobServlet("/api/sharefiles", sltSharefiles);
+            slt_dispatch->addGlobServlet("/api/dealsharefile", sltDealSharefile);
             SYLAR_LOG_INFO(g_logger) << "addServlet";
         }
         return true;

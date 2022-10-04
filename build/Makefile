@@ -289,6 +289,19 @@ sylar/fast:
 .PHONY : sylar/fast
 
 #=============================================================================
+# Target rules for targets named mainDFS
+
+# Build rule for target.
+mainDFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainDFS
+.PHONY : mainDFS
+
+# fast build rule for target.
+mainDFS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainDFS.dir/build.make CMakeFiles/mainDFS.dir/build
+.PHONY : mainDFS/fast
+
+#=============================================================================
 # Target rules for targets named test1
 
 # Build rule for target.
@@ -378,19 +391,6 @@ test_address: cmake_check_build_system
 test_address/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_address.dir/build.make CMakeFiles/test_address.dir/build
 .PHONY : test_address/fast
-
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named test_tcp_server
@@ -1348,7 +1348,7 @@ sylar/main.o: sylar/main.cc.o
 
 # target to build an object file
 sylar/main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sylar/main.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainDFS.dir/build.make CMakeFiles/mainDFS.dir/sylar/main.cc.o
 .PHONY : sylar/main.cc.o
 
 sylar/main.i: sylar/main.cc.i
@@ -1356,7 +1356,7 @@ sylar/main.i: sylar/main.cc.i
 
 # target to preprocess a source file
 sylar/main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sylar/main.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainDFS.dir/build.make CMakeFiles/mainDFS.dir/sylar/main.cc.i
 .PHONY : sylar/main.cc.i
 
 sylar/main.s: sylar/main.cc.s
@@ -1364,7 +1364,7 @@ sylar/main.s: sylar/main.cc.s
 
 # target to generate assembly for a file
 sylar/main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sylar/main.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainDFS.dir/build.make CMakeFiles/mainDFS.dir/sylar/main.cc.s
 .PHONY : sylar/main.cc.s
 
 sylar/module.o: sylar/module.cc.o
@@ -1415,6 +1415,102 @@ sylar/module/chat_servlet.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/chat_servlet.cc.s
 .PHONY : sylar/module/chat_servlet.cc.s
 
+sylar/module/dealfile_servlet.o: sylar/module/dealfile_servlet.cc.o
+.PHONY : sylar/module/dealfile_servlet.o
+
+# target to build an object file
+sylar/module/dealfile_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/dealfile_servlet.cc.o
+.PHONY : sylar/module/dealfile_servlet.cc.o
+
+sylar/module/dealfile_servlet.i: sylar/module/dealfile_servlet.cc.i
+.PHONY : sylar/module/dealfile_servlet.i
+
+# target to preprocess a source file
+sylar/module/dealfile_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/dealfile_servlet.cc.i
+.PHONY : sylar/module/dealfile_servlet.cc.i
+
+sylar/module/dealfile_servlet.s: sylar/module/dealfile_servlet.cc.s
+.PHONY : sylar/module/dealfile_servlet.s
+
+# target to generate assembly for a file
+sylar/module/dealfile_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/dealfile_servlet.cc.s
+.PHONY : sylar/module/dealfile_servlet.cc.s
+
+sylar/module/dealsharefile_servlet.o: sylar/module/dealsharefile_servlet.cc.o
+.PHONY : sylar/module/dealsharefile_servlet.o
+
+# target to build an object file
+sylar/module/dealsharefile_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/dealsharefile_servlet.cc.o
+.PHONY : sylar/module/dealsharefile_servlet.cc.o
+
+sylar/module/dealsharefile_servlet.i: sylar/module/dealsharefile_servlet.cc.i
+.PHONY : sylar/module/dealsharefile_servlet.i
+
+# target to preprocess a source file
+sylar/module/dealsharefile_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/dealsharefile_servlet.cc.i
+.PHONY : sylar/module/dealsharefile_servlet.cc.i
+
+sylar/module/dealsharefile_servlet.s: sylar/module/dealsharefile_servlet.cc.s
+.PHONY : sylar/module/dealsharefile_servlet.s
+
+# target to generate assembly for a file
+sylar/module/dealsharefile_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/dealsharefile_servlet.cc.s
+.PHONY : sylar/module/dealsharefile_servlet.cc.s
+
+sylar/module/login_servlet.o: sylar/module/login_servlet.cc.o
+.PHONY : sylar/module/login_servlet.o
+
+# target to build an object file
+sylar/module/login_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/login_servlet.cc.o
+.PHONY : sylar/module/login_servlet.cc.o
+
+sylar/module/login_servlet.i: sylar/module/login_servlet.cc.i
+.PHONY : sylar/module/login_servlet.i
+
+# target to preprocess a source file
+sylar/module/login_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/login_servlet.cc.i
+.PHONY : sylar/module/login_servlet.cc.i
+
+sylar/module/login_servlet.s: sylar/module/login_servlet.cc.s
+.PHONY : sylar/module/login_servlet.s
+
+# target to generate assembly for a file
+sylar/module/login_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/login_servlet.cc.s
+.PHONY : sylar/module/login_servlet.cc.s
+
+sylar/module/md5_servlet.o: sylar/module/md5_servlet.cc.o
+.PHONY : sylar/module/md5_servlet.o
+
+# target to build an object file
+sylar/module/md5_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/md5_servlet.cc.o
+.PHONY : sylar/module/md5_servlet.cc.o
+
+sylar/module/md5_servlet.i: sylar/module/md5_servlet.cc.i
+.PHONY : sylar/module/md5_servlet.i
+
+# target to preprocess a source file
+sylar/module/md5_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/md5_servlet.cc.i
+.PHONY : sylar/module/md5_servlet.cc.i
+
+sylar/module/md5_servlet.s: sylar/module/md5_servlet.cc.s
+.PHONY : sylar/module/md5_servlet.s
+
+# target to generate assembly for a file
+sylar/module/md5_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/md5_servlet.cc.s
+.PHONY : sylar/module/md5_servlet.cc.s
+
 sylar/module/my_module.o: sylar/module/my_module.cc.o
 .PHONY : sylar/module/my_module.o
 
@@ -1438,6 +1534,30 @@ sylar/module/my_module.s: sylar/module/my_module.cc.s
 sylar/module/my_module.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/my_module.cc.s
 .PHONY : sylar/module/my_module.cc.s
+
+sylar/module/myfiles_servlet.o: sylar/module/myfiles_servlet.cc.o
+.PHONY : sylar/module/myfiles_servlet.o
+
+# target to build an object file
+sylar/module/myfiles_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/myfiles_servlet.cc.o
+.PHONY : sylar/module/myfiles_servlet.cc.o
+
+sylar/module/myfiles_servlet.i: sylar/module/myfiles_servlet.cc.i
+.PHONY : sylar/module/myfiles_servlet.i
+
+# target to preprocess a source file
+sylar/module/myfiles_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/myfiles_servlet.cc.i
+.PHONY : sylar/module/myfiles_servlet.cc.i
+
+sylar/module/myfiles_servlet.s: sylar/module/myfiles_servlet.cc.s
+.PHONY : sylar/module/myfiles_servlet.s
+
+# target to generate assembly for a file
+sylar/module/myfiles_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/myfiles_servlet.cc.s
+.PHONY : sylar/module/myfiles_servlet.cc.s
 
 sylar/module/protocol.o: sylar/module/protocol.cc.o
 .PHONY : sylar/module/protocol.o
@@ -1463,6 +1583,30 @@ sylar/module/protocol.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/protocol.cc.s
 .PHONY : sylar/module/protocol.cc.s
 
+sylar/module/reg_servlet.o: sylar/module/reg_servlet.cc.o
+.PHONY : sylar/module/reg_servlet.o
+
+# target to build an object file
+sylar/module/reg_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/reg_servlet.cc.o
+.PHONY : sylar/module/reg_servlet.cc.o
+
+sylar/module/reg_servlet.i: sylar/module/reg_servlet.cc.i
+.PHONY : sylar/module/reg_servlet.i
+
+# target to preprocess a source file
+sylar/module/reg_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/reg_servlet.cc.i
+.PHONY : sylar/module/reg_servlet.cc.i
+
+sylar/module/reg_servlet.s: sylar/module/reg_servlet.cc.s
+.PHONY : sylar/module/reg_servlet.s
+
+# target to generate assembly for a file
+sylar/module/reg_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/reg_servlet.cc.s
+.PHONY : sylar/module/reg_servlet.cc.s
+
 sylar/module/resource_servlet.o: sylar/module/resource_servlet.cc.o
 .PHONY : sylar/module/resource_servlet.o
 
@@ -1486,6 +1630,54 @@ sylar/module/resource_servlet.s: sylar/module/resource_servlet.cc.s
 sylar/module/resource_servlet.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/resource_servlet.cc.s
 .PHONY : sylar/module/resource_servlet.cc.s
+
+sylar/module/sharefiles_servlet.o: sylar/module/sharefiles_servlet.cc.o
+.PHONY : sylar/module/sharefiles_servlet.o
+
+# target to build an object file
+sylar/module/sharefiles_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/sharefiles_servlet.cc.o
+.PHONY : sylar/module/sharefiles_servlet.cc.o
+
+sylar/module/sharefiles_servlet.i: sylar/module/sharefiles_servlet.cc.i
+.PHONY : sylar/module/sharefiles_servlet.i
+
+# target to preprocess a source file
+sylar/module/sharefiles_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/sharefiles_servlet.cc.i
+.PHONY : sylar/module/sharefiles_servlet.cc.i
+
+sylar/module/sharefiles_servlet.s: sylar/module/sharefiles_servlet.cc.s
+.PHONY : sylar/module/sharefiles_servlet.s
+
+# target to generate assembly for a file
+sylar/module/sharefiles_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/sharefiles_servlet.cc.s
+.PHONY : sylar/module/sharefiles_servlet.cc.s
+
+sylar/module/upload_servlet.o: sylar/module/upload_servlet.cc.o
+.PHONY : sylar/module/upload_servlet.o
+
+# target to build an object file
+sylar/module/upload_servlet.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/upload_servlet.cc.o
+.PHONY : sylar/module/upload_servlet.cc.o
+
+sylar/module/upload_servlet.i: sylar/module/upload_servlet.cc.i
+.PHONY : sylar/module/upload_servlet.i
+
+# target to preprocess a source file
+sylar/module/upload_servlet.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/upload_servlet.cc.i
+.PHONY : sylar/module/upload_servlet.cc.i
+
+sylar/module/upload_servlet.s: sylar/module/upload_servlet.cc.s
+.PHONY : sylar/module/upload_servlet.s
+
+# target to generate assembly for a file
+sylar/module/upload_servlet.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/module/upload_servlet.cc.s
+.PHONY : sylar/module/upload_servlet.cc.s
 
 sylar/mutex.o: sylar/mutex.cc.o
 .PHONY : sylar/mutex.o
@@ -2312,7 +2504,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... echo_server"
-	@echo "... main"
+	@echo "... mainDFS"
 	@echo "... my_http_server"
 	@echo "... sylar"
 	@echo "... test1"
@@ -2458,15 +2650,39 @@ help:
 	@echo "... sylar/module/chat_servlet.o"
 	@echo "... sylar/module/chat_servlet.i"
 	@echo "... sylar/module/chat_servlet.s"
+	@echo "... sylar/module/dealfile_servlet.o"
+	@echo "... sylar/module/dealfile_servlet.i"
+	@echo "... sylar/module/dealfile_servlet.s"
+	@echo "... sylar/module/dealsharefile_servlet.o"
+	@echo "... sylar/module/dealsharefile_servlet.i"
+	@echo "... sylar/module/dealsharefile_servlet.s"
+	@echo "... sylar/module/login_servlet.o"
+	@echo "... sylar/module/login_servlet.i"
+	@echo "... sylar/module/login_servlet.s"
+	@echo "... sylar/module/md5_servlet.o"
+	@echo "... sylar/module/md5_servlet.i"
+	@echo "... sylar/module/md5_servlet.s"
 	@echo "... sylar/module/my_module.o"
 	@echo "... sylar/module/my_module.i"
 	@echo "... sylar/module/my_module.s"
+	@echo "... sylar/module/myfiles_servlet.o"
+	@echo "... sylar/module/myfiles_servlet.i"
+	@echo "... sylar/module/myfiles_servlet.s"
 	@echo "... sylar/module/protocol.o"
 	@echo "... sylar/module/protocol.i"
 	@echo "... sylar/module/protocol.s"
+	@echo "... sylar/module/reg_servlet.o"
+	@echo "... sylar/module/reg_servlet.i"
+	@echo "... sylar/module/reg_servlet.s"
 	@echo "... sylar/module/resource_servlet.o"
 	@echo "... sylar/module/resource_servlet.i"
 	@echo "... sylar/module/resource_servlet.s"
+	@echo "... sylar/module/sharefiles_servlet.o"
+	@echo "... sylar/module/sharefiles_servlet.i"
+	@echo "... sylar/module/sharefiles_servlet.s"
+	@echo "... sylar/module/upload_servlet.o"
+	@echo "... sylar/module/upload_servlet.i"
+	@echo "... sylar/module/upload_servlet.s"
 	@echo "... sylar/mutex.o"
 	@echo "... sylar/mutex.i"
 	@echo "... sylar/mutex.s"

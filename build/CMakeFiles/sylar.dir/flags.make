@@ -6,5 +6,5 @@ CXX_DEFINES = -Dsylar_EXPORTS
 
 CXX_INCLUDES = -I/root/projects/CoroutineDFS/sylar
 
-CXX_FLAGS =  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -g -fPIC
+CXX_FLAGS =  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis -lfdfsclient -lfastcommon -g -fPIC
 

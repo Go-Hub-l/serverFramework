@@ -1,0 +1,85 @@
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:63]--开始上传[, 大小：369995]到本地
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:234]--boundary: [-----------------------------93698836217444093838973202]
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:267]--file_end:0x7fffe00dc1b7, p:-----------------------------93698836217444093838973202
+Content-Disposition: form-data; name="user"
+
+888888
+-----------------------------93698836217444093838973202
+Content-Disposition: form-data; name="md5"
+
+eacac5a24153e62ee54aba9836dded73
+-----------------------------93698836217444093838973202
+Content-Disposition: form-data; name="size"
+
+369393
+-----------------------------93698836217444093838973202--
+
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:272]--2 ->25 50 44 46 2d 31 2e 37 0d 0a 25 ffffffb5 ffffffb5
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:273]--file_end - file_start:369395
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:281]--recv_save_file 281
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:285]--filename[32]: [iOS开发工程师-夏领兵.pdf]
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:288]--recv_save_file 288, file_end:02
+Content-Disposition: form-data; name="user"
+
+888888
+-----------------------------93698836217444093838973202
+Content-Disposition: form-data; name="md5"
+
+eacac5a24153e62ee54aba9836dded73
+-----------------------------93698836217444093838973202
+Content-Disposition: form-data; name="size"
+
+369393
+-----------------------------93698836217444093838973202--
+
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:290]--recv_save_file 290, p3:name="user"
+
+888888
+-----------------------------93698836217444093838973202
+Content-Disposition: form-data; name="md5"
+
+eacac5a24153e62ee54aba9836dded73
+-----------------------------93698836217444093838973202
+Content-Disposition: form-data; name="size"
+
+369393
+-----------------------------93698836217444093838973202--
+
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:292]--recv_save_file 292, p3:
+
+888888
+-----------------------------93698836217444093838973202
+Content-Disposition: form-data; name="md5"
+
+eacac5a24153e62ee54aba9836dded73
+-----------------------------93698836217444093838973202
+Content-Disposition: form-data; name="size"
+
+369393
+-----------------------------93698836217444093838973202--
+
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:302]--user[6]: [888888]
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:307]--recv_save_file 307
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:312]--md5[32]: [eacac5a24153e62ee54aba9836dded73]
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:313]--recv_save_file 313, p5:
+-----------------------------93698836217444093838973202
+Content-Disposition: form-data; name="size"
+
+369393
+-----------------------------93698836217444093838973202--
+
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:330]--recv_save_file 330
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:335]--size[6]: [369393]
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:350]--recv_save_file 350, p6:-----------------------------93698836217444093838973202--
+
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:352]--recv_save_file 352, p6:--
+
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:355]--recv_save_file 355, buf_end-p6:0 p6:
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:356]--file size[369393]
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:370]--start open iOS开发工程师-夏领兵.pdf
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:379]--write iOS开发工程师-夏领兵.pdf len 369393
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:72]--888888成功上传[iOS开发工程师-夏领兵.pdf, 大小：369393, md5码：eacac5a24153e62ee54aba9836dded73]到本地
+[2022-10-04 18:50:23]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:715]--fdfs_upload_file /etc/fdfs/client.conf iOS开发工程师-夏领兵.pdf
+[2022-10-04 18:50:24]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:743]--get [group1/M00/00/00/J2XNOmM8D_CAHsptAAWi8Y2lnSM705.pdf] success!
+[2022-10-04 18:50:24]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:846]--file url is: http://39.101.205.58:80/group1/M00/00/00/J2XNOmM8D_CAHsptAAWi8Y2lnSM705.pdf
+[2022-10-04 18:50:25]--[/root/projects/CoroutineDFS/sylar/module/upload_servlet.cc:897]--insert into file_info (md5, file_id, url, size, type, count) values ('eacac5a24153e62ee54aba9836dded73', 'group1/M00/00/00/J2XNOmM8D_CAHsptAAWi8Y2lnSM705.pdf', 'http://39.101.205.58:80/group1/M00/00/00/J2XNOmM8D_CAHsptAAWi8Y2lnSM705.pdf', '369393', 'pdf', 1) 文件信息插入成功

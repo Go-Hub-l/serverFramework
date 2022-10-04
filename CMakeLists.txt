@@ -3,7 +3,11 @@ project(sylar)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -rdynamic -g -std=c++11 -Wall")
-set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -lpthread -ldl -lssl -lcrypto -lmysqlclient -lmyJson -lhiredis")
+set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 \
+-ggdb -std=c++11 -Wall -Wno-deprecated -Werror \
+-Wno-unused-function -lpthread -ldl \
+-lssl -lcrypto -lmysqlclient -lmyJson \
+-lhiredis -lfdfsclient -lfastcommon")
 # SET(CMAKE_CXX_COMPILER "/usr/bin/g++")
 
 
@@ -53,9 +57,17 @@ set(LIB_SRC
     sylar/mutex.cc
     sylar/module.cc
     sylar/module/chat_servlet.cc
+    sylar/module/dealfile_servlet.cc
+    sylar/module/dealsharefile_servlet.cc
+    sylar/module/login_servlet.cc
+    sylar/module/sharefiles_servlet.cc
+    sylar/module/myfiles_servlet.cc
+    sylar/module/reg_servlet.cc
     sylar/module/my_module.cc
+    sylar/module/md5_servlet.cc
     sylar/module/protocol.cc
     sylar/module/resource_servlet.cc
+    sylar/module/upload_servlet.cc
     sylar/protocol.cc
     sylar/scheduler.cc
     sylar/socket.cc
@@ -165,9 +177,9 @@ add_executable(test_env tests/test_env.cc)
 add_dependencies(test_env sylar)
 target_link_libraries(test_env sylar ${PTHREAD} ${YAMLCPP})
 
-add_executable(main sylar/main.cc)
-add_dependencies(main sylar)
-target_link_libraries(main sylar ${PTHREAD} ${YAMLCPP})
+add_executable(mainDFS sylar/main.cc)
+add_dependencies(mainDFS sylar)
+target_link_libraries(mainDFS sylar ${PTHREAD} ${YAMLCPP})
 
 add_executable(test_mysql tests/test_mysql.cc)
 add_dependencies(test_mysql sylar)

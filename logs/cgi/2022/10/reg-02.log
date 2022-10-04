@@ -1,0 +1,92 @@
+[2022-10-02 15:56:52]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {"email":"","firstPwd":"f379eaf3c831b04de153469d1bec345e","nickName":"king","phone":"","userName":"666666"}
+[2022-10-02 15:56:54]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:174]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-02 15:56:54]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:191]--user_name = 666666, nick_name = king, pwd = f379eaf3c831b04de153469d1bec345e, tel = , email = 
+[2022-10-02 15:56:54]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--root XIAObing321. 0voice_tuchuang
+[2022-10-02 15:56:56]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:54]--ret = 0
+[2022-10-02 15:59:39]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {
+    "email":"",
+    "firstPwd":"f379eaf3c831b04de153469d1bec345e",
+    "nickName":"king",
+    "phone":"",
+    "userName":"666666"
+}
+[2022-10-02 15:59:39]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:175]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-02 15:59:39]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--user_name = 666666, nick_name = king, pwd = f379eaf3c831b04de153469d1bec345e, tel = , email = 
+[2022-10-02 15:59:39]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:193]--root XIAObing321. 0voice_tuchuang
+[2022-10-02 16:00:24]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {
+    "email":"",
+    "firstPwd":"f379eaf3c831b04de153469d1bec345e",
+    "nickName":"king",
+    "phone":"",
+    "userName":"666666"
+}
+[2022-10-02 16:00:24]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:175]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-02 16:00:24]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--user_name = 666666, nick_name = king, pwd = f379eaf3c831b04de153469d1bec345e, tel = , email = 
+[2022-10-02 16:00:24]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:193]--root XIAObing321. 0voice_tuchuang
+[2022-10-02 16:01:56]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {
+    "email":"",
+    "firstPwd":"f379eaf3c831b04de153469d1bec345e",
+    "nickName":"king",
+    "phone":"",
+    "userName":"666666"
+}
+[2022-10-02 16:01:57]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:175]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-02 16:01:57]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--user_name = 666666, nick_name = king, pwd = f379eaf3c831b04de153469d1bec345e, tel = , email = 
+[2022-10-02 16:01:57]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:193]--root XIAObing321. 0voice_tuchuang
+[2022-10-02 16:02:42]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {
+    "email":"",
+    "firstPwd":"f379eaf3c831b04de153469d1bec345e",
+    "nickName":"king",
+    "phone":"",
+    "userName":"666666"
+}
+[2022-10-02 16:03:44]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {
+    "email":"",
+    "firstPwd":"f379eaf3c831b04de153469d1bec345e",
+    "nickName":"king",
+    "phone":"",
+    "userName":"666666"
+}
+[2022-10-02 16:04:32]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {
+    "email":"",
+    "firstPwd":"f379eaf3c831b04de153469d1bec345e",
+    "nickName":"king",
+    "phone":"",
+    "userName":"666666"
+}
+[2022-10-02 16:04:59]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:175]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-02 16:05:52]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--user_name = 666666, nick_name = king, pwd = f379eaf3c831b04de153469d1bec345e, tel = , email = 
+[2022-10-02 16:05:53]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:193]--root XIAObing321. 0voice_tuchuang
+[2022-10-02 16:06:42]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {
+    "email":"",
+    "firstPwd":"f379eaf3c831b04de153469d1bec345e",
+    "nickName":"king",
+    "phone":"",
+    "userName":"666666"
+}
+[2022-10-02 16:06:44]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:175]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-02 16:06:48]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--user_name = 666666, nick_name = king, pwd = f379eaf3c831b04de153469d1bec345e, tel = , email = 
+[2022-10-02 16:06:48]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:193]--root XIAObing321. 0voice_tuchuang
+[2022-10-02 16:08:53]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {
+    "email":"",
+    "firstPwd":"f379eaf3c831b04de153469d1bec345e",
+    "nickName":"king",
+    "phone":"",
+    "userName":"666666"
+}
+[2022-10-02 16:09:05]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:175]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-02 16:09:08]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--user_name = 666666, nick_name = king, pwd = f379eaf3c831b04de153469d1bec345e, tel = , email = 
+[2022-10-02 16:09:08]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:193]--root XIAObing321. 0voice_tuchuang
+[2022-10-02 16:09:09]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:220]--【{
+    "email":"",
+    "firstPwd":"f379eaf3c831b04de153469d1bec345e",
+    "nickName":"king",
+    "phone":"",
+    "userName":"666666"
+}】该用户已存在
+[2022-10-02 16:09:09]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:54]--ret = -2
+[2022-10-02 16:09:42]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {"email":"","firstPwd":"21218cca77804d2ba1922c33e0151105","nickName":"kingKing","phone":"","userName":"888888"}
+[2022-10-02 16:09:42]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:175]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-02 16:09:42]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--user_name = 888888, nick_name = kingKing, pwd = 21218cca77804d2ba1922c33e0151105, tel = , email = 
+[2022-10-02 16:09:42]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:193]--root XIAObing321. 0voice_tuchuang
+[2022-10-02 16:09:44]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:54]--ret = 0

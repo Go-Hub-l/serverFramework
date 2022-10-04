@@ -44,6 +44,7 @@ namespace sylar {
             virtual int32_t handle(sylar::http::HttpRequest::ptr request
                 , sylar::http::HttpResponse::ptr response
                 , sylar::http::HttpSession::ptr session) = 0;
+            void read_cfg();
 
  /**
   * @brief 返回Servlet名称
@@ -52,6 +53,10 @@ namespace sylar {
         protected:
             /// 名称
             std::string m_name;
+        // mysql 数据库配置信息 用户名， 密码， 数据库名称
+            char mysql_user[128] = { 0 };
+            char mysql_pwd[128] = { 0 };
+            char mysql_db[128] = { 0 };
         };
 
         /**
@@ -75,6 +80,7 @@ namespace sylar {
             virtual int32_t handle(sylar::http::HttpRequest::ptr request
                 , sylar::http::HttpResponse::ptr response
                 , sylar::http::HttpSession::ptr session) override;
+        
         private:
             /// 回调函数
             callback m_cb;

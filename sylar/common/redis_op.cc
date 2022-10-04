@@ -88,7 +88,7 @@ int rop_flush_database(redisContext* conn) {
  *				0 不存在
  */
 /* -------------------------------------------*/
-int rop_is_key_exist(redisContext* conn, char* key) {
+int rop_is_key_exist(redisContext* conn, const char* key) {
     int retn = 0;
 
     redisReply* reply = NULL;
@@ -125,7 +125,7 @@ int rop_is_key_exist(redisContext* conn, char* key) {
  *				0 成功
  */
 /* -------------------------------------------*/
-int rop_del_key(redisContext* conn, char* key) {
+int rop_del_key(redisContext* conn, const char* key) {
     int retn = 0;
     redisReply* reply = NULL;
 
@@ -161,7 +161,7 @@ int rop_del_key(redisContext* conn, char* key) {
  *		-1  FAIL
  */
 /* -------------------------------------------*/
-int rop_set_key_lifecycle(redisContext* conn, char* key, time_t delete_time) {
+int rop_set_key_lifecycle(redisContext* conn, const char* key, time_t delete_time) {
     int retn = 0;
     redisReply* reply = NULL;
 
@@ -513,7 +513,7 @@ void rop_disconnect(redisContext* conn) {
 }
 
 /* 封装一个 hmset 命令 */
-static char* make_hmset_command(char* key, unsigned int element_num, RFIELDS fields, RVALUES values) {
+static char* make_hmset_command(const char* key, unsigned int element_num, RFIELDS fields, RVALUES values) {
     char* cmd = NULL;
     unsigned int buf_size = 0;
     unsigned int use_size = 0;
@@ -598,7 +598,7 @@ static char* make_hmset_command(char* key, unsigned int element_num, RFIELDS fie
  *			-1		FAIL
  */
 /* -------------------------------------------*/
-int rop_hash_set_append(redisContext* conn, char* key, RFIELDS fields, RVALUES values, int val_num) {
+int rop_hash_set_append(redisContext* conn, const char* key, RFIELDS fields, RVALUES values, int val_num) {
     int retn = 0;
     int i = 0;
     redisReply* reply = NULL;
@@ -645,7 +645,7 @@ int rop_hash_set_append(redisContext* conn, char* key, RFIELDS fields, RVALUES v
  *            -1        FAIL
  */
 /* -------------------------------------------*/
-int rop_hash_set(redisContext* conn, char* key, char* field, char* value) {
+int rop_hash_set(redisContext* conn, const char* key, char* field, char* value) {
     int retn = 0;
     redisReply* reply = NULL;
 
@@ -677,7 +677,7 @@ int rop_hash_set(redisContext* conn, char* key, char* field, char* value) {
  *            -1        FAIL
  */
 /* -------------------------------------------*/
-int rop_hash_get(redisContext* conn, char* key, char* field, char* value) {
+int rop_hash_get(redisContext* conn, const char* key, char* field, char* value) {
     int retn = 0;
     int len = 0;
 
@@ -718,7 +718,7 @@ int rop_hash_get(redisContext* conn, char* key, char* field, char* value) {
  *            -1        FAIL
  */
 /* -------------------------------------------*/
-int rop_hash_del(redisContext* conn, char* key, char* field) {
+int rop_hash_del(redisContext* conn, const char* key, char* field) {
     int retn = 0;
     redisReply* reply = NULL;
 
@@ -754,7 +754,7 @@ int rop_hash_del(redisContext* conn, char* key, char* field) {
  */
 /* -------------------------------------------*/
 int rop_create_or_replace_hash_table(redisContext* conn,
-    char* key,
+    const char* key,
     unsigned int element_num,
     RFIELDS fields,
     RVALUES values) {
@@ -800,7 +800,7 @@ int rop_create_or_replace_hash_table(redisContext* conn,
  *			-1		fail
  */
 /* -------------------------------------------*/
-int rop_hincrement_one_field(redisContext* conn, char* key, char* field, unsigned int num) {
+int rop_hincrement_one_field(redisContext* conn, const char* key, char* field, unsigned int num) {
     int retn = 0;
 
     redisReply* reply = NULL;
@@ -833,7 +833,7 @@ int rop_hincrement_one_field(redisContext* conn, char* key, char* field, unsigne
  *			-1		FAIL
  */
 /* -------------------------------------------*/
-int rop_list_push_append(redisContext* conn, char* key, RVALUES values, int val_num) {
+int rop_list_push_append(redisContext* conn, const char* key, RVALUES values, int val_num) {
     int retn = 0;
     int i = 0;
     redisReply* reply = NULL;
@@ -878,7 +878,7 @@ int rop_list_push_append(redisContext* conn, char* key, RVALUES values, int val_
  * @returns
  */
 /* -------------------------------------------*/
-int rop_list_push(redisContext* conn, char* key, char* value) {
+int rop_list_push(redisContext* conn, const char* key, char* value) {
     int retn = 0;
     redisReply* reply = NULL;
 
@@ -905,7 +905,7 @@ int rop_list_push(redisContext* conn, char* key, char* value) {
  *			-1 fail
  */
 /* -------------------------------------------*/
-int rop_get_list_cnt(redisContext* conn, char* key) {
+int rop_get_list_cnt(redisContext* conn, const char* key) {
     int cnt = 0;
 
     redisReply* reply = NULL;
@@ -944,7 +944,7 @@ int rop_get_list_cnt(redisContext* conn, char* key) {
  *			-1 FAIL
  */
 /* -------------------------------------------*/
-int rop_trim_list(redisContext* conn, char* key, int begin, int end) {
+int rop_trim_list(redisContext* conn, const char* key, int begin, int end) {
     int retn = 0;
     redisReply* reply = NULL;
 
@@ -977,7 +977,7 @@ int rop_trim_list(redisContext* conn, char* key, int begin, int end) {
  *      0 succ, -1 fail
  */
 /* -------------------------------------------*/
-int rop_range_list(redisContext* conn, char* key, int from_pos, int end_pos, RVALUES values, int* get_num) {
+int rop_range_list(redisContext* conn, const char* key, int from_pos, int end_pos, RVALUES values, int* get_num) {
     int retn = 0;
     int i = 0;
     redisReply* reply = NULL;
@@ -1009,7 +1009,7 @@ int rop_range_list(redisContext* conn, char* key, int from_pos, int end_pos, RVA
     return retn;
 }
 
-int rop_set_string(redisContext* conn, char* key, char* value) {
+int rop_set_string(redisContext* conn, const char* key, char* value) {
     int retn = 0;
     redisReply* reply = NULL;
     reply = (redisReply*) redisCommand(conn, "set %s %s", key, value);
@@ -1027,7 +1027,7 @@ int rop_set_string(redisContext* conn, char* key, char* value) {
     return retn;
 }
 
-int rop_setex_string(redisContext* conn, char* key, unsigned int seconds, char* value) {
+int rop_setex_string(redisContext* conn, const char* key, unsigned int seconds, char* value) {
     int retn = 0;
     redisReply* reply = NULL;
     reply = (redisReply*) redisCommand(conn, "setex %s %u %s", key, seconds, value);
@@ -1046,7 +1046,7 @@ int rop_setex_string(redisContext* conn, char* key, unsigned int seconds, char* 
 
 }
 
-int rop_get_string(redisContext* conn, char* key, char* value) {
+int rop_get_string(redisContext* conn, const char* key, char* value) {
     int retn = 0;
     redisReply* reply = NULL;
     reply = (redisReply*) redisCommand(conn, "get %s", key);
@@ -1082,7 +1082,7 @@ int rop_get_string(redisContext* conn, char* key, char* value) {
  *            -1           fail
  */
 /* -------------------------------------------*/
-int rop_zset_add(redisContext* conn, char* key, long score, char* member) {
+int rop_zset_add(redisContext* conn, const char* key, long score, char* member) {
     int retn = 0;
     redisReply* reply = NULL;
 
@@ -1117,7 +1117,7 @@ int rop_zset_add(redisContext* conn, char* key, long score, char* member) {
  *            -1            fail
  */
 /* -------------------------------------------*/
-int rop_zset_zrem(redisContext* conn, char* key, char* member) {
+int rop_zset_zrem(redisContext* conn, const char* key, char* member) {
     int retn = 0;
     redisReply* reply = NULL;
 
@@ -1151,7 +1151,7 @@ int rop_zset_zrem(redisContext* conn, char* key, char* member) {
  *            -1            fail
  */
 /* -------------------------------------------*/
-int rop_zset_del_all(redisContext* conn, char* key) {
+int rop_zset_del_all(redisContext* conn, const char* key) {
     int retn = 0;
     redisReply* reply = NULL;
 
@@ -1192,7 +1192,7 @@ int rop_zset_del_all(redisContext* conn, char* key) {
  *      0 succ, -1 fail
  */
 /* -------------------------------------------*/
-int rop_zset_zrevrange(redisContext* conn, char* key, int from_pos, int end_pos, RVALUES values, int* get_num) {
+int rop_zset_zrevrange(redisContext* conn, const char* key, int from_pos, int end_pos, RVALUES values, int* get_num) {
     int retn = 0;
     int i = 0;
     redisReply* reply = NULL;
@@ -1246,7 +1246,7 @@ int rop_zset_zrevrange(redisContext* conn, char* key, int from_pos, int end_pos,
  *			-1			fail
  */
 /* -------------------------------------------*/
-int rop_zset_increment(redisContext* conn, char* key, char* member) {
+int rop_zset_increment(redisContext* conn, const char* key, char* member) {
     int retn = 0;
 
     redisReply* reply = NULL;
@@ -1277,7 +1277,7 @@ int rop_zset_increment(redisContext* conn, char* key, char* member) {
  *			-1 fail
  */
 /* -------------------------------------------*/
-int rop_zset_zcard(redisContext* conn, char* key) {
+int rop_zset_zcard(redisContext* conn, const char* key) {
     int cnt = 0;
 
     redisReply* reply = NULL;
@@ -1310,7 +1310,7 @@ int rop_zset_zcard(redisContext* conn, char* key) {
  *            -1            fail
  */
 /* -------------------------------------------*/
-int rop_zset_get_score(redisContext* conn, char* key, char* member) {
+int rop_zset_get_score(redisContext* conn, const char* key, char* member) {
     int score = 0;
 
     redisReply* reply = NULL;
@@ -1347,7 +1347,7 @@ int rop_zset_get_score(redisContext* conn, char* key, char* member) {
  *            -1           出错
  */
 /* -------------------------------------------*/
-int rop_zset_exit(redisContext* conn, char* key, char* member) {
+int rop_zset_exit(redisContext* conn, const char* key, char* member) {
     int retn = 0;
     redisReply* reply = NULL;
 
@@ -1384,7 +1384,7 @@ int rop_zset_exit(redisContext* conn, char* key, char* member) {
  *			-1		FAIL
  */
 /* -------------------------------------------*/
-int rop_zset_increment_append(redisContext* conn, char* key, RVALUES values, int val_num) {
+int rop_zset_increment_append(redisContext* conn, const char* key, RVALUES values, int val_num) {
     int retn = 0;
     int i = 0;
     redisReply* reply = NULL;

@@ -952,4 +952,35 @@ CMakeFiles/sylar.dir/sylar/module/my_module.cc.o: \
  /root/projects/CoroutineDFS/sylar/module/chat_servlet.h \
  /root/projects/CoroutineDFS/sylar/http/ws_servlet.h \
  /root/projects/CoroutineDFS/sylar/application.h \
- /root/projects/CoroutineDFS/sylar/http/http_server.h
+ /root/projects/CoroutineDFS/sylar/http/http_server.h \
+ /root/projects/CoroutineDFS/sylar/module/login_servlet.h \
+ /root/projects/CoroutineDFS/sylar/module/myfiles_servlet.h \
+ /root/projects/CoroutineDFS/sylar/module/reg_servlet.h \
+ /root/projects/CoroutineDFS/sylar/module/upload_servlet.h \
+ /root/projects/CoroutineDFS/sylar/module/md5_servlet.h \
+ /root/projects/CoroutineDFS/sylar/common/make_log.h \
+ /root/projects/CoroutineDFS/sylar/common/util_cgi.h \
+ /root/projects/CoroutineDFS/sylar/common/deal_mysql.h \
+ /usr/include/mysql/mysql.h \
+ /usr/lib/gcc/x86_64-redhat-linux/8/include/stdbool.h \
+ /usr/include/mysql/field_types.h /usr/include/mysql/my_list.h \
+ /usr/include/mysql/mysql_com.h /usr/include/mysql/my_command.h \
+ /usr/include/mysql/my_compress.h \
+ /usr/include/mysql/mysql/udf_registration_types.h \
+ /usr/include/mysql/mysql/client_plugin.h \
+ /usr/include/mysql/mysql/plugin_auth_common.h \
+ /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_time.h \
+ /usr/include/mysql/errmsg.h \
+ /root/projects/CoroutineDFS/sylar/common/redis_op.h \
+ /usr/local/include/hiredis/hiredis.h /usr/local/include/hiredis/read.h \
+ /usr/include/sys/time.h /usr/local/include/hiredis/sds.h \
+ /usr/local/include/hiredis/alloc.h \
+ /root/projects/CoroutineDFS/sylar/common/make_log.h \
+ /root/projects/CoroutineDFS/sylar/common/cfg.h \
+ /root/projects/CoroutineDFS/sylar/common/cJSON.h \
+ /root/projects/CoroutineDFS/sylar/common/des.h \
+ /root/projects/CoroutineDFS/sylar/common/base64.h \
+ /root/projects/CoroutineDFS/sylar/common/md5.h \
+ /root/projects/CoroutineDFS/sylar/module/dealfile_servlet.h \
+ /root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.h \
+ /root/projects/CoroutineDFS/sylar/module/dealsharefile_servlet.h

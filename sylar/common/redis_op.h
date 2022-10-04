@@ -136,7 +136,7 @@ int rop_flush_database(redisContext *conn);
  *                0 不存在
  */
 /* -------------------------------------------*/
-int rop_is_key_exist(redisContext *conn, char* key);
+int rop_is_key_exist(redisContext* conn, const char* key);
 
 /* -------------------------------------------*/
 /**
@@ -150,7 +150,7 @@ int rop_is_key_exist(redisContext *conn, char* key);
  *                0 成功
  */
 /* -------------------------------------------*/
-int rop_del_key(redisContext *conn, char *key);
+int rop_del_key(redisContext* conn, const char* key);
 
 
 /* -------------------------------------------*/
@@ -197,7 +197,7 @@ int rop_set_key_lifecycle(redisContext *conn, char *key, time_t delete_time);
  */
 /* -------------------------------------------*/
 int rop_create_or_replace_hash_table(redisContext* conn,
-                                     char* key, 
+    const char* key,
                                      unsigned int element_num, 
                                      RFIELDS fields, 
                                      RVALUES values);
@@ -249,7 +249,7 @@ int rop_hash_set_append(redisContext *conn, char *key, RFIELDS fields, RVALUES v
  *            -1        FAIL
  */
 /* -------------------------------------------*/
-int rop_hash_set(redisContext *conn, char *key, char *field, char *value);
+int rop_hash_set(redisContext* conn, const char* key, char* field, char* value);
 
 /* -------------------------------------------*/
 /**
@@ -265,7 +265,7 @@ int rop_hash_set(redisContext *conn, char *key, char *field, char *value);
  *            -1        FAIL
  */
 /* -------------------------------------------*/
-int rop_hash_get(redisContext *conn, char *key, char *field, char *value);
+int rop_hash_get(redisContext* conn, const char* key, char* field, char* value);
 
 /* -------------------------------------------*/
 /**
@@ -280,7 +280,7 @@ int rop_hash_get(redisContext *conn, char *key, char *field, char *value);
  *            -1        FAIL
  */
 /* -------------------------------------------*/
-int rop_hash_del(redisContext *conn, char *key, char *field);
+int rop_hash_del(redisContext* conn, const char* key, char* field);
 
 
 /* -------------------------------------------*/
@@ -432,7 +432,7 @@ int rop_set_string(redisContext *conn, char *key, char *value);
  *        -1  FAIL
  */
 /* -------------------------------------------*/
-int rop_setex_string(redisContext *conn, char *key, unsigned int seconds, char *value);
+int rop_setex_string(redisContext* conn, const char* key, unsigned int seconds, char* value);
 
 /* -------------------------------------------*/
 /**
@@ -447,7 +447,7 @@ int rop_setex_string(redisContext *conn, char *key, unsigned int seconds, char *
  *        -1  FAIL
  */
 /* -------------------------------------------*/
-int rop_get_string(redisContext *conn, char *key, char *value);
+int rop_get_string(redisContext* conn, const char* key, char* value);
 
 
 //==================有序集合相关操作====================
@@ -467,7 +467,7 @@ int rop_get_string(redisContext *conn, char *key, char *value);
  *            -1           fail
  */
 /* -------------------------------------------*/
-int rop_zset_add(redisContext *conn, char* key, long score, char* member);
+int rop_zset_add(redisContext* conn, const char* key, long score, char* member);
 
 /* -------------------------------------------*/
 /**
@@ -483,7 +483,7 @@ int rop_zset_add(redisContext *conn, char* key, long score, char* member);
  *            -1            fail
  */
 /* -------------------------------------------*/
-int rop_zset_zrem(redisContext *conn, char* key, char* member);
+int rop_zset_zrem(redisContext* conn, const char* key, char* member);
 
 /* -------------------------------------------*/
 /**
@@ -498,7 +498,7 @@ int rop_zset_zrem(redisContext *conn, char* key, char* member);
  *            -1            fail
  */
 /* -------------------------------------------*/
-int rop_zset_del_all(redisContext *conn, char* key);
+int rop_zset_del_all(redisContext* conn, const char* key);
 
 /* -------------------------------------------*/
 /**
@@ -519,7 +519,7 @@ int rop_zset_del_all(redisContext *conn, char* key);
  *      0 succ, -1 fail
  */
 /* -------------------------------------------*/
-extern int rop_zset_zrevrange(redisContext *conn, char *key, int from_pos, int end_pos, RVALUES values, int *get_num);
+extern int rop_zset_zrevrange(redisContext* conn, const char* key, int from_pos, int end_pos, RVALUES values, int* get_num);
 
 
 /* -------------------------------------------*/
@@ -536,7 +536,7 @@ extern int rop_zset_zrevrange(redisContext *conn, char *key, int from_pos, int e
  *            -1            fail
  */
 /* -------------------------------------------*/
-int rop_zset_increment(redisContext *conn, char* key, char* member);
+int rop_zset_increment(redisContext* conn, const char* key, char* member);
 
 /* -------------------------------------------*/
 /**
@@ -550,7 +550,7 @@ int rop_zset_increment(redisContext *conn, char* key, char* member);
  *			-1 fail
  */
 /* -------------------------------------------*/
-int rop_zset_zcard(redisContext *conn, char *key);
+int rop_zset_zcard(redisContext* conn, const char* key);
 
 
 /* -------------------------------------------*/
@@ -566,7 +566,7 @@ int rop_zset_zcard(redisContext *conn, char *key);
  *            -1            fail
  */
 /* -------------------------------------------*/
-int rop_zset_get_score(redisContext *conn, char *key, char *member);
+int rop_zset_get_score(redisContext* conn, const char* key, char* member);
 
 /* -------------------------------------------*/
 /**
@@ -582,7 +582,7 @@ int rop_zset_get_score(redisContext *conn, char *key, char *member);
  *            -1           出错
  */
 /* -------------------------------------------*/
-extern int rop_zset_exit(redisContext *conn, char *key, char *member);
+extern int rop_zset_exit(redisContext* conn, const char* key, char* member);
 
 
 /* -------------------------------------------*/
