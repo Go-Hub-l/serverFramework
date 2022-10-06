@@ -1,0 +1,16 @@
+[2022-10-04 19:40:04]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {"email":"","firstPwd":"e10adc3949ba59abbe56e057f20f883e","nickName":"afdasdf","phone":"","userName":"asdfaf"}
+[2022-10-04 19:40:05]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:175]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-04 19:40:05]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--user_name = asdfaf, nick_name = afdasdf, pwd = e10adc3949ba59abbe56e057f20f883e, tel = , email = 
+[2022-10-04 19:40:05]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:193]--root XIAObing321. 0voice_tuchuang
+[2022-10-04 19:40:11]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:54]--ret = 0
+[2022-10-04 20:12:08]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {"email":"","firstPwd":"1a100d2c0dab19c4430e7d73762b3423","nickName":"333333","phone":"","userName":"333333"}
+[2022-10-04 20:12:08]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:175]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-04 20:12:08]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--user_name = 333333, nick_name = 333333, pwd = 1a100d2c0dab19c4430e7d73762b3423, tel = , email = 
+[2022-10-04 20:12:08]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:193]--root XIAObing321. 0voice_tuchuang
+[2022-10-04 20:12:08]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:245]--insert into user_info (user_name, nick_name, password, phone, email, create_time) values ('333333', '333333', '1a100d2c0dab19c4430e7d73762b3423', '', '', '2022-10-04 20:12:08') 插入失败：Duplicate entry '333333' for key 'user_info.uq_nick_name'
+[2022-10-04 20:12:08]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:54]--ret = -1
+[2022-10-04 20:12:21]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:44]--buf = {"email":"","firstPwd":"074fd28eff0f5adea071694061739e55","nickName":"3333333","phone":"","userName":"3333333"}
+[2022-10-04 20:12:21]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:175]--mysql_user = root, mysql_pwd = XIAObing321., mysql_db = 0voice_tuchuang
+[2022-10-04 20:12:21]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:192]--user_name = 3333333, nick_name = 3333333, pwd = 074fd28eff0f5adea071694061739e55, tel = , email = 
+[2022-10-04 20:12:21]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:193]--root XIAObing321. 0voice_tuchuang
+[2022-10-04 20:12:21]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:54]--ret = 0

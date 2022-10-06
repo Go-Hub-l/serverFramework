@@ -32,3 +32,16 @@
 [2022-10-04 18:50:31]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:54]--cmd = share
 [2022-10-04 18:50:31]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:70]--buf = {"token":"26876b1652c70c2b504e8568ca436da1","user":"888888","md5":"eacac5a24153e62ee54aba9836dded73","filename":"iOS开发工程师-夏领兵.pdf"}
 [2022-10-04 18:50:31]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:73]--user = 888888, token = 26876b1652c70c2b504e8568ca436da1, md5 = eacac5a24153e62ee54aba9836dded73, file_name = iOS开发工程师-夏领兵.pdf
+[2022-10-04 20:16:47]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:29]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-04 20:16:47]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:34]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-04 20:16:47]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:54]--cmd = del
+[2022-10-04 20:16:47]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:70]--buf = {"token":"22f4a48eb025260883f8c634d34f4c58","user":"asdfaf","md5":"da9a5640432a17bcd3c9324e4c8821d1","filename":"简历.png"}
+[2022-10-04 20:16:47]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:73]--user = asdfaf, token = 22f4a48eb025260883f8c634d34f4c58, md5 = da9a5640432a17bcd3c9324e4c8821d1, file_name = 简历.png
+[2022-10-04 20:16:47]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:678]--del_file 678
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:687]--del_file 687 ret2:0
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:703]--process_result_one share  = 0
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:761]--del_file 761 share:0
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:875]--del_file 875 share:0
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:880]--del_file 880 ret2:0, tmp:1
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:933]--del_file 933, sql_cmd:update user_file_count set count = 0 where user = 'asdfaf'
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:999]--del_file 999 ret2:0
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/module/dealfile_servlet.cc:1032]--del_file 1032 sql_cmd:update file_info set count=1 where md5 = 'da9a5640432a17bcd3c9324e4c8821d1'

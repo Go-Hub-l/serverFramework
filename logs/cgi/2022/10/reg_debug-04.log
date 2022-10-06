@@ -169,3 +169,92 @@
 [2022-10-04 19:18:22]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = d5a8511c903e997201d0cfae4b6d4ede
 [2022-10-04 19:18:23]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 2
 [2022-10-04 19:18:23]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 2
+[2022-10-04 19:33:50]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 21218cca77804d2ba1922c33e0151105
+[2022-10-04 19:33:51]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 8
+[2022-10-04 19:33:51]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 8
+[2022-10-04 19:40:04]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:157]--reg_buf = {"email":"","firstPwd":"e10adc3949ba59abbe56e057f20f883e","nickName":"afdasdf","phone":"","userName":"asdfaf"}
+[2022-10-04 19:40:11]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:234]--root = {{
+}}
+[2022-10-04 19:40:11]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:237]--out = {{
+	"code":	0
+}}
+[2022-10-04 19:40:20]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = e10adc3949ba59abbe56e057f20f883e
+[2022-10-04 19:40:34]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = e10adc3949ba59abbe56e057f20f883e
+[2022-10-04 19:40:34]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 15
+[2022-10-04 19:40:34]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 15
+[2022-10-04 19:40:41]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 21218cca77804d2ba1922c33e0151105
+[2022-10-04 19:40:41]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 8
+[2022-10-04 19:40:41]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 8
+[2022-10-04 19:40:48]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = e10adc3949ba59abbe56e057f20f883e
+[2022-10-04 19:45:04]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = e10adc3949ba59abbe56e057f20f883e
+[2022-10-04 19:45:30]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = e10adc3949ba59abbe56e057f20f883e
+[2022-10-04 19:45:30]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 15
+[2022-10-04 19:45:30]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 15
+[2022-10-04 19:45:32]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 15
+[2022-10-04 19:45:50]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = e10adc3949ba59abbe56e057f20f883e
+[2022-10-04 20:04:21]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = e10adc3949ba59abbe56e057f20f883e
+[2022-10-04 20:04:21]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 15
+[2022-10-04 20:04:21]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 15
+[2022-10-04 20:04:28]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = e10adc3949ba59abbe56e057f20f883e
+[2022-10-04 20:11:35]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = e10adc3949ba59abbe56e057f20f883e
+[2022-10-04 20:11:44]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 15
+[2022-10-04 20:11:44]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 15
+[2022-10-04 20:11:46]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 15
+[2022-10-04 20:12:08]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:157]--reg_buf = {"email":"","firstPwd":"1a100d2c0dab19c4430e7d73762b3423","nickName":"333333","phone":"","userName":"333333"}
+[2022-10-04 20:12:08]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:234]--root = {{
+}}
+[2022-10-04 20:12:08]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:237]--out = {{
+	"code":	1
+}}
+[2022-10-04 20:12:21]--[/root/projects/CoroutineDFS/sylar/module/reg_servlet.cc:157]--reg_buf = {"email":"","firstPwd":"074fd28eff0f5adea071694061739e55","nickName":"3333333","phone":"","userName":"3333333"}
+[2022-10-04 20:12:21]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:234]--root = {{
+}}
+[2022-10-04 20:12:21]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:237]--out = {{
+	"code":	0
+}}
+[2022-10-04 20:12:34]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 074fd28eff0f5adea071694061739e55
+[2022-10-04 20:12:37]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 074fd28eff0f5adea071694061739e55
+[2022-10-04 20:12:55]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:234]--root = {{
+}}
+[2022-10-04 20:12:55]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:237]--out = {{
+	"code":	1
+}}
+[2022-10-04 20:12:56]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:234]--root = {{
+}}
+[2022-10-04 20:12:56]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:237]--out = {{
+	"code":	0
+}}
+[2022-10-04 20:12:56]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 1
+[2022-10-04 20:12:58]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 1
+[2022-10-04 20:13:09]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 1
+[2022-10-04 20:13:11]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 1
+[2022-10-04 20:14:59]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 1
+[2022-10-04 20:15:05]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = e10adc3949ba59abbe56e057f20f883e
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 5
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 5
+[2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 5
+[2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 5
+[2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 5
+[2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 5
+[2022-10-04 20:15:50]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:234]--root = {{
+}}
+[2022-10-04 20:15:50]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:237]--out = {{
+	"code":	1
+}}
+[2022-10-04 20:15:59]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:234]--root = {{
+}}
+[2022-10-04 20:15:59]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:237]--out = {{
+	"code":	0
+}}
+[2022-10-04 20:15:59]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 1
+[2022-10-04 20:16:46]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 1
+[2022-10-04 20:16:46]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 1
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 0
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 1
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 1
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:234]--root = {{
+}}
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/common/util_cgi.cc:237]--out = {{
+	"code":	0
+}}
+[2022-10-04 20:16:48]--[/root/projects/CoroutineDFS/sylar/common/deal_mysql.cc:167]--row[0] = 0

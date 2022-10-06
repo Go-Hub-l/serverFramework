@@ -247,3 +247,142 @@
 [2022-10-04 18:49:16]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:38]--cmd = count
 [2022-10-04 18:49:16]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:136]--line = 4
 [2022-10-04 18:49:16]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:147]--line = 4
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:84]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:89]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:38]--cmd = count
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:136]--line = 5
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:147]--line = 5
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:84]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:89]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:38]--cmd = normal
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:58]--buf = {"count":10,"start":0}
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:67]--start = 0, count = 10
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:136]--line = 5
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:325]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:401]--mysql_num_rows(res_set) = 6
+[2022-10-04 20:15:29]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:536]--{
+	"files":	[{
+			"user":	"456456",
+			"md5":	"d7c591e0c376f461dda8f9c0b2603730",
+			"file_name":	"CC++.md",
+			"share_status":	1,
+			"pv":	2,
+			"create_time":	"2022-08-21 23:27:24",
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMCTtaAfjarAAAAu080-AE2312.md",
+			"size":	187,
+			"type":	"md"
+		}, {
+			"user":	"456456",
+			"md5":	"b432964f78e5224778d5d22c3d8189db",
+			"file_name":	"6.jpg",
+			"share_status":	1,
+			"pv":	4,
+			"create_time":	"2022-08-21 23:28:02",
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMCTv2AOymeAACS2Psk8Xg140.jpg",
+			"size":	37592,
+			"type":	"jpg"
+		}, {
+			"user":	"123456",
+			"md5":	"47bd874133f4071c61ecc5e9a9b8d5fe",
+			"file_name":	"2022.8.02实习&校招网申列表.xlsx",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2022-09-10 17:03:34",
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHi-KAcBmlAAI2XKZbrj424.xlsx",
+			"size":	144988,
+			"type":	"xlsx"
+		}, {
+			"user":	"123456",
+			"md5":	"90c3b066f461798afa7b127c6cc844da",
+			"file_name":	"个人简历.docx",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2022-09-15 10:29:44",
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMHkTWAaqWkAAMiYKBz1Io36.docx",
+			"size":	205408,
+			"type":	"docx"
+		}, {
+			"user":	"123456",
+			"md5":	"8957464c86440830938236bec9d820dd",
+			"file_name":	"1.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2022-09-10 16:58:13",
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMMcDmAf21qADkUkN98Ak4508.jpg",
+			"size":	3740816,
+			"type":	"jpg"
+		}, {
+			"user":	"888888",
+			"md5":	"c26cbf56176609a48e4a9206c59520e2",
+			"file_name":	"zvoice.conf.txt",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2022-10-04 18:50:12",
+			"url":	"http://39.101.205.58:80/group1/M00/00/00/J2XNOmMe7JiAakWGAAABqJNWVyM041.txt",
+			"size":	424,
+			"type":	"txt"
+		}],
+	"code":	0,
+	"total":	5,
+	"count":	6
+}
+[2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:84]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:89]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:38]--cmd = pvdesc
+[2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:58]--buf = {"count":10,"start":0}
+[2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:67]--start = 0, count = 10
+[2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:136]--line = 5
+[2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:818]--sql_num = 5, redis_num = 0
+[2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:831]--select md5, file_name, pv from share_file_list order by pv desc 在操作
+[2022-10-04 20:15:31]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:1243]--{
+	"files":	[{
+			"filename":	"6.jpg",
+			"pv":	4
+		}, {
+			"filename":	"CC++.md",
+			"pv":	2
+		}, {
+			"filename":	"zvoice.conf.txt",
+			"pv":	0
+		}, {
+			"filename":	"个人简历.docx",
+			"pv":	0
+		}, {
+			"filename":	"1.jpg",
+			"pv":	0
+		}, {
+			"filename":	"2022.8.02实习&校招网申列表.xlsx",
+			"pv":	0
+		}],
+	"code":	0,
+	"total":	5,
+	"count":	6
+}
+[2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:84]--mysql:[user=root,pwd=XIAObing321.,database=0voice_tuchuang][2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:89]--redis:[ip=127.0.0.1,port=6379]
+[2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:38]--cmd = pvdesc
+[2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:58]--buf = {"count":10,"start":0}
+[2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:67]--start = 0, count = 10
+[2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:136]--line = 5
+[2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:818]--sql_num = 5, redis_num = 6
+[2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:831]--select md5, file_name, pv from share_file_list order by pv desc 在操作
+[2022-10-04 20:15:34]--[/root/projects/CoroutineDFS/sylar/module/sharefiles_servlet.cc:1243]--{
+	"files":	[{
+			"filename":	"6.jpg",
+			"pv":	4
+		}, {
+			"filename":	"CC++.md",
+			"pv":	2
+		}, {
+			"filename":	"zvoice.conf.txt",
+			"pv":	0
+		}, {
+			"filename":	"个人简历.docx",
+			"pv":	0
+		}, {
+			"filename":	"1.jpg",
+			"pv":	0
+		}, {
+			"filename":	"2022.8.02实习&校招网申列表.xlsx",
+			"pv":	0
+		}],
+	"code":	0,
+	"total":	5,
+	"count":	6
+}

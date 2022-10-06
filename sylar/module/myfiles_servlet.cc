@@ -112,7 +112,12 @@ namespace sylar {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "cJSON_Parse err\n");
                 ret = -1;
                 // goto END;
-                return -1;
+                if (root != NULL) {
+                    cJSON_Delete(root); //删除json对象
+                    root = NULL;
+                }
+
+                return ret;
             }
 
             //返回指定字符串对应的json对象
@@ -122,7 +127,12 @@ namespace sylar {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "cJSON_GetObjectItem err\n");
                 ret = -1;
                 // goto END;
-                return -1;
+                if (root != NULL) {
+                    cJSON_Delete(root); //删除json对象
+                    root = NULL;
+                }
+
+                return ret;
             }
 
             // LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "child1->valuestring = %s\n", child1->valuestring);
@@ -135,6 +145,12 @@ namespace sylar {
                 ret = -1;
                 return -1;
                 // goto END;
+                if (root != NULL) {
+                    cJSON_Delete(root); //删除json对象
+                    root = NULL;
+                }
+
+                return ret;
             }
 
             // LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "child2->valuestring = %s\n", child2->valuestring);
@@ -180,9 +196,13 @@ namespace sylar {
             conn = msql_conn(mysql_user, mysql_pwd, mysql_db);
             if (conn == NULL) {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "msql_conn err\n");
-                ret = -1;
                 // goto END;
-                return -1;
+                if (conn != NULL) {
+                    mysql_close(conn);
+                }
+                *count = line;
+                LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "ret = %d, line = %ld\n", ret, line);
+                return ret;
             }
 
             //设置数据库编码，主要处理中文编码问题
@@ -195,7 +215,13 @@ namespace sylar {
             if (ret != 0) {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "%s 操作失败\n", sql_cmd);
                 // goto END;
-                return -1;
+                if (conn != NULL) {
+                    mysql_close(conn);
+                }
+                ret = 0;
+                *count = line;
+                LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "ret = %d, line = %ld\n", ret, line);
+                return ret;
             }
 
             line = atol(tmp); //字符串转长整形
@@ -246,7 +272,12 @@ namespace sylar {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "cJSON_Parse err\n");
                 ret = -1;
                 // goto END;
-                return -1;
+                if (root != NULL) {
+                    cJSON_Delete(root); //删除json对象
+                    root = NULL;
+                }
+
+                return ret;
             }
 
             //返回指定字符串对应的json对象
@@ -256,7 +287,12 @@ namespace sylar {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "cJSON_GetObjectItem err\n");
                 ret = -1;
                 // goto END;
-                return -1;
+                if (root != NULL) {
+                    cJSON_Delete(root); //删除json对象
+                    root = NULL;
+                }
+
+                return ret;
             }
 
             // LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "child1->valuestring = %s\n", child1->valuestring);
@@ -268,7 +304,12 @@ namespace sylar {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "cJSON_GetObjectItem err\n");
                 ret = -1;
                 // goto END;
-                return -1;
+                if (root != NULL) {
+                    cJSON_Delete(root); //删除json对象
+                    root = NULL;
+                }
+
+                return ret;
             }
 
             strcpy(token, child2->valuestring); //拷贝内容
@@ -279,7 +320,12 @@ namespace sylar {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "cJSON_GetObjectItem err\n");
                 ret = -1;
                 // goto END;
-                return -1;
+                if (root != NULL) {
+                    cJSON_Delete(root); //删除json对象
+                    root = NULL;
+                }
+
+                return ret;
             }
 
             *p_start = child3->valueint;
@@ -290,7 +336,12 @@ namespace sylar {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "cJSON_GetObjectItem err\n");
                 ret = -1;
                 // goto END;
-                return -1;
+                if (root != NULL) {
+                    cJSON_Delete(root); //删除json对象
+                    root = NULL;
+                }
+
+                return ret;
             }
             LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "count:%d\n", *p_count);
 
@@ -320,20 +371,81 @@ namespace sylar {
             char* out = NULL;
             MYSQL_RES* res_set = NULL;
             long total = 0;
+            int line = 0;
 
             root = cJSON_CreateObject();
             ret = get_user_files_count(user, &total);
             if (ret != 0) {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "get_user_files_count err\n");
                 // goto END;
-                return -1;
+                if (ret == 0) {
+                    cJSON_AddItemToObject(root, "code", cJSON_CreateNumber(HTTP_RESP_OK)); //
+                } else {
+                    cJSON_AddItemToObject(root, "code", cJSON_CreateNumber(HTTP_RESP_FAIL)); //
+                }
+                cJSON_AddItemToObject(root, "count", cJSON_CreateNumber(line));
+                cJSON_AddItemToObject(root, "total", cJSON_CreateNumber(total));
+                out = cJSON_Print(root);
+
+                LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "%s\n", out);
+
+                if (out != NULL) {
+                    response->setBody(out);
+                    session->sendResponse(response);
+                    free(out);
+                }
+
+                if (res_set != NULL) {
+                    //完成所有对数据的操作后，调用mysql_free_result来善后处理
+                    mysql_free_result(res_set);
+                }
+
+                if (conn != NULL) {
+                    mysql_close(conn);
+                }
+
+                if (root != NULL) {
+                    cJSON_Delete(root);
+                }
+
+                return ret;
             }
             // connect the database
             conn = msql_conn(mysql_user, mysql_pwd, mysql_db);
             if (conn == NULL) {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "msql_conn err\n");
                 // goto END;
-                return -1;
+                if (ret == 0) {
+                    cJSON_AddItemToObject(root, "code", cJSON_CreateNumber(HTTP_RESP_OK)); //
+                } else {
+                    cJSON_AddItemToObject(root, "code", cJSON_CreateNumber(HTTP_RESP_FAIL)); //
+                }
+                cJSON_AddItemToObject(root, "count", cJSON_CreateNumber(line));
+                cJSON_AddItemToObject(root, "total", cJSON_CreateNumber(total));
+                out = cJSON_Print(root);
+
+                LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "%s\n", out);
+
+                if (out != NULL) {
+                    response->setBody(out);
+                    session->sendResponse(response);
+                    free(out);
+                }
+
+                if (res_set != NULL) {
+                    //完成所有对数据的操作后，调用mysql_free_result来善后处理
+                    mysql_free_result(res_set);
+                }
+
+                if (conn != NULL) {
+                    mysql_close(conn);
+                }
+
+                if (root != NULL) {
+                    cJSON_Delete(root);
+                }
+
+                return ret;
             }
 
             //设置数据库编码，主要处理中文编码问题
@@ -360,7 +472,37 @@ namespace sylar {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "%s 操作失败：%s\n", sql_cmd, mysql_error(conn));
                 ret = -1;
                 // goto END;
-                // return -1;
+                if (ret == 0) {
+                    cJSON_AddItemToObject(root, "code", cJSON_CreateNumber(HTTP_RESP_OK)); //
+                } else {
+                    cJSON_AddItemToObject(root, "code", cJSON_CreateNumber(HTTP_RESP_FAIL)); //
+                }
+                cJSON_AddItemToObject(root, "count", cJSON_CreateNumber(line));
+                cJSON_AddItemToObject(root, "total", cJSON_CreateNumber(total));
+                out = cJSON_Print(root);
+
+                LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "%s\n", out);
+
+                if (out != NULL) {
+                    response->setBody(out);
+                    session->sendResponse(response);
+                    free(out);
+                }
+
+                if (res_set != NULL) {
+                    //完成所有对数据的操作后，调用mysql_free_result来善后处理
+                    mysql_free_result(res_set);
+                }
+
+                if (conn != NULL) {
+                    mysql_close(conn);
+                }
+
+                if (root != NULL) {
+                    cJSON_Delete(root);
+                }
+
+                return ret;
             }
 
             res_set = mysql_store_result(conn); /*生成结果集*/
@@ -368,10 +510,40 @@ namespace sylar {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "smysql_store_result error: %s!\n", mysql_error(conn));
                 ret = -1;
                 // goto END;
-                // return -1;
+                if (ret == 0) {
+                    cJSON_AddItemToObject(root, "code", cJSON_CreateNumber(HTTP_RESP_OK)); //
+                } else {
+                    cJSON_AddItemToObject(root, "code", cJSON_CreateNumber(HTTP_RESP_FAIL)); //
+                }
+                cJSON_AddItemToObject(root, "count", cJSON_CreateNumber(line));
+                cJSON_AddItemToObject(root, "total", cJSON_CreateNumber(total));
+                out = cJSON_Print(root);
+
+                LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "%s\n", out);
+
+                if (out != NULL) {
+                    response->setBody(out);
+                    session->sendResponse(response);
+                    free(out);
+                }
+
+                if (res_set != NULL) {
+                    //完成所有对数据的操作后，调用mysql_free_result来善后处理
+                    mysql_free_result(res_set);
+                }
+
+                if (conn != NULL) {
+                    mysql_close(conn);
+                }
+
+                if (root != NULL) {
+                    cJSON_Delete(root);
+                }
+
+                return ret;
             }
 
-            int line = 0;
+
             // mysql_num_rows接受由mysql_store_result返回的结果结构集，并返回结构集中的行数
             line = mysql_num_rows(res_set);
             LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "mysql_num_rows(res_set) = %d\n", line);
@@ -379,6 +551,37 @@ namespace sylar {
             {
                 ret = 0;
                 // goto END;
+                if (ret == 0) {
+                    cJSON_AddItemToObject(root, "code", cJSON_CreateNumber(HTTP_RESP_OK)); //
+                } else {
+                    cJSON_AddItemToObject(root, "code", cJSON_CreateNumber(HTTP_RESP_FAIL)); //
+                }
+                cJSON_AddItemToObject(root, "count", cJSON_CreateNumber(line));
+                cJSON_AddItemToObject(root, "total", cJSON_CreateNumber(total));
+                out = cJSON_Print(root);
+
+                LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "%s\n", out);
+
+                if (out != NULL) {
+                    response->setBody(out);
+                    session->sendResponse(response);
+                    free(out);
+                }
+
+                if (res_set != NULL) {
+                    //完成所有对数据的操作后，调用mysql_free_result来善后处理
+                    mysql_free_result(res_set);
+                }
+
+                if (conn != NULL) {
+                    mysql_close(conn);
+                }
+
+                if (root != NULL) {
+                    cJSON_Delete(root);
+                }
+
+                return ret;
             }
 
             MYSQL_ROW row;
